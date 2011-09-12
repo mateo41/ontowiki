@@ -1,0 +1,4099 @@
+ParentName|ConceptName|ConceptID|ParentID
+Hydrosphere|Hydrosphere|1|1
+Hydrosphere|Physical|2|1
+Hydrosphere|Chemical|41|1
+Hydrosphere|Biological|2511|1
+Physical|Level|3|2
+Physical|Area|23|2
+Physical|Velocity|28|2
+Physical|Density|36|2
+Physical|Temperature|40|2
+Physical|Pressure|52|2
+Physical|Flux|61|2
+Physical|Volume|84|2
+Physical|Optical|87|2
+Physical|Water|97|2
+Physical|Length|122|2
+Physical|"Water content"|130|2
+Physical|Energy|139|2
+Level|"Level, ice"|4|3
+Level|"Level, snow"|6|3
+Level|"Level, stream"|11|3
+Level|"Level, lake"|15|3
+Level|"Groundwater level"|19|3
+Level|"Level, ocean"|20|3
+Level|Unspecified|5022|3
+"Level, ice"|"Ice thickness"|5|4
+"Level, snow"|"Snow depth"|9|6
+"Level, stream"|"Gage height, stream"|12|11
+"Level, stream"|"Water depth, stream"|13|11
+"Level, stream"|"Water depth, cross-sectional averaged"|14|11
+"Level, lake"|"Gage height, lake"|16|15
+"Level, lake"|"Wave height, lake"|17|15
+"Level, lake"|"Water depth, lake"|5021|15
+"Level, ocean"|"Tide stage"|21|20
+"Level, ocean"|"Wave height, ocean"|22|20
+Area|"Area, ice"|24|23
+Area|"Area, atmosphere"|26|23
+"Area, ice"|"Ice cover"|25|24
+"Area, ice"|"Ice cover, floating or solid "|127|24
+"Area, atmosphere"|"Cloud cover"|27|26
+Velocity|"Velocity, stream"|30|28
+Velocity|"Velocity, groundwater "|32|28
+Velocity|"Velocity, wind"|33|28
+"Velocity, wind"|"Sustained wind speed"|34|33
+"Velocity, wind"|"Wind gust"|35|33
+Density|"Water, specific gravity"|38|36
+Density|"Density of water"|39|36
+Density|"Air, water vapor density"|5032|36
+Temperature|"Temperature, snow"|45|40
+Temperature|"Temperature, soil"|47|40
+Temperature|"Temperature, air"|49|40
+Temperature|"Temperature, water"|51|40
+Temperature|"Temperature, intragravel water"|5026|40
+Temperature|"Temperature, 1 meter below water surface"|5027|40
+Chemical|Organic|42|41
+Chemical|Inorganic|2250|41
+Chemical|Nutrient|2381|41
+Chemical|"Oxygen Demand"|2423|41
+Chemical|"Radiochemical "|2428|41
+Chemical|"Stable Isotopes"|5001|41
+Organic|PCBs|43|42
+Organic|"Other organic chemical"|1283|42
+Organic|Pesticide|1833|42
+PCBs|"Homolog Groups"|1001|43
+PCBs|PCB_Mixtures|1222|43
+PCBs|"High-Toxicity TEF"|1267|43
+PCBs|"Total PCB"|1282|43
+Pressure|"Pressure, air"|53|52
+Pressure|"Pressure, water"|57|52
+"Pressure, air"|"Vapor pressure"|54|53
+"Pressure, air"|"Atmospheric pressure"|55|53
+"Pressure, air"|"Barometric pressure"|56|53
+"Pressure, water"|"Partial pressure, inert gases"|58|57
+"Pressure, water"|"Osmotic pressure"|59|57
+"Pressure, water"|"Partial pressure of dissolved gases"|60|57
+"Pressure, water"|"Wellhead pressure"|5030|57
+Flux|"Flux, precipitation"|62|61
+Flux|"Flux, wind"|66|61
+Flux|"Flux, evaporation"|71|61
+Flux|"Flux, discharge"|76|61
+Flux|"Flux, dissolved gas"|82|61
+"Flux, precipitation"|"Dry periods"|63|62
+"Flux, precipitation"|"Precipitation duration"|64|62
+"Flux, precipitation"|Precipitation|65|62
+"Flux, wind"|"Wind direction"|67|66
+"Flux, wind"|"Wind gust direction"|68|66
+"Flux, wind"|"Wind run"|70|66
+"Flux, evaporation"|"Evaporation, actual"|72|71
+"Flux, evaporation"|"Evaporation, potential"|73|71
+"Flux, evaporation"|"Evapotranspiration, actual"|74|71
+"Flux, evaporation"|"Evapotranspiration, potential"|75|71
+"Flux, evaporation"|Transpiration|5035|71
+"Flux, discharge"|"Discharge, groundwaterflow"|77|76
+"Flux, discharge"|"Discharge, stream"|78|76
+"Flux, discharge"|"Discharge, in conduit"|80|76
+"Flux, discharge"|"Storm water flow "|81|76
+"Flux, discharge"|"Discharge, unspecified"|5023|76
+"Flux, discharge"|"Discharge, well flow rate"|5031|76
+"Flux, dissolved gas"|"Carbon dioxide flux "|83|82
+Volume|"Volume, lake"|85|84
+"Volume, lake"|"Reservoir storage"|86|85
+Optical|"Optical, water"|88|87
+"Optical, water"|"Light attenuation"|89|88
+"Optical, water"|Refractivity|93|88
+"Optical, water"|"Secchi depth"|94|88
+"Optical, water"|"SUVA 254"|95|88
+"Optical, water"|"Water transparency, Secchi disc"|96|88
+"Light attenuation"|"Light attenuation coefficient"|90|89
+"Light attenuation"|"Light attenuation, depth at 50%"|91|89
+"Light attenuation"|"Light attenuation, depth at 99%"|92|89
+Water|"Water, suspended solids"|98|97
+Water|"Water, dissolved solids"|108|97
+Water|"Water, descriptive"|111|97
+"Water, suspended solids"|"Residue, total filterable (dried at 105 C)"|99|98
+"Water, suspended solids"|"Settleable solids"|100|98
+"Water, suspended solids"|"Solids, total"|101|98
+"Water, suspended solids"|"Solids, total suspended"|102|98
+"Water, suspended solids"|"Solids, volatile suspended"|103|98
+"Water, suspended solids"|"Solids, fixed suspended "|104|98
+"Water, suspended solids"|Turbidity|105|98
+"Water, suspended solids"|"Suspended sediment"|106|98
+"Water, suspended solids"|"Surface area, suspended sediment"|107|98
+"Water, dissolved solids"|"Solids, total dissolved"|110|108
+"Water, descriptive"|"Odor, atmospheric"|112|111
+"Water, descriptive"|"Gas bubble severity"|113|111
+"Water, descriptive"|"Odor threshold number"|114|111
+"Water, descriptive"|"Trash, Debris, Floatables"|115|111
+"Water, descriptive"|Color|116|111
+"Water, descriptive"|Severity|117|111
+Severity|"Severity, turbidity "|118|117
+Severity|"Severity, detergent"|119|117
+Severity|"Severity, floating debris"|120|117
+Severity|"Severity, floating sludge"|121|117
+Severity|"Severity, flow"|129|117
+Length|"Stream width"|124|122
+Length|Distance|5028|122
+Length|Visibility|5033|122
+"Water content"|"Water content, air"|131|130
+"Water content"|"Water content, soil"|137|130
+"Water content"|"Water content, snow"|5024|130
+"Water content, air"|Humidity|132|131
+Humidity|"Relative humidity"|133|132
+Humidity|"Wet bulb temperature "|134|132
+Humidity|"Dry bulb temperature"|135|132
+Humidity|"Dew point temperature "|136|132
+Humidity|"Vapor pressure deficit"|5034|132
+"Water content, soil"|"Soil Moisture"|138|137
+Energy|"Energy, flux"|147|139
+"Energy, flux"|"Radiation, reflected"|141|147
+"Energy, flux"|"Radiation, net"|142|147
+"Energy, flux"|"Radiation, incident"|143|147
+"Energy, flux"|"Radiation, downward"|144|147
+"Energy, flux"|"Radiation, total shortwave"|145|147
+"Energy, flux"|"Radiation, incoming PAR"|146|147
+"Energy, flux"|"Soil heat flux"|148|147
+"Energy, flux"|"Sensible heat flux"|149|147
+"Energy, flux"|"Latent heat flux"|150|147
+"Energy, flux"|"Radiation, outgoing PAR"|151|147
+"Energy, flux"|"Radiation, incoming longwave"|5009|147
+"Energy, flux"|"Radiation, incoming shortwave"|5010|147
+"Energy, flux"|"Radiation, incoming UV-A"|5011|147
+"Energy, flux"|"Radiation, incoming UV-B"|5012|147
+"Energy, flux"|"Radiation, net longwave"|5013|147
+"Energy, flux"|"Radiation, net PAR"|5014|147
+"Energy, flux"|"Radiation, net shortwave"|5015|147
+"Energy, flux"|"Radiation, outgoing longwave"|5016|147
+"Energy, flux"|"Radiation, outgoing shortwave"|5017|147
+"Energy, flux"|"Sunshine duration"|5036|147
+"Homolog Groups"|Mono_Chloro_PCB|1002|1001
+"Homolog Groups"|Di_Chloro_PCB|1007|1001
+"Homolog Groups"|Tri_Chloro_PCB|1020|1001
+"Homolog Groups"|Tetra_Chloro_PCB|1045|1001
+"Homolog Groups"|Penta_Chloro_PCB|1088|1001
+"Homolog Groups"|Hexa_Chloro_PCB|1135|1001
+"Homolog Groups"|Hepta_Chloro_PCB|1178|1001
+"Homolog Groups"|Octa_Chloro_PCB|1203|1001
+"Homolog Groups"|Nona_Chloro_PCB|1216|1001
+"Homolog Groups"|Deca_Chloro_PCB|1220|1001
+Mono_Chloro_PCB|"Biphenyl "|1003|1002
+Mono_Chloro_PCB|"2-Chlorobiphenyl "|1004|1002
+Mono_Chloro_PCB|"3-Chlorobiphenyl "|1005|1002
+Mono_Chloro_PCB|"4-Chlorobiphenyl "|1006|1002
+Di_Chloro_PCB|"2,2'-Dichlorobiphenyl "|1008|1007
+Di_Chloro_PCB|"2,3-Dichlorobiphenyl "|1009|1007
+Di_Chloro_PCB|"2,3'-Dichlorobiphenyl "|1010|1007
+Di_Chloro_PCB|"2,4-Dichlorobiphenyl "|1011|1007
+Di_Chloro_PCB|"2,4'-Dichlorobiphenyl "|1012|1007
+Di_Chloro_PCB|"2,5-Dichlorobiphenyl "|1013|1007
+Di_Chloro_PCB|"2,6-Dichlorobiphenyl "|1014|1007
+Di_Chloro_PCB|"3,3'-Dichlorobiphenyl "|1015|1007
+Di_Chloro_PCB|"3,4-Dichlorobiphenyl "|1016|1007
+Di_Chloro_PCB|"3,4'-Dichlorobiphenyl "|1017|1007
+Di_Chloro_PCB|"3,5-Dichlorobiphenyl "|1018|1007
+Di_Chloro_PCB|"4,4'-Dichlorobiphenyl "|1019|1007
+Tri_Chloro_PCB|"2,2',3-Trichlorobiphenyl "|1021|1020
+Tri_Chloro_PCB|"2,2',4-Trichlorobiphenyl "|1022|1020
+Tri_Chloro_PCB|"2,2',5-Trichlorobiphenyl "|1023|1020
+Tri_Chloro_PCB|"2,2',6-Trichlorobiphenyl "|1024|1020
+Tri_Chloro_PCB|"2,3,3'-Trichlorobiphenyl "|1025|1020
+Tri_Chloro_PCB|"2,3,4-Trichlorobiphenyl "|1026|1020
+Tri_Chloro_PCB|"2,3,4'-Trichlorobiphenyl "|1027|1020
+Tri_Chloro_PCB|"2,3,5-Trichlorobiphenyl "|1028|1020
+Tri_Chloro_PCB|"2,3,6-Trichlorobiphenyl "|1029|1020
+Tri_Chloro_PCB|"2,3',4-Trichlorobiphenyl "|1030|1020
+Tri_Chloro_PCB|"2,3',5-Trichlorobiphenyl "|1031|1020
+Tri_Chloro_PCB|"2,3',6-Trichlorobiphenyl "|1032|1020
+Tri_Chloro_PCB|"2,4,4'-Trichlorobiphenyl "|1033|1020
+Tri_Chloro_PCB|"2,4,5-Trichlorobiphenyl "|1034|1020
+Tri_Chloro_PCB|"2,4,6-Trichlorobiphenyl "|1035|1020
+Tri_Chloro_PCB|"2,4',5-Trichlorobiphenyl "|1036|1020
+Tri_Chloro_PCB|"2,4',6-Trichlorobiphenyl "|1037|1020
+Tri_Chloro_PCB|"2,3',4'-Trichlorobiphenyl "|1038|1020
+Tri_Chloro_PCB|"2,3',5'-Trichlorobiphenyl "|1039|1020
+Tri_Chloro_PCB|"3,3',4-Trichlorobiphenyl "|1040|1020
+Tri_Chloro_PCB|"3,3',5-Trichlorobiphenyl "|1041|1020
+Tri_Chloro_PCB|"3,4,4'-Trichlorobiphenyl "|1042|1020
+Tri_Chloro_PCB|"3,4,5-Tricholobiphenyl "|1043|1020
+Tri_Chloro_PCB|"3,4',5-Trichlorobiphenyl "|1044|1020
+Tetra_Chloro_PCB|"2,2',3,3'-Tetrachlorobiphenyl "|1046|1045
+Tetra_Chloro_PCB|"2,2',3,4-Tetrachlorobiphenyl "|1047|1045
+Tetra_Chloro_PCB|"2,2',3,4'-Tetrachlorobiphenyl "|1048|1045
+Tetra_Chloro_PCB|"2,2',3,5-Tetrachlorobiphenyl "|1049|1045
+Tetra_Chloro_PCB|"2,2',3,5'-Tetrachlorobiphenyl "|1050|1045
+Tetra_Chloro_PCB|"2,2',3,6-Tetrachlorobiphenyl "|1051|1045
+Tetra_Chloro_PCB|"2,2',3,6'-Tetrachlorobiphenyl "|1052|1045
+Tetra_Chloro_PCB|"2,2',4,4'-Tetrachlorobiphenyl "|1053|1045
+Tetra_Chloro_PCB|"2,2',4,5-Tetrachlorobiphenyl "|1054|1045
+Tetra_Chloro_PCB|"2,2',4,5'-Tetrachlorobiphenyl "|1055|1045
+Tetra_Chloro_PCB|"2,2',4,6-Tetrachlorobiphenyl "|1056|1045
+Tetra_Chloro_PCB|"2,2',4,6'-Tetrachlorobiphenyl "|1057|1045
+Tetra_Chloro_PCB|"2,2',5,5'-Tetrachlorobiphenyl "|1058|1045
+Tetra_Chloro_PCB|"2,2',5,6'-Tetrachlorobiphenyl "|1059|1045
+Tetra_Chloro_PCB|"2,2',6,6'-Tetrachlorobiphenyl "|1060|1045
+Tetra_Chloro_PCB|"2,3,3',4-Tetrachlorobiphenyl "|1061|1045
+Tetra_Chloro_PCB|"2,3,3',4'-Tetrachlorobiphenyl "|1062|1045
+Tetra_Chloro_PCB|"2,3,3',5-Tetrachlorobiphenyl "|1063|1045
+Tetra_Chloro_PCB|"2,3,3',5'-Tetrachlorobiphenyl "|1064|1045
+Tetra_Chloro_PCB|"2,3,3',6-Tetrachlorobiphenyl "|1065|1045
+Tetra_Chloro_PCB|"2,3,4,4'-Tetrachlorobiphenyl "|1066|1045
+Tetra_Chloro_PCB|"2,3,4,5-Tetrachlorobiphenyl "|1067|1045
+Tetra_Chloro_PCB|"2,3,4,6-Tetrachlorobiphenyl "|1068|1045
+Tetra_Chloro_PCB|"2,3,4',5-Tetrachlorobiphenyl "|1069|1045
+Tetra_Chloro_PCB|"2,3,4',6-Tetrachlorobiphenyl "|1070|1045
+Tetra_Chloro_PCB|"2,3,5,6-Tetrachlorobiphenyl "|1071|1045
+Tetra_Chloro_PCB|"2,3',4,4'-Tetrachlorobiphenyl "|1072|1045
+Tetra_Chloro_PCB|"2,3',4,5-Tetrachlorobiphenyl "|1073|1045
+Tetra_Chloro_PCB|"2,3',4,5'-Tetrachlorobiphenyl "|1074|1045
+Tetra_Chloro_PCB|"2,3',4,6-Tetrachlorobiphenyl "|1075|1045
+Tetra_Chloro_PCB|"2,3',4',5-Tetrachlorobiphenyl "|1076|1045
+Tetra_Chloro_PCB|"2,3',4',6-Tetrachlorobiphenyl "|1077|1045
+Tetra_Chloro_PCB|"2,3',5,5'-Tetrachlorobiphenyl "|1078|1045
+Tetra_Chloro_PCB|"2,3',5',6-Tetrachlorobiphenyl "|1079|1045
+Tetra_Chloro_PCB|"2,4,4',5-Tetrachlorobiphenyl "|1080|1045
+Tetra_Chloro_PCB|"2,4,4',6-Tetrachlorobiphenyl "|1081|1045
+Tetra_Chloro_PCB|"2,3',4',5'-Tetrachlorobiphenyl "|1082|1045
+Tetra_Chloro_PCB|"3,3',4,4'-Tetrachlorobiphenyl "|1083|1045
+Tetra_Chloro_PCB|"3,3',4,5-Tetrachlorobiphenyl "|1084|1045
+Tetra_Chloro_PCB|"3,3',4,5'-Tetrachlorobiphenyl "|1085|1045
+Tetra_Chloro_PCB|"3,3',5,5'-Tetrachlorobiphenyl "|1086|1045
+Tetra_Chloro_PCB|"3,4,4',5-Tetrachlorobiphenyl "|1087|1045
+Penta_Chloro_PCB|"2,2',3,3',4-Pentachlorobiphenyl "|1089|1088
+Penta_Chloro_PCB|"2,2',3,3',5-Pentachlorobiphenyl "|1090|1088
+Penta_Chloro_PCB|"2,2',3,3',6-Pentachlorobiphenyl "|1091|1088
+Penta_Chloro_PCB|"2,2',3,4,4'-Pentachlorobiphenyl "|1092|1088
+Penta_Chloro_PCB|"2,2',3,4,5-Pentachlorobiphenyl "|1093|1088
+Penta_Chloro_PCB|"2,2',3,4,5'-Pentachlorobiphenyl "|1094|1088
+Penta_Chloro_PCB|"2,2',3,4,6-Pentachlorobiphenyl "|1095|1088
+Penta_Chloro_PCB|"2,2',3,4,6'-Pentachlorobiphenyl "|1096|1088
+Penta_Chloro_PCB|"2,2',3,4',5-Pentachlorobiphenyl "|1097|1088
+Penta_Chloro_PCB|"2,2',3,4',6-Pentachlorobiphenyl "|1098|1088
+Penta_Chloro_PCB|"2,2',3,5,5'-Pentachlorobiphenyl "|1099|1088
+Penta_Chloro_PCB|"2,2',3,5,6-Pentachlorobiphenyl "|1100|1088
+Penta_Chloro_PCB|"2,2',3,5,6'-Pentachlorobiphenyl "|1101|1088
+Penta_Chloro_PCB|"2,2',3,5',6-Pentachlorobiphenyl "|1102|1088
+Penta_Chloro_PCB|"2,2',3,6,6'-Pentachlorobiphenyl "|1103|1088
+Penta_Chloro_PCB|"2,2',3,4',5'-Pentachlorobiphenyl "|1104|1088
+Penta_Chloro_PCB|"2,2',3,4',6'-Pentachlorobiphenyl "|1105|1088
+Penta_Chloro_PCB|"2,2',4,4',5-Pentachlorobiphenyl "|1106|1088
+Penta_Chloro_PCB|"2,2',4,4',6-Pentachlorobiphenyl "|1107|1088
+Penta_Chloro_PCB|"2,2',4,5,5'-Pentachlorobiphenyl "|1108|1088
+Penta_Chloro_PCB|"2,2',4,5,6'-Pentachlorobiphenyl "|1109|1088
+Penta_Chloro_PCB|"2,2',4,5',6-Pentachlorobiphenyl "|1110|1088
+Penta_Chloro_PCB|"2,2',4,6,6'-Pentachlorobiphenyl "|1111|1088
+Penta_Chloro_PCB|"2,3,3',4,4'-Pentachlorobiphenyl "|1112|1088
+Penta_Chloro_PCB|"2,3,3',4,5-Pentachlorobiphenyl "|1113|1088
+Penta_Chloro_PCB|"2,3,3',4',5-Pentachlorobiphenyl "|1114|1088
+Penta_Chloro_PCB|"2,3,3',4,5'-Pentachlorobiphenyl "|1115|1088
+Penta_Chloro_PCB|"2,3,3',4,6-Pentachlorobiphenyl "|1116|1088
+Penta_Chloro_PCB|"2,3,3',4',6-Pentachlorobiphenyl "|1117|1088
+Penta_Chloro_PCB|"2,3,3',5,5'-Pentachlorobiphenyl "|1118|1088
+Penta_Chloro_PCB|"2,3,3',5,6-Pentachlorobiphenyl "|1119|1088
+Penta_Chloro_PCB|"2,3,3',5',6-Pentachlorobiphenyl "|1120|1088
+Penta_Chloro_PCB|"2,3,4,4',5-Pentachlorobiphenyl "|1121|1088
+Penta_Chloro_PCB|"2,3,4,4',6-Pentachlorobiphenyl "|1122|1088
+Penta_Chloro_PCB|"2,3,4,5,6-Pentachlorobiphenyl "|1123|1088
+Penta_Chloro_PCB|"2,3,4',5,6-Pentachlorobiphenyl "|1124|1088
+Penta_Chloro_PCB|"2,3',4,4',5-Pentachlorobiphenyl "|1125|1088
+Penta_Chloro_PCB|"2,3',4,4',6-Pentachlorobiphenyl "|1126|1088
+Penta_Chloro_PCB|"2,3',4,5,5'-Pentachlorobiphenyl "|1127|1088
+Penta_Chloro_PCB|"2,3',4,5',6-Pentachlorobiphenyl "|1128|1088
+Penta_Chloro_PCB|"2,3,3',4',5'-Pentachlorobiphenyl "|1129|1088
+Penta_Chloro_PCB|"2,3',4,4',5'-Pentachlorobiphenyl "|1130|1088
+Penta_Chloro_PCB|"2,3',4',5,5'-Pentachlorobiphenyl "|1131|1088
+Penta_Chloro_PCB|"2,3',4',5',6-Pentachlorobiphenyl "|1132|1088
+Penta_Chloro_PCB|"3,3',4,4',5-Pentachlorobiphenyl "|1133|1088
+Penta_Chloro_PCB|"3,3',4,5,5'-Pentachlorobiphenyl "|1134|1088
+Hexa_Chloro_PCB|"2,2',3,3',4,4'-Hexachlorobiphenyl "|1136|1135
+Hexa_Chloro_PCB|"2,2',3,3',4,5-Hexachlorobiphenyl "|1137|1135
+Hexa_Chloro_PCB|"2,2',3,3',4,5'-Hexachlorobiphenyl "|1138|1135
+Hexa_Chloro_PCB|"2,2',3,3',4,6-Hexachlorobiphenyl "|1139|1135
+Hexa_Chloro_PCB|"2,2',3,3',4,6'-Hexachlorobiphenyl "|1140|1135
+Hexa_Chloro_PCB|"2,2',3,3',5,5'-Hexachlorobiphenyl "|1141|1135
+Hexa_Chloro_PCB|"2,2',3,3',5,6-Hexachlorobiphenyl "|1142|1135
+Hexa_Chloro_PCB|"2,2',3,3',5,6'-Hexachlorobiphenyl "|1143|1135
+Hexa_Chloro_PCB|"2,2',3,3',6,6'-Hexachlorobiphenyl "|1144|1135
+Hexa_Chloro_PCB|"2,2',3,4,4',5-Hexachlorobiphenyl "|1145|1135
+Hexa_Chloro_PCB|"2,2',3,4,4',5'-Hexachlorobiphenyl "|1146|1135
+Hexa_Chloro_PCB|"2,2',3,4,4',6-Hexachlorobiphenyl "|1147|1135
+Hexa_Chloro_PCB|"2,2',3,4,4',6'-Hexachlorobiphenyl "|1148|1135
+Hexa_Chloro_PCB|"2,2',3,4,5,5'-Hexachlorobiphenyl "|1149|1135
+Hexa_Chloro_PCB|"2,2',3,4,5,6-Hexachlorobiphenyl "|1150|1135
+Hexa_Chloro_PCB|"2,2',3,4,5,6'-Hexachlorobiphenyl "|1151|1135
+Hexa_Chloro_PCB|"2,2',3,4,5',6-Hexachlorobiphenyl "|1152|1135
+Hexa_Chloro_PCB|"2,2',3,4,6,6'-Hexachlorobiphenyl "|1153|1135
+Hexa_Chloro_PCB|"2,2',3,4',5,5'-Hexachlorobiphenyl "|1154|1135
+Hexa_Chloro_PCB|"2,2',3,4',5,6-Hexachlorobiphenyl "|1155|1135
+Hexa_Chloro_PCB|"2,2',3,4',5,6'-Hexachlorobiphenyl "|1156|1135
+Hexa_Chloro_PCB|"2,2',3,4',5',6-Hexachlorobiphenyl "|1157|1135
+Hexa_Chloro_PCB|"2,2',3,4',6,6'-Hexachlorobiphenyl "|1158|1135
+Hexa_Chloro_PCB|"2,2',3,5,5',6-Hexachlorobiphenyl "|1159|1135
+Hexa_Chloro_PCB|"2,2',3,5,6,6'-Hexachlorobiphenyl "|1160|1135
+Hexa_Chloro_PCB|"2,2',4,4',5,5'-Hexachlorobiphenyl "|1161|1135
+Hexa_Chloro_PCB|"2,2',4,4',5,6'-Hexachlorobiphenyl "|1162|1135
+Hexa_Chloro_PCB|"2,2',4,4',6,6'-Hexachlorobiphenyl "|1163|1135
+Hexa_Chloro_PCB|"2,3,3',4,4',5-Hexachlorobiphenyl "|1164|1135
+Hexa_Chloro_PCB|"2,3,3',4,4',5'-Hexachlorobiphenyl "|1165|1135
+Hexa_Chloro_PCB|"2,3,3',4,4',6-Hexachlorobiphenyl "|1166|1135
+Hexa_Chloro_PCB|"2,3,3',4,5,5'-Hexachlorobiphenyl "|1167|1135
+Hexa_Chloro_PCB|"2,3,3',4,5,6-Hexachlorobiphenyl "|1168|1135
+Hexa_Chloro_PCB|"2,3,3',4,5',6-Hexachlorobiphenyl "|1169|1135
+Hexa_Chloro_PCB|"2,3,3',4',5,5'-Hexachlorobiphenyl "|1170|1135
+Hexa_Chloro_PCB|"2,3,3',4',5,6-Hexachlorobiphenyl "|1171|1135
+Hexa_Chloro_PCB|"2,3,3',4',5',6-Hexachlorobiphenyl "|1172|1135
+Hexa_Chloro_PCB|"2,3,3',5,5',6-Hexachlorobiphenyl "|1173|1135
+Hexa_Chloro_PCB|"2,3,4,4',5,6-Hexachlorobiphenyl "|1174|1135
+Hexa_Chloro_PCB|"2,3',4,4',5,5'-Hexachlorobiphenyl "|1175|1135
+Hexa_Chloro_PCB|"2,3',4,4',5',6-Hexachlorobiphenyl "|1176|1135
+Hexa_Chloro_PCB|"3,3',4,4',5,5'-Hexachlorobiphenyl "|1177|1135
+Hepta_Chloro_PCB|"2,2',3,3',4,4',5-Heptachlorobiphenyl "|1179|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,4',6-Heptachlorobiphenyl "|1180|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,5,5'-Heptachlorobiphenyl "|1181|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,5,6-Heptachlorobiphenyl "|1182|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,5,6'-Heptachlorobiphenyl "|1183|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,5',6-Heptachlorobiphenyl "|1184|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,6,6'-Heptachlorobiphenyl "|1185|1178
+Hepta_Chloro_PCB|"2,2',3,3',4,5',6'-Heptachlorobiphenyl "|1186|1178
+Hepta_Chloro_PCB|"2,2',3,3',5,5',6-Heptachlorobiphenyl "|1187|1178
+Hepta_Chloro_PCB|"2,2',3,3',5,6,6'-Heptachlorobiphenyl "|1188|1178
+Hepta_Chloro_PCB|"2,2',3,4,4',5,5'-Heptachlorobiphenyl "|1189|1178
+Hepta_Chloro_PCB|"2,2',3,4,4',5,6-Heptachlorobiphenyl "|1190|1178
+Hepta_Chloro_PCB|"2,2',3,4,4',5,6'-Heptachlorobiphenyl "|1191|1178
+Hepta_Chloro_PCB|"2,2',3,4,4',5',6-Heptachlorobiphenyl "|1192|1178
+Hepta_Chloro_PCB|"2,2',3,4,4',6,6'-Heptachlorobiphenyl "|1193|1178
+Hepta_Chloro_PCB|"2,2',3,4,5,5',6-Heptachlorobiphenyl "|1194|1178
+Hepta_Chloro_PCB|"2,2',3,4,5,6,6'-Heptachlorobiphenyl "|1195|1178
+Hepta_Chloro_PCB|"2,2',3,4',5,5',6-Heptachlorobiphenyl "|1196|1178
+Hepta_Chloro_PCB|"2,2',3,4',5,6,6'-Heptachlorobiphenyl "|1197|1178
+Hepta_Chloro_PCB|"2,3,3',4,4',5,5'-Heptachlorobiphenyl "|1198|1178
+Hepta_Chloro_PCB|"2,3,3',4,4',5,6-Heptachlorobiphenyl "|1199|1178
+Hepta_Chloro_PCB|"2,3,3',4,4',5',6-Heptachlorobiphenyl "|1200|1178
+Hepta_Chloro_PCB|"2,3,3',4,5,5',6-Heptachlorobiphenyl "|1201|1178
+Hepta_Chloro_PCB|"2,3,3',4',5,5',6-Heptachlorobiphenyl "|1202|1178
+Octa_Chloro_PCB|"2,2',3,3',4,4',5,5'-Octachlorobiphenyl "|1204|1203
+Octa_Chloro_PCB|"2,2',3,3',4,4',5,6-Octachlorobiphenyl "|1205|1203
+Octa_Chloro_PCB|"2,2',3,3',4,4',5,6'-Octachlorobiphenyl "|1206|1203
+Octa_Chloro_PCB|"2,2',3,3',4,4',6,6'-Octachlorobiphenyl "|1207|1203
+Octa_Chloro_PCB|"2,2',3,3',4,5,5',6-Octachlorobiphenyl "|1208|1203
+Octa_Chloro_PCB|"2,2',3,3',4,5,5',6'-Octachlorobiphenyl "|1209|1203
+Octa_Chloro_PCB|"2,2',3,3',4,5,6,6'-Octachlorobiphenyl "|1210|1203
+Octa_Chloro_PCB|"2,2',3,3',4,5',6,6'-Octachlorobiphenyl "|1211|1203
+Octa_Chloro_PCB|"2,2',3,3',5,5',6,6'-Octachlorobiphenyl "|1212|1203
+Octa_Chloro_PCB|"2,2',3,4,4',5,5',6-Octachlorobiphenyl "|1213|1203
+Octa_Chloro_PCB|"2,2',3,4,4',5,6,6'-Octachlorobiphenyl "|1214|1203
+Octa_Chloro_PCB|"2,3,3',4,4',5,5',6-Octachlorobiphenyl "|1215|1203
+Nona_Chloro_PCB|"2,2',3,3',4,4',5,5',6-Nonachlorobiphenyl "|1217|1216
+Nona_Chloro_PCB|"2,2',3,3',4,4',5,6,6'-Nonachlorobiphenyl "|1218|1216
+Nona_Chloro_PCB|"2,2',3,3',4,5,5',6,6'-Nonachlorobiphenyl "|1219|1216
+Deca_Chloro_PCB|"Decachlorobiphenyl "|1221|1220
+PCB_Mixtures|Aroclor|1223|1222
+PCB_Mixtures|"Other PCB_Mixtures"|1239|1222
+Aroclor|"Aroclor 1016"|1224|1223
+Aroclor|"Aroclor 1210"|1225|1223
+Aroclor|"Aroclor 1221"|1226|1223
+Aroclor|"Aroclor 1231"|1227|1223
+Aroclor|"Aroclor 1232"|1228|1223
+Aroclor|"Aroclor 1240"|1229|1223
+Aroclor|"Aroclor 1242"|1230|1223
+Aroclor|"Aroclor 1248"|1231|1223
+Aroclor|"Aroclor 1250"|1232|1223
+Aroclor|"Aroclor 1252"|1233|1223
+Aroclor|"Aroclor 1254"|1234|1223
+Aroclor|Aroclor-1260|1235|1223
+Aroclor|Aroclor-1262|1236|1223
+Aroclor|Aroclor-1268|1237|1223
+Aroclor|"Aroclor (unspecified)"|1238|1223
+"Other PCB_Mixtures"|PCB-105/132/153|1240|1239
+"Other PCB_Mixtures"|PCB-123/149|1241|1239
+"Other PCB_Mixtures"|PCB-132/153|1242|1239
+"Other PCB_Mixtures"|PCB-135/144|1243|1239
+"Other PCB_Mixtures"|PCB-137/176|1244|1239
+"Other PCB_Mixtures"|PCB-138/163|1245|1239
+"Other PCB_Mixtures"|PCB-15/17|1246|1239
+"Other PCB_Mixtures"|PCB-16/32|1247|1239
+"Other PCB_Mixtures"|PCB-170/190|1248|1239
+"Other PCB_Mixtures"|PCB-171/202|1249|1239
+"Other PCB_Mixtures"|PCB-172/197|1250|1239
+"Other PCB_Mixtures"|PCB-182/187|1251|1239
+"Other PCB_Mixtures"|PCB-195/208|1252|1239
+"Other PCB_Mixtures"|PCB-196/203|1253|1239
+"Other PCB_Mixtures"|PCB-24/27|1254|1239
+"Other PCB_Mixtures"|PCB-28/31|1255|1239
+"Other PCB_Mixtures"|PCB-37/42|1256|1239
+"Other PCB_Mixtures"|PCB-4/10|1257|1239
+"Other PCB_Mixtures"|PCB-41/64/71|1258|1239
+"Other PCB_Mixtures"|PCB-47/48|1259|1239
+"Other PCB_Mixtures"|PCB-5/8|1260|1239
+"Other PCB_Mixtures"|PCB-56/60|1261|1239
+"Other PCB_Mixtures"|PCB-66/95|1262|1239
+"Other PCB_Mixtures"|PCB-7/9|1263|1239
+"Other PCB_Mixtures"|PCB-70/76|1264|1239
+"Other PCB_Mixtures"|PCB-77/110|1265|1239
+"Other PCB_Mixtures"|PCB-84/92|1266|1239
+"High-Toxicity TEF"|"3,3',4,4'-Tetrachlorobiphenyl "|1268|1267
+"High-Toxicity TEF"|"3,4,4',5-Tetrachlorobiphenyl "|1269|1267
+"High-Toxicity TEF"|"2,3,3',4,4'-Pentachlorobiphenyl "|1270|1267
+"High-Toxicity TEF"|"2,3,4,4',5-Pentachlorobiphenyl "|1271|1267
+"High-Toxicity TEF"|"2,3',4,4',5-Pentachlorobiphenyl "|1272|1267
+"High-Toxicity TEF"|"2,3',4,4',5'-Pentachlorobiphenyl "|1273|1267
+"High-Toxicity TEF"|"3,3',4,4',5-Pentachlorobiphenyl "|1274|1267
+"High-Toxicity TEF"|"2,3,3',4,4',5-Hexachlorobiphenyl "|1275|1267
+"High-Toxicity TEF"|"2,3,3',4,4',5'-Hexachlorobiphenyl "|1276|1267
+"High-Toxicity TEF"|"2,3',4,4',5,5'-Hexachlorobiphenyl "|1277|1267
+"High-Toxicity TEF"|"3,3',4,4',5,5'-Hexachlorobiphenyl "|1278|1267
+"High-Toxicity TEF"|"2,2',3,3',4,4',5-Heptachlorobiphenyl "|1279|1267
+"High-Toxicity TEF"|"2,2',3,4,4',5,5'-Heptachlorobiphenyl "|1280|1267
+"High-Toxicity TEF"|"2,3,3',4,4',5,5'-Heptachlorobiphenyl "|1281|1267
+"Other organic chemical"|p-Diethylbenzene|1722|1283
+"Other organic chemical"|Pentachlorodibenzofuran|1723|1283
+"Other organic chemical"|Pentachlorodibenzo-p-dioxin|1724|1283
+"Other organic chemical"|Pentachloroethane|1725|1283
+"Other organic chemical"|"Pentadecane, 2,6,10,14-tetramethyl-"|1726|1283
+"Other organic chemical"|"Pentaerythritol tetranitrate"|1727|1283
+"Other organic chemical"|Pentane|1728|1283
+"Other organic chemical"|"Pentane, 2,3,3-trimethyl-"|1729|1283
+"Other organic chemical"|"Pentane, 2,3,4-trimethyl-"|1730|1283
+"Other organic chemical"|"Pentane, 2,4-dimethyl-"|1731|1283
+"Other organic chemical"|"Pentane, 2-methyl-"|1732|1283
+"Other organic chemical"|"Pentane, 3-methyl-"|1733|1283
+"Other organic chemical"|Perylene|1734|1283
+"Other organic chemical"|Phenacetin|1735|1283
+"Other organic chemical"|Phenanthrene|1736|1283
+"Other organic chemical"|Phenanthridine|1737|1283
+"Other organic chemical"|Phenol|1738|1283
+"Other organic chemical"|"Phenol, 2-(1,1-dimethylethyl)-4-methoxy-"|1739|1283
+"Other organic chemical"|"Phenol, 2,3,5,6-tetramethyl-"|1740|1283
+"Other organic chemical"|"Phenol, 2,4-bis(1,1-dimethylpropyl)-"|1741|1283
+"Other organic chemical"|"Phenol, 2-amino-5-chloro-"|1742|1283
+"Other organic chemical"|"Phenol, 4-(1-methyl-1-phenylethyl)-"|1743|1283
+"Other organic chemical"|"Phenol, 5-amino-2-chloro-"|1744|1283
+"Other organic chemical"|Phenols|1745|1283
+"Other organic chemical"|"Phenols and phenolic compounds"|1746|1283
+"Other organic chemical"|"Phosphonic acid, methyl-, dimethyl ester"|1747|1283
+"Other organic chemical"|"Phthalate esters"|1748|1283
+"Other organic chemical"|"Picric acid"|1749|1283
+"Other organic chemical"|"Plumbane, diethyldimethyl-"|1750|1283
+"Other organic chemical"|"Plumbane, ethyltrimethyl-"|1751|1283
+"Other organic chemical"|"Plumbane, triethylmethyl-"|1752|1283
+"Other organic chemical"|p-Nitroaniline|1753|1283
+"Other organic chemical"|p-Nitrotoluene|1754|1283
+"Other organic chemical"|p-Octylphenol|1755|1283
+"Other organic chemical"|Progesterone|1756|1283
+"Other organic chemical"|Propane|1757|1283
+"Other organic chemical"|"Propane, 2-bromo-1-chloro-"|1758|1283
+"Other organic chemical"|Propanenitrile|1759|1283
+"Other organic chemical"|"Propanoic acid, 2-oxo-"|1760|1283
+"Other organic chemical"|"Propylene glycol"|1761|1283
+"Other organic chemical"|p-Xylene|1762|1283
+"Other organic chemical"|Pyrene|1763|1283
+"Other organic chemical"|Pyridine|1764|1283
+"Other organic chemical"|Quinoline|1765|1283
+"Other organic chemical"|"Retinoic acid"|1766|1283
+"Other organic chemical"|Retinol|1767|1283
+"Other organic chemical"|Safrole|1768|1283
+"Other organic chemical"|sec-Butylbenzene|1769|1283
+"Other organic chemical"|"Stannane, bis(acetyloxy)dibutyl-"|1770|1283
+"Other organic chemical"|"Stannane, dibutyl-"|1771|1283
+"Other organic chemical"|"Stannane, tetrabutyl-"|1772|1283
+"Other organic chemical"|"Stannane, tetramethyl-"|1773|1283
+"Other organic chemical"|"Stannane, tetraphenyl-"|1774|1283
+"Other organic chemical"|"Stannanetriylium, butyl-"|1775|1283
+"Other organic chemical"|"Stearic acid"|1776|1283
+"Other organic chemical"|"Stigmast-5-en-3-ol, (3.beta.)-"|1777|1283
+"Other organic chemical"|"Stigmastan-3-ol, (3.beta.)-"|1778|1283
+"Other organic chemical"|Styrene|1779|1283
+"Other organic chemical"|Sulfamethoxazole|1780|1283
+"Other organic chemical"|Sulfathiazole|1781|1283
+"Other organic chemical"|"Surfactants -- CWA 304B"|1782|1283
+"Other organic chemical"|"Tannin and Lignin"|1783|1283
+"Other organic chemical"|"tert-Amyl methyl ether"|1784|1283
+"Other organic chemical"|tert-Butanol|1785|1283
+"Other organic chemical"|"tert-Butyl acetate"|1786|1283
+"Other organic chemical"|tert-Butylbenzene|1787|1283
+"Other organic chemical"|"Tetrabromobisphenol A"|1788|1283
+"Other organic chemical"|Tetrachlorodibenzofuran|1789|1283
+"Other organic chemical"|Tetrachlorodibenzo-p-dioxin|1790|1283
+"Other organic chemical"|Tetrachloroethylene|1791|1283
+"Other organic chemical"|Tetrachlorophenol|1792|1283
+"Other organic chemical"|Tetracosane|1793|1283
+"Other organic chemical"|Tetradecane|1794|1283
+"Other organic chemical"|Tetraethyllead|1795|1283
+"Other organic chemical"|Tetrahydrofuran|1796|1283
+"Other organic chemical"|Tetramethyllead|1797|1283
+"Other organic chemical"|Tetryl|1798|1283
+"Other organic chemical"|Theophylline|1799|1283
+"Other organic chemical"|Toluene|1800|1283
+"Other organic chemical"|"Total toxic organics -- CWA 304B"|1801|1283
+"Other organic chemical"|trans-1,2-Dichloroethylene|1802|1283
+"Other organic chemical"|trans-1,4-Dichloro-2-butene|1803|1283
+"Other organic chemical"|trans-Geraniol|1804|1283
+"Other organic chemical"|"Transphilic fraction of organic carbon"|1805|1283
+"Other organic chemical"|Triacontane|1806|1283
+"Other organic chemical"|Tribromomethane|1807|1283
+"Other organic chemical"|"Tributyl phosphate"|1808|1283
+"Other organic chemical"|"Tributyltin acetate"|1809|1283
+"Other organic chemical"|"Trichloroacetic acid"|1810|1283
+"Other organic chemical"|Trichloroacetonitrile|1811|1283
+"Other organic chemical"|Trichlorobenzene|1812|1283
+"Other organic chemical"|Trichloroethylene|1813|1283
+"Other organic chemical"|Triclocarban|1814|1283
+"Other organic chemical"|Triclosan|1815|1283
+"Other organic chemical"|"Triethyl citrate"|1816|1283
+"Other organic chemical"|Trinitrotoluene|1817|1283
+"Other organic chemical"|"Triphenyl phosphate"|1818|1283
+"Other organic chemical"|"Tris(2,3-dibromopropyl) phosphate"|1819|1283
+"Other organic chemical"|"Tris(2-butoxyethyl) phosphate"|1820|1283
+"Other organic chemical"|"Tris(2-chloroethyl) phosphate"|1821|1283
+"Other organic chemical"|"Undecanoic acid"|1822|1283
+"Other organic chemical"|"Valproic acid"|1823|1283
+"Other organic chemical"|Vanillin|1824|1283
+"Other organic chemical"|"Vinyl acetate"|1825|1283
+"Other organic chemical"|"Vinyl bromide"|1826|1283
+"Other organic chemical"|"Vinyl chloride"|1827|1283
+"Other organic chemical"|"Vitamin B12"|1828|1283
+"Other organic chemical"|"Vitamin D"|1829|1283
+"Other organic chemical"|Warfarin|1830|1283
+"Other organic chemical"|"Xanthylium, 9-(2,4-dicarboxyphenyl)-3,6-bis(diethylamino)-, chloride, disodium salt"|1831|1283
+"Other organic chemical"|Xylene|1832|1283
+"Other organic chemical"|Acrolein|1284|1283
+"Other organic chemical"|Acrylonitrile|1285|1283
+"Other organic chemical"|Aldrin|1286|1283
+"Other organic chemical"|(+)-Panthenol|1287|1283
+"Other organic chemical"|.alpha.,.alpha.-Dimethylphenethylamine|1288|1283
+"Other organic chemical"|.alpha.-Methylstyrene|1289|1283
+"Other organic chemical"|.alpha.-Pinene|1290|1283
+"Other organic chemical"|.alpha.-Terpineol|1291|1283
+"Other organic chemical"|1,1,1,2-Tetrachloroethane|1292|1283
+"Other organic chemical"|1,1,1-Trichloro-2-propanone|1293|1283
+"Other organic chemical"|1,1,1-Trichloroethane|1294|1283
+"Other organic chemical"|1,1,2,2-Tetrachloroethane|1295|1283
+"Other organic chemical"|1,1,2-Trichloroethane|1296|1283
+"Other organic chemical"|"1,1'-Biphenyl, 4,4'-dibromo-2,2',3,3',5,5',6,6'-octafluoro-"|1297|1283
+"Other organic chemical"|1,1-Dichloroethane|1298|1283
+"Other organic chemical"|1,1-Dichloroethylene|1299|1283
+"Other organic chemical"|1,1-Dichloropropanone|1300|1283
+"Other organic chemical"|1,1-Dichloropropene|1301|1283
+"Other organic chemical"|1,2,3,4,6,7,8,9-Octachlorodibenzofuran|1302|1283
+"Other organic chemical"|1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin|1303|1283
+"Other organic chemical"|1,2,3,4,6,7,8-Heptachlorodibenzofuran|1304|1283
+"Other organic chemical"|1,2,3,4,6,7,8-Heptachlorodibenzo-p-dioxin|1305|1283
+"Other organic chemical"|1,2,3,4,7,8,9-Heptachlorodibenzofuran|1306|1283
+"Other organic chemical"|1,2,3,4,7,8-Hexachlorodibenzofuran|1307|1283
+"Other organic chemical"|1,2,3,4,7,8-Hexachlorodibenzo-p-dioxin|1308|1283
+"Other organic chemical"|1,2,3,4-Tetramethylbenzene|1309|1283
+"Other organic chemical"|1,2,3,5-Tetramethylbenzene|1310|1283
+"Other organic chemical"|1,2,3,6,7,8-Hexachlorodibenzofuran|1311|1283
+"Other organic chemical"|1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin|1312|1283
+"Other organic chemical"|1,2,3,7,8,9-Hexachlorodibenzofuran|1313|1283
+"Other organic chemical"|1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin|1314|1283
+"Other organic chemical"|1,2,3,7,8-Pentachlorodibenzofuran|1315|1283
+"Other organic chemical"|1,2,3,7,8-Pentachlorodibenzo-p-dioxin|1316|1283
+"Other organic chemical"|1,2,3-Trichlorobenzene|1317|1283
+"Other organic chemical"|1,2,3-Trimethylbenzene|1318|1283
+"Other organic chemical"|1,2,4,5-Tetrachlorobenzene|1319|1283
+"Other organic chemical"|1,2,4,5-Tetramethylbenzene|1320|1283
+"Other organic chemical"|1,2,4-Trichlorobenzene|1321|1283
+"Other organic chemical"|1,2,4-Trimethylbenzene|1322|1283
+"Other organic chemical"|1,2-Bis(2,4,6-tribromophenoxy)ethane|1323|1283
+"Other organic chemical"|1,2-Dichloroethylene|1324|1283
+"Other organic chemical"|1,2-Dichloropropene|1325|1283
+"Other organic chemical"|1,2-Dimethylnaphthalene|1326|1283
+"Other organic chemical"|1,2-Diphenylhydrazine|1327|1283
+"Other organic chemical"|1,3,5-Trichlorobenzene|1328|1283
+"Other organic chemical"|1,3,5-Trimethylbenzene|1329|1283
+"Other organic chemical"|1,3,5-Trinitrobenzene|1330|1283
+"Other organic chemical"|"1,3-Dioxolo[4,5-g]quinoline-7-carboxylic acid, 5-ethyl-5,8-dihydro-8-oxo-"|1331|1283
+"Other organic chemical"|"1,3-Isobenzofurandione, 4,5,6,7-tetrabromo-"|1332|1283
+"Other organic chemical"|"1,3-Propanedione, 1-[4-(1,1-dimethylethyl)phenyl]-3-(4-methoxyphenyl)-"|1333|1283
+"Other organic chemical"|1,4-Dioxane|1334|1283
+"Other organic chemical"|1,6-Dimethylnaphthalene|1335|1283
+"Other organic chemical"|1-Bromo-2-chloroethane|1336|1283
+"Other organic chemical"|1H-Benzimidazol-2-amine|1337|1283
+"Other organic chemical"|"1H-Benzotriazole, 5-methyl-"|1338|1283
+"Other organic chemical"|"1-Hexadecen-3-ol, 3,7,11,15-tetramethyl-"|1339|1283
+"Other organic chemical"|1-Methylfluorene|1340|1283
+"Other organic chemical"|1-Methylnaphthalene|1341|1283
+"Other organic chemical"|1-Methylphenanthrene|1342|1283
+"Other organic chemical"|1-Methylpyrene|1343|1283
+"Other organic chemical"|1-Naphthalenamine|1344|1283
+"Other organic chemical"|2-(Methylthio)benzothiazole|1345|1283
+"Other organic chemical"|2,2'-Biquinoline|1346|1283
+"Other organic chemical"|2,2-Dichloropropane|1347|1283
+"Other organic chemical"|2,3,4,6,7,8-Hexachlorodibenzofuran|1348|1283
+"Other organic chemical"|2,3,4,7,8-Pentachlorodibenzofuran|1349|1283
+"Other organic chemical"|2,3,6-Trimethylnaphthalene|1350|1283
+"Other organic chemical"|2,3,7,8-Tetrachlorodibenzofuran|1351|1283
+"Other organic chemical"|2,3,7,8-Tetrachlorodibenzo-p-dioxin|1352|1283
+"Other organic chemical"|2,3-Dichloropropene|1353|1283
+"Other organic chemical"|2,4,6-Trimethylphenol|1354|1283
+"Other organic chemical"|2,4-Dinitrophenol|1355|1283
+"Other organic chemical"|2,4-Dinitrotoluene|1356|1283
+"Other organic chemical"|"2,4-Pyrimidinediamine, 5-[(3,4,5-trimethoxyphenyl)methyl]-"|1357|1283
+"Other organic chemical"|2,6-Dichlorobenzamide|1358|1283
+"Other organic chemical"|2,6-Dichlorophenol|1359|1283
+"Other organic chemical"|2,6-Dimethylnaphthalene|1360|1283
+"Other organic chemical"|2,6-Dinitrotoluene|1361|1283
+"Other organic chemical"|2,6-Di-tert-butyl-p-cresol|1362|1283
+"Other organic chemical"|2,6-Di-tert-butylphenol|1363|1283
+"Other organic chemical"|2-Acetylaminofluorene|1364|1283
+"Other organic chemical"|2-Amino-4,6-dinitrotoluene|1365|1283
+"Other organic chemical"|2-Amino-9H-pyrido[2,3-b]indole|1366|1283
+"Other organic chemical"|"2-Butene, 1,4-dichloro-, (2Z)-"|1367|1283
+"Other organic chemical"|"2-Butene, 2-methyl-"|1368|1283
+"Other organic chemical"|"2-Chloroethyl vinyl ether"|1369|1283
+"Other organic chemical"|2-Chloronaphthalene|1370|1283
+"Other organic chemical"|"2-Ethylhexyl p-methoxycinnamate"|1371|1283
+"Other organic chemical"|2-Ethylnaphthalene|1372|1283
+"Other organic chemical"|"2H-1,2,4-Benzothiadiazine-7-sulfonamide, 6-chloro-3,4-dihydro-, 1,1-dioxide"|1373|1283
+"Other organic chemical"|"2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-, (2R)-"|1374|1283
+"Other organic chemical"|"2-Hexadecen-1-ol, 3,7,11,15-tetramethyl-, (2E,7R,11R)-"|1375|1283
+"Other organic chemical"|2-Hexanone|1376|1283
+"Other organic chemical"|2-Hydroxy-4-methoxybenzophenone|1377|1283
+"Other organic chemical"|2-Hydroxy-4-octyloxybenzophenone|1378|1283
+"Other organic chemical"|2-Methyl-2-butanol|1379|1283
+"Other organic chemical"|2-Methyl-5-nitroaniline|1380|1283
+"Other organic chemical"|2-Methylanthracene|1381|1283
+"Other organic chemical"|2-Methylbutane|1382|1283
+"Other organic chemical"|2-Methylnaphthalene|1383|1283
+"Other organic chemical"|2-Methylpyridine|1384|1283
+"Other organic chemical"|"2-Naphthacenecarboxamide, 7-chloro-4-(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-, (4S,4aS,5aS,6S,12aS)-"|1385|1283
+"Other organic chemical"|2-Naphthalenamine|1386|1283
+"Other organic chemical"|2-Nitropropane|1387|1283
+"Other organic chemical"|"2-Propanol, 1,3-dichloro-, phosphate (3:1)"|1388|1283
+"Other organic chemical"|"2-Pyrrolidinone, 1-methyl-5-(3-pyridinyl)-, (5S)-"|1389|1283
+"Other organic chemical"|"3,3,5-Trimethylcyclohexyl salicylate"|1390|1283
+"Other organic chemical"|3,3'-Dichlorobenzidine|1391|1283
+"Other organic chemical"|3,3'-Dimethylbenzidine|1392|1283
+"Other organic chemical"|"3,4-Dichlorophenyl isocyanate"|1393|1283
+"Other organic chemical"|3,5-Dimethylphenol|1394|1283
+"Other organic chemical"|3,5-Dinitroaniline|1395|1283
+"Other organic chemical"|3,7-Dimethyl-1,6-octadien-3-ol|1396|1283
+"Other organic chemical"|"3-Buten-2-one, 3-methyl-4-(2,6,6-trimethyl-2-cyclohexen-1-yl)-"|1397|1283
+"Other organic chemical"|3-Methylcholanthrene|1398|1283
+"Other organic chemical"|3-Methylindole|1399|1283
+"Other organic chemical"|"3-Pyrrolidineacetic acid, 2-carboxy-4-[(1Z,3E,5R)-5-carboxy-1-methyl-1,3-hexadienyl]-, (2S,3S,4S)-"|1400|1283
+"Other organic chemical"|"3-Quinolinecarboxylic acid, 7-(3-amino-1-pyrrolidinyl)-8-chloro-1-cyclopropyl-6-fluoro-1,4-dihydro-4-oxo-"|1401|1283
+"Other organic chemical"|4,4'-Isopropylidenediphenol|1402|1283
+"Other organic chemical"|4-Amino-2,6-dinitrotoluene|1403|1283
+"Other organic chemical"|4-Aminobiphenyl|1404|1283
+"Other organic chemical"|4-Dimethylaminoazobenzene|1405|1283
+"Other organic chemical"|4H-Cyclopenta[def]phenanthrene|1406|1283
+"Other organic chemical"|"4-Nitroquinoline 1-oxide"|1407|1283
+"Other organic chemical"|"4-Thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid, 3,3-dimethyl-7-oxo-6-[(phenoxyacetyl)amino]-, (2S,5R,6R)-"|1408|1283
+"Other organic chemical"|6-Methyl-2-(1-methylethyl)-4(1H)-pyrimidinone|1409|1283
+"Other organic chemical"|7,12-Dimethylbenz[a]anthracene|1410|1283
+"Other organic chemical"|"9,10-Secocholesta-5,7,10(19)-trien-3-ol, (3.beta.,5Z,7E)-"|1411|1283
+"Other organic chemical"|Acenaphthene|1412|1283
+"Other organic chemical"|Acenaphthylene|1413|1283
+"Other organic chemical"|Acetaldehyde|1414|1283
+"Other organic chemical"|"Acetamide, 2,2-dichloro-N-[(1R,2R)-2-hydroxy-1-(hydroxymethyl)-2-(4-nitrophenyl)ethyl]-"|1415|1283
+"Other organic chemical"|Acetaminophen|1416|1283
+"Other organic chemical"|"Acetic acid"|1417|1283
+"Other organic chemical"|"Acetic acid, (4-nonylphenoxy)-"|1418|1283
+"Other organic chemical"|Acetone|1419|1283
+"Other organic chemical"|Acetonitrile|1420|1283
+"Other organic chemical"|"Acetonitrile, chloro-"|1421|1283
+"Other organic chemical"|Acetophenone|1422|1283
+"Other organic chemical"|Acridine|1423|1283
+"Other organic chemical"|Acrylamide|1425|1283
+"Other organic chemical"|"Adenosine 5'-(tetrahydrogen triphosphate)"|1426|1283
+"Other organic chemical"|Alprazolam|1427|1283
+"Other organic chemical"|"Aluminum, Organic + Inorganic Monomeric (reactive aluminum)"|1428|1283
+"Other organic chemical"|"Aluminum, Organic Monomeric (reactive aluminum)"|1429|1283
+"Other organic chemical"|"Androst-4-en-3-one, 17-hydroxy-, (17.beta.)-"|1430|1283
+"Other organic chemical"|"Androstan-17-one, 3-hydroxy-, (3.alpha.,5.alpha.)-"|1431|1283
+"Other organic chemical"|Aniline|1432|1283
+"Other organic chemical"|Anthracene|1433|1283
+"Other organic chemical"|Anthraquinone|1434|1283
+"Other organic chemical"|"Arsonic acid, (4-hydroxy-3-nitrophenyl)-"|1435|1283
+"Other organic chemical"|Aspirin|1436|1283
+"Other organic chemical"|Benz[a]anthracene|1437|1283
+"Other organic chemical"|"Benz[a]anthracene mixt. with chrysene"|1438|1283
+"Other organic chemical"|Benzaldehyde|1439|1283
+"Other organic chemical"|"Benzenamine, 4-(4-chlorophenoxy)-"|1440|1283
+"Other organic chemical"|Benzene|1441|1283
+"Other organic chemical"|"Benzene, 1,1'-(1E)-1,2-ethenediylbis-"|1442|1283
+"Other organic chemical"|"Benzene, 1,1'-oxybis[2,4,5-tribromo-"|1443|1283
+"Other organic chemical"|"Benzene, 1,1'-oxybis[2,4-dibromo-"|1444|1283
+"Other organic chemical"|"Benzene, 1,2,3-tribromo-4-(2,4,5-tribromophenoxy)-"|1445|1283
+"Other organic chemical"|"Benzene, 1,2,3-tribromo-4-(2,4-dibromophenoxy)-"|1446|1283
+"Other organic chemical"|"Benzene, 1,2,4-tribromo-5-(2,4-dibromophenoxy)-"|1447|1283
+"Other organic chemical"|"Benzene, 1,2-dibromo-4-(2,4-dibromophenoxy)-"|1448|1283
+"Other organic chemical"|"Benzene, 1,3(and 1,4)-dimethyl- Chemical m(and p)-xylene"|1449|1283
+"Other organic chemical"|"Benzene, 1,3,5-tribromo-2-(2,4,5-tribromophenoxy)-"|1450|1283
+"Other organic chemical"|"Benzene, 1,3,5-tribromo-2-(2,4-dibromophenoxy)-"|1451|1283
+"Other organic chemical"|"Benzene, 2,4-dibromo-1-(4-bromophenoxy)-"|1452|1283
+"Other organic chemical"|"Benzene, pentabromomethyl-"|1453|1283
+"Other organic chemical"|"Benzeneacetic acid, .alpha.-methyl-4-(2-methylpropyl)-"|1454|1283
+"Other organic chemical"|"Benzeneacetic acid, 3-benzoyl-.alpha.-methyl-"|1455|1283
+"Other organic chemical"|"Benzenesulfonamide, 4-amino-N-(2,6-dimethoxy-4-pyrimidinyl)-"|1456|1283
+"Other organic chemical"|"Benzenesulfonamide, 4-amino-N-(4,6-dimethyl-2-pyrimidinyl)-"|1457|1283
+"Other organic chemical"|"Benzenesulfonamide, 4-amino-N-(4-methyl-2-pyrimidinyl)-"|1458|1283
+"Other organic chemical"|"Benzenesulfonamide, 4-amino-N-2-pyrimidinyl-"|1459|1283
+"Other organic chemical"|"Benzenesulfonic acid, decyl-, sodium salt, mixt. with sodium dodecylbenzenesulfonate, sodium tridecylbenzenesulfonate and sodium undecylbenzenesulfonate"|1460|1283
+"Other organic chemical"|Benzidine|1461|1283
+"Other organic chemical"|Benzo(b)fluoranthene|1462|1283
+"Other organic chemical"|Benzo[a]pyrene|1463|1283
+"Other organic chemical"|Benzo[c]cinnoline|1464|1283
+"Other organic chemical"|Benzo[e]pyrene|1465|1283
+"Other organic chemical"|Benzo[ghi]perylene|1466|1283
+"Other organic chemical"|Benzo[k]fluoranthene|1467|1283
+"Other organic chemical"|"Benzoic acid"|1468|1283
+"Other organic chemical"|"Benzoic acid, 4-hydroxy-, methyl ester"|1469|1283
+"Other organic chemical"|"Benzoic acid, 4-hydroxy-, propyl ester"|1470|1283
+"Other organic chemical"|"Benzoic acid, 5-(aminosulfonyl)-4-chloro-2-((2-furanylmethyl)amino)-"|1471|1283
+"Other organic chemical"|Benzophenone|1472|1283
+"Other organic chemical"|"Benzyl alcohol"|1473|1283
+"Other organic chemical"|"Benzyl benzoate"|1474|1283
+"Other organic chemical"|"Benzyl chloride"|1475|1283
+"Other organic chemical"|"Benzyl cinnamate"|1476|1283
+"Other organic chemical"|"Benzyl salicylate"|1477|1283
+"Other organic chemical"|Biphenyl|1478|1283
+"Other organic chemical"|Bis(2-chloroethoxy)methane|1479|1283
+"Other organic chemical"|"Bis(2-chloroethyl) ether"|1480|1283
+"Other organic chemical"|"Bis(2-chloroisopropyl) ether"|1481|1283
+"Other organic chemical"|"Bis(chloromethyl) ether"|1482|1283
+"Other organic chemical"|"Bromoacetic acid"|1483|1283
+"Other organic chemical"|Bromobenzene|1484|1283
+"Other organic chemical"|"Bromochloroacetic acid"|1485|1283
+"Other organic chemical"|Bromochloroacetonitrile|1486|1283
+"Other organic chemical"|Butane|1487|1283
+"Other organic chemical"|"Butane, 1-chloro-"|1488|1283
+"Other organic chemical"|"Butane, 2,3-dimethyl-"|1489|1283
+"Other organic chemical"|"Butyl benzyl phthalate"|1490|1283
+"Other organic chemical"|"Butyric acid"|1491|1283
+"Other organic chemical"|"C.I. Vat Blue 1"|1492|1283
+"Other organic chemical"|Caffeine|1493|1283
+"Other organic chemical"|Camphene|1494|1283
+"Other organic chemical"|Caprolactam|1495|1283
+"Other organic chemical"|"Carbon tetrachloride"|1496|1283
+"Other organic chemical"|Carisoprodol|1497|1283
+"Other organic chemical"|CFC-11|1498|1283
+"Other organic chemical"|CFC-113|1499|1283
+"Other organic chemical"|CFC-12|1500|1283
+"Other organic chemical"|Chloral|1501|1283
+"Other organic chemical"|"Chloral hydrate"|1502|1283
+"Other organic chemical"|"Chlorinated naphthalenes"|1503|1283
+"Other organic chemical"|Chloroacetaldehyde|1504|1283
+"Other organic chemical"|"Chloroacetic acid"|1505|1283
+"Other organic chemical"|Chlorobenzene|1506|1283
+"Other organic chemical"|Chlorodibromomethane|1507|1283
+"Other organic chemical"|Chloroethane|1508|1283
+"Other organic chemical"|Chloroform|1509|1283
+"Other organic chemical"|Chloromethane|1510|1283
+"Other organic chemical"|"Chloromethyl methyl ether"|1511|1283
+"Other organic chemical"|Chloroprene|1512|1283
+"Other organic chemical"|Chlorpheniramine|1513|1283
+"Other organic chemical"|"Cholestan-3-ol, (3.beta.,5.beta.)-"|1514|1283
+"Other organic chemical"|Cholesterol|1515|1283
+"Other organic chemical"|Chrysene|1516|1283
+"Other organic chemical"|Cinnamaldehyde|1517|1283
+"Other organic chemical"|cis-1,2-Dichloroethylene|1518|1283
+"Other organic chemical"|Citral|1519|1283
+"Other organic chemical"|Citronellol|1520|1283
+"Other organic chemical"|Coal|1521|1283
+"Other organic chemical"|Coronene|1522|1283
+"Other organic chemical"|Coumaran|1523|1283
+"Other organic chemical"|Coumarin|1524|1283
+"Other organic chemical"|Cresol|1525|1283
+"Other organic chemical"|Cumene|1526|1283
+"Other organic chemical"|Cyclo[L-arginyl-(2S,3S,4E,6E,8S,9S)-3-amino-9-methoxy-2,6,8-trimethyl-10-phenyl-4,6-decadienoyl-D-.gamma.-glutamyl-(2Z)-2-(methylamino)-2-butenoyl-(3S)-3-methyl-D-.beta.-aspartyl]|1527|1283
+"Other organic chemical"|Cyclododecane|1528|1283
+"Other organic chemical"|"Cyclododecane, hexabromo-"|1529|1283
+"Other organic chemical"|Cyclohexane|1530|1283
+"Other organic chemical"|"Cyclohexene, 1-methyl-4-(1-methylethenyl)-, (4R)-"|1531|1283
+"Other organic chemical"|Cyclonite|1532|1283
+"Other organic chemical"|"Cyclopenta[g]-2-benzopyran, 1,3,4,6,7,8-hexahydro-4,6,6,7,8,8-hexamethyl-"|1533|1283
+"Other organic chemical"|Cyclotetramethylenetetranitramine|1534|1283
+"Other organic chemical"|"D-.alpha.-Tocopheryl acetate"|1535|1283
+"Other organic chemical"|"Decabromodiphenyl oxide"|1536|1283
+"Other organic chemical"|Decane|1537|1283
+"Other organic chemical"|"D-erythro-.alpha.-D-galacto-Octopyranoside, methyl 6,8-dideoxy-6-[[[(2S,4R)-1-methyl-4-propyl-2-pyrrolidinyl]carbonyl]amino]-1-thio-"|1538|1283
+"Other organic chemical"|"Di(2-ethylhexyl) adipate"|1539|1283
+"Other organic chemical"|"Di(2-ethylhexyl) phthalate"|1540|1283
+"Other organic chemical"|Diazepam|1541|1283
+"Other organic chemical"|Dibenz[a,h]anthracene|1542|1283
+"Other organic chemical"|Dibenzofuran|1543|1283
+"Other organic chemical"|Dibenzothiophene|1544|1283
+"Other organic chemical"|"Dibromoacetic acid"|1545|1283
+"Other organic chemical"|Dibromoacetonitrile|1546|1283
+"Other organic chemical"|Dibromomethane|1547|1283
+"Other organic chemical"|"Dibutyl phthalate"|1548|1283
+"Other organic chemical"|"Dichloroacetic acid"|1549|1283
+"Other organic chemical"|Dichloroacetonitrile|1550|1283
+"Other organic chemical"|Dichlorobromomethane|1551|1283
+"Other organic chemical"|"Diesel range organics"|1552|1283
+"Other organic chemical"|"Diethyl phthalate"|1553|1283
+"Other organic chemical"|"Diethylene glycol monobutyl ether acetate"|1554|1283
+"Other organic chemical"|Diethylstilbestrol|1555|1283
+"Other organic chemical"|Digoxin|1556|1283
+"Other organic chemical"|Dimethoxymethane|1557|1283
+"Other organic chemical"|"Dimethyl dioctadecyl ammonium chloride"|1558|1283
+"Other organic chemical"|"Dimethyl ether"|1559|1283
+"Other organic chemical"|"Dimethyl phthalate"|1560|1283
+"Other organic chemical"|"Di-n-octyl phthalate"|1561|1283
+"Other organic chemical"|Diphenylsulfone|1562|1283
+"Other organic chemical"|Docosane|1563|1283
+"Other organic chemical"|Dodecane|1564|1283
+"Other organic chemical"|Doxycycline|1565|1283
+"Other organic chemical"|Eicosane|1566|1283
+"Other organic chemical"|Erythromycin|1567|1283
+"Other organic chemical"|"Estra-1,3,5,7,9-pentaen-17-one, 3-hydroxy-"|1568|1283
+"Other organic chemical"|Estradiol|1569|1283
+"Other organic chemical"|Estrone|1570|1283
+"Other organic chemical"|"Ethanamine, 2-(diphenylmethoxy)-N,N-dimethyl-"|1571|1283
+"Other organic chemical"|Ethane|1572|1283
+"Other organic chemical"|Ethanol|1573|1283
+"Other organic chemical"|"Ethanol, 2-(4-nonylphenoxy)-"|1574|1283
+"Other organic chemical"|"Ethanol, 2,2'-thiobis-"|1575|1283
+"Other organic chemical"|"Ethanol, 2-[2-(4-nonylphenoxy)ethoxy]-"|1576|1283
+"Other organic chemical"|"Ethanol, 2-[2-[2-[2-(4-nonylphenoxy)ethoxy]ethoxy]ethoxy]-"|1577|1283
+"Other organic chemical"|"Ethanone, 1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthalenyl)-"|1578|1283
+"Other organic chemical"|"Ethanone, 1-(2,3-dihydro-1,1,2,3,3,6-hexamethyl-1H-inden-5-yl)-"|1579|1283
+"Other organic chemical"|"Ethanone, 1-[(3R,3aR,7R,8aS)-2,3,4,7,8,8a-hexahydro-3,6,8,8-tetramethyl-1H-3a,7-methanoazulen-5-yl]-"|1580|1283
+"Other organic chemical"|"Ethanone, 1-[6-(1,1-dimethylethyl)-2,3-dihydro-1,1-dimethyl-1H-inden-4-yl]-"|1581|1283
+"Other organic chemical"|"Ethinyl estradiol"|1582|1283
+"Other organic chemical"|"Ethyl acetate"|1583|1283
+"Other organic chemical"|"Ethyl ether"|1584|1283
+"Other organic chemical"|"Ethyl formate"|1585|1283
+"Other organic chemical"|"Ethyl methacrylate"|1586|1283
+"Other organic chemical"|"Ethyl methanesulfonate"|1587|1283
+"Other organic chemical"|"Ethyl nicotinate"|1588|1283
+"Other organic chemical"|"Ethyl tert-butyl ether"|1589|1283
+"Other organic chemical"|Ethylbenzene|1590|1283
+"Other organic chemical"|Ethylene|1591|1283
+"Other organic chemical"|"Ethylene glycol"|1592|1283
+"Other organic chemical"|Eugenol|1593|1283
+"Other organic chemical"|Farnesol|1594|1283
+"Other organic chemical"|Fluoranthene|1595|1283
+"Other organic chemical"|Fluorene|1596|1283
+"Other organic chemical"|Formaldehyde|1597|1283
+"Other organic chemical"|"Formic acid"|1598|1283
+"Other organic chemical"|"Formic acid, 1,1-dimethylethyl ester"|1599|1283
+"Other organic chemical"|"Gasoline range organics"|1600|1283
+"Other organic chemical"|"Haloacetic acids"|1601|1283
+"Other organic chemical"|"Halocarbons, purgeable"|1602|1283
+"Other organic chemical"|"Halogenated organics"|1603|1283
+"Other organic chemical"|"Halon 1011"|1604|1283
+"Other organic chemical"|HCFC-123|1605|1283
+"Other organic chemical"|HCFC-123a|1606|1283
+"Other organic chemical"|HCFC-21|1607|1283
+"Other organic chemical"|HCFC-22|1608|1283
+"Other organic chemical"|Heptachlorodibenzofuran|1609|1283
+"Other organic chemical"|Heptachlorodibenzo-p-dioxin|1610|1283
+"Other organic chemical"|"Heptadecanoic acid"|1611|1283
+"Other organic chemical"|"Heptanal, 2-(phenylmethylene)-"|1612|1283
+"Other organic chemical"|Hexachlorobutadiene|1613|1283
+"Other organic chemical"|Hexachlorocyclopentadiene|1614|1283
+"Other organic chemical"|Hexachlorodibenzofuran|1615|1283
+"Other organic chemical"|Hexachloroethane|1616|1283
+"Other organic chemical"|Hexachloropropene|1617|1283
+"Other organic chemical"|Hexacosane|1618|1283
+"Other organic chemical"|Hexadecane|1619|1283
+"Other organic chemical"|"Hexadecane, 2,6,10,14-tetramethyl-"|1620|1283
+"Other organic chemical"|Hexane|1621|1283
+"Other organic chemical"|"Hexane, 1-chloro-"|1622|1283
+"Other organic chemical"|Hexatriacontane|1623|1283
+"Other organic chemical"|"Hydrocarbons, nitrated"|1624|1283
+"Other organic chemical"|"Hydrocarbons, petroleum"|1625|1283
+"Other organic chemical"|"Hydrocarbons, volatile"|1626|1283
+"Other organic chemical"|"Hydrophilic fraction of organic carbon"|1627|1283
+"Other organic chemical"|"Hydrophobic fraction of organic carbon"|1628|1283
+"Other organic chemical"|Indeno[1,2,3-cd]pyrene|1629|1283
+"Other organic chemical"|Indole|1630|1283
+"Other organic chemical"|Isoborneol|1631|1283
+"Other organic chemical"|Isobutanol|1632|1283
+"Other organic chemical"|Isobutene|1633|1283
+"Other organic chemical"|Isoeugenol|1634|1283
+"Other organic chemical"|Isophorone|1635|1283
+"Other organic chemical"|"Isopropyl ether"|1636|1283
+"Other organic chemical"|"Isopropyl myristate"|1637|1283
+"Other organic chemical"|Isoquinoline|1638|1283
+"Other organic chemical"|Isosafrole|1639|1283
+"Other organic chemical"|"Lactic acid"|1640|1283
+"Other organic chemical"|Lanolin|1641|1283
+"Other organic chemical"|Lipids|1642|1283
+"Other organic chemical"|"L-Tyrosine, O-(4-hydroxy-3,5-diiodophenyl)-3,5-diiodo-"|1643|1283
+"Other organic chemical"|m-Chlorotoluene|1644|1283
+"Other organic chemical"|m-Cresol|1645|1283
+"Other organic chemical"|m-Dichlorobenzene|1646|1283
+"Other organic chemical"|m-Dinitrobenzene|1647|1283
+"Other organic chemical"|Mestranol|1648|1283
+"Other organic chemical"|Methacrylonitrile|1649|1283
+"Other organic chemical"|Methane|1650|1283
+"Other organic chemical"|Methanol|1651|1283
+"Other organic chemical"|"Methanone, (2,4-dihydroxyphenyl)phenyl-"|1652|1283
+"Other organic chemical"|Methapyrilene|1653|1283
+"Other organic chemical"|Methocarbamol|1654|1283
+"Other organic chemical"|"Methyl acetate"|1655|1283
+"Other organic chemical"|"Methyl acrylate"|1656|1283
+"Other organic chemical"|"Methyl ethyl ketone"|1657|1283
+"Other organic chemical"|"Methyl formate"|1658|1283
+"Other organic chemical"|"Methyl isobutyl ketone"|1659|1283
+"Other organic chemical"|"Methyl methacrylate"|1660|1283
+"Other organic chemical"|"Methyl methanesulfonate"|1661|1283
+"Other organic chemical"|"Methyl salicylate"|1662|1283
+"Other organic chemical"|"Methyl tert-butyl ether"|1663|1283
+"Other organic chemical"|Methylcyclohexane|1664|1283
+"Other organic chemical"|"Methylene chloride"|1665|1283
+"Other organic chemical"|Methylmercury|1666|1283
+"Other organic chemical"|m-Ethylphenol|1667|1283
+"Other organic chemical"|"Microcystin LR"|1668|1283
+"Other organic chemical"|m-Nitroaniline|1669|1283
+"Other organic chemical"|m-Nitrophenol|1670|1283
+"Other organic chemical"|m-Nitrotoluene|1671|1283
+"Other organic chemical"|"Morphinan-6-ol, 7,8-didehydro-4,5-epoxy-3-methoxy-17-methyl-, (5.alpha.,6.alpha.)-"|1672|1283
+"Other organic chemical"|"Mustard gas"|1673|1283
+"Other organic chemical"|m-Xylene|1674|1283
+"Other organic chemical"|Naphthalene|1675|1283
+"Other organic chemical"|n-Butylbenzene|1676|1283
+"Other organic chemical"|Neutrals|1677|1283
+"Other organic chemical"|Nicotine|1678|1283
+"Other organic chemical"|Nitrobenzene|1679|1283
+"Other organic chemical"|Nitroglycerin|1680|1283
+"Other organic chemical"|Nitromethane|1681|1283
+"Other organic chemical"|N-Nitrosodiethylamine|1682|1283
+"Other organic chemical"|N-Nitrosodimethylamine|1683|1283
+"Other organic chemical"|N-Nitrosodi-n-butylamine|1684|1283
+"Other organic chemical"|N-Nitrosodi-n-propylamine|1685|1283
+"Other organic chemical"|N-Nitrosodiphenylamine|1686|1283
+"Other organic chemical"|N-Nitrosomethylethylamine|1687|1283
+"Other organic chemical"|N-Nitrosomorpholine|1688|1283
+"Other organic chemical"|N-Nitrosopiperidine|1689|1283
+"Other organic chemical"|N-Nitrosopyrrolidine|1690|1283
+"Other organic chemical"|Nonadecane|1691|1283
+"Other organic chemical"|Nonane|1692|1283
+"Other organic chemical"|Norethisterone|1693|1283
+"Other organic chemical"|n-Propylbenzene|1694|1283
+"Other organic chemical"|o-Benzyl-p-chlorophenol|1695|1283
+"Other organic chemical"|o-Chloroaniline|1696|1283
+"Other organic chemical"|o-Chlorophenol|1697|1283
+"Other organic chemical"|o-Chlorotoluene|1698|1283
+"Other organic chemical"|Octachlorostyrene|1699|1283
+"Other organic chemical"|Octacosane|1700|1283
+"Other organic chemical"|Octadecane|1701|1283
+"Other organic chemical"|Octane|1702|1283
+"Other organic chemical"|"Octanoic acid, pentadecafluoro-"|1703|1283
+"Other organic chemical"|o-Dichlorobenzene|1704|1283
+"Other organic chemical"|o-Ethyltoluene|1705|1283
+"Other organic chemical"|"Oil and grease -- CWA 304B"|1706|1283
+"Other organic chemical"|o-Nitroaniline|1707|1283
+"Other organic chemical"|o-Nitrophenol|1708|1283
+"Other organic chemical"|o-Nitrotoluene|1709|1283
+"Other organic chemical"|"Organic acids"|1710|1283
+"Other organic chemical"|"Organic compounds"|1711|1283
+"Other organic chemical"|"Organic halides, total -- SWDA NPDWR"|1712|1283
+"Other organic chemical"|o-Toluidine|1713|1283
+"Other organic chemical"|o-Xylene|1714|1283
+"Other organic chemical"|Oxytetracycline|1715|1283
+"Other organic chemical"|p-(1,1,3,3-Tetramethylbutyl)phenol|1716|1283
+"Other organic chemical"|"Palmitic acid"|1717|1283
+"Other organic chemical"|"p-Bromophenyl phenyl ether"|1718|1283
+"Other organic chemical"|"p-Chlorophenyl phenyl ether"|1719|1283
+"Other organic chemical"|p-Chlorotoluene|1720|1283
+"Other organic chemical"|p-Cymene|1721|1283
+Pesticide|Oxamyl|2122|1833
+Pesticide|Oxychlordane|2123|1833
+Pesticide|Oxydisulfoton|2124|1833
+Pesticide|Oxyfluorfen|2125|1833
+Pesticide|p,p'-DDD|2126|1833
+Pesticide|p,p'-DDE|2127|1833
+Pesticide|p,p'-DDT|2128|1833
+Pesticide|Paraoxon|2129|1833
+Pesticide|Paraquat|2130|1833
+Pesticide|Parathion|2131|1833
+Pesticide|p-Chloroaniline|2132|1833
+Pesticide|p-Chloro-m-cresol|2133|1833
+Pesticide|p-Cresol|2134|1833
+Pesticide|p-Dichlorobenzene|2135|1833
+Pesticide|Pebulate|2136|1833
+Pesticide|Pendimethalin|2137|1833
+Pesticide|Pentachlorobenzene|2138|1833
+Pesticide|Pentachloronitrobenzene|2139|1833
+Pesticide|Pentachlorophenol|2140|1833
+Pesticide|Permethrin|2141|1833
+Pesticide|Phenmedipham|2142|1833
+Pesticide|"Phenol, 2-(1-methylpropyl)-, methylcarbamate"|2143|1833
+Pesticide|"Phenol, 2,6-bis(1,1-dimethylethyl)-4-methyl-, methylcarbamate"|2144|1833
+Pesticide|"Phenol, 2-[(ethylthio)methyl]-, methylcarbamate"|2145|1833
+Pesticide|"Phenol, 3,4-dimethyl-, methylcarbamate"|2146|1833
+Pesticide|"Phenol, 3,5-bis(1,1-dimethylethyl)-, methylcarbamate"|2147|1833
+Pesticide|"Phenol, 3,5-dimethyl-4-(methylsulfinyl)-, methylcarbamate"|2148|1833
+Pesticide|"Phenol, 3,5-dimethyl-4-(methylsulfonyl)-, methylcarbamate"|2149|1833
+Pesticide|Phenothrin|2150|1833
+Pesticide|Phorate|2151|1833
+Pesticide|"Phorate sulfone"|2152|1833
+Pesticide|"Phorate sulfoxide"|2153|1833
+Pesticide|Phosmet|2154|1833
+Pesticide|Phosmetoxon|2155|1833
+Pesticide|Phosphamidon|2156|1833
+Pesticide|"Phosphoric acid, (1Z)-2-chloro-1-(2,4,5-trichlorophenyl)ethenyl dimethyl ester"|2157|1833
+Pesticide|"Phosphoric acid, diethyl 6-methyl-2-(1-methylethyl)-4-pyrimidinyl ester"|2158|1833
+Pesticide|"Phosphorothioic acid, O,O'-(sulfinyldi-4,1-phenylene) O,O,O',O'-tetramethyl ester"|2159|1833
+Pesticide|"Phosphorothioic acid, O-ethyl O-methyl S-propyl ester"|2160|1833
+Pesticide|"Phosphorothioic acid, O-ethyl S-propyl ester"|2161|1833
+Pesticide|Phostebupirim|2162|1833
+Pesticide|Picloram|2163|1833
+Pesticide|"Piperonyl butoxide"|2164|1833
+Pesticide|p-Nitrophenol|2165|1833
+Pesticide|Primisulfuron-methyl|2166|1833
+Pesticide|Profenofos|2167|1833
+Pesticide|Profluralin|2168|1833
+Pesticide|Promecarb|2169|1833
+Pesticide|Prometon|2170|1833
+Pesticide|Prometryn|2171|1833
+Pesticide|Pronamide|2172|1833
+Pesticide|Propachlor|2173|1833
+Pesticide|"Propanal, 2-methyl-2-(methylthio)-, oxime"|2174|1833
+Pesticide|Propanil|2175|1833
+Pesticide|Propargite|2176|1833
+Pesticide|Propazine|2177|1833
+Pesticide|Propetamphos|2178|1833
+Pesticide|Propham|2179|1833
+Pesticide|Propiconazole|2180|1833
+Pesticide|"Propionic acid"|2181|1833
+Pesticide|Propoxur|2182|1833
+Pesticide|Prosulfuron|2183|1833
+Pesticide|Prothiofos|2184|1833
+Pesticide|Pyrazon|2185|1833
+Pesticide|Pyrethrins|2186|1833
+Pesticide|Resmethrin|2187|1833
+Pesticide|Ronnel|2188|1833
+Pesticide|Secbumeton|2189|1833
+Pesticide|"S-Ethyl dipropylthiocarbamate"|2190|1833
+Pesticide|Siduron|2191|1833
+Pesticide|Silvex|2192|1833
+Pesticide|Simazine|2193|1833
+Pesticide|Simetone|2194|1833
+Pesticide|Simetryn|2195|1833
+Pesticide|"Sodium methyldithiocarbamate"|2196|1833
+Pesticide|"Sulfometuron methyl"|2197|1833
+Pesticide|Sulfotep|2198|1833
+Pesticide|Sulprofos|2199|1833
+Pesticide|Swep|2200|1833
+Pesticide|Tau-fluvalinate|2201|1833
+Pesticide|Tebuconazole|2202|1833
+Pesticide|Tebuthiuron|2203|1833
+Pesticide|Tefluthrin|2204|1833
+Pesticide|Temephos|2205|1833
+Pesticide|Terbacil|2206|1833
+Pesticide|Terbufos|2207|1833
+Pesticide|"Terbufos sulfone"|2208|1833
+Pesticide|"Terbufos sulfoxide"|2209|1833
+Pesticide|Terbuthylazine|2210|1833
+Pesticide|Terbutryn|2211|1833
+Pesticide|Tetradifon|2212|1833
+Pesticide|"Tetraethyl pyrophosphate"|2213|1833
+Pesticide|"Tetrapropyl dithiopyrophosphate"|2214|1833
+Pesticide|Thiabendazole|2215|1833
+Pesticide|Thiacloprid|2216|1833
+Pesticide|Thiazopyr|2217|1833
+Pesticide|Thidiazuron|2218|1833
+Pesticide|Thifensulfuron-methyl|2219|1833
+Pesticide|Thiobencarb|2220|1833
+Pesticide|Thiodicarb|2221|1833
+Pesticide|Thiofanox|2222|1833
+Pesticide|Thionazin|2223|1833
+Pesticide|Thiophanate-methyl|2224|1833
+Pesticide|Toxaphene|2225|1833
+Pesticide|Tralomethrin|2226|1833
+Pesticide|trans-1,3-Dichloropropene|2227|1833
+Pesticide|trans-Chlordane|2228|1833
+Pesticide|trans-Nonachlor|2229|1833
+Pesticide|Transpermethrin|2230|1833
+Pesticide|Triadimefon|2231|1833
+Pesticide|Triallate|2232|1833
+Pesticide|Triasulfuron|2233|1833
+Pesticide|cis-Nonachlor|1967|1833
+Pesticide|Clomazone|1968|1833
+Pesticide|Clopyralid|1969|1833
+Pesticide|Coumaphos|1970|1833
+Pesticide|Cyanazine|1971|1833
+Pesticide|Cybutryne|1972|1833
+Pesticide|Cycloate|1973|1833
+Pesticide|"Cyclohexanamine, N-ethyl-"|1974|1833
+Pesticide|"Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-"|1975|1833
+Pesticide|"Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, methyl ester"|1976|1833
+Pesticide|"Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, methyl ester, (1R,3R)-rel-"|1977|1833
+Pesticide|"Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, methyl ester, (1R,3S)-rel-"|1978|1833
+Pesticide|Cyfluthrin|1979|1833
+Pesticide|Cypermethrin|1980|1833
+Pesticide|Cyprazine|1981|1833
+Pesticide|Dalapon|1982|1833
+Pesticide|Deltamethrin|1983|1833
+Pesticide|Demeton|1984|1833
+Pesticide|Demeton-O|1985|1833
+Pesticide|Demeton-S|1986|1833
+Pesticide|Desmedipham|1987|1833
+Pesticide|Diallate|1988|1833
+Pesticide|Diazinon|1989|1833
+Pesticide|Dicamba|1990|1833
+Pesticide|Dichlobenil|1991|1833
+Pesticide|Dichlofenthion|1992|1833
+Pesticide|Dichlorprop|1993|1833
+Pesticide|Dichlorvos|1994|1833
+Pesticide|"Diclofop methyl"|1995|1833
+Pesticide|Dicofol|1996|1833
+Pesticide|Dicrotophos|1997|1833
+Pesticide|Dieldrin|1998|1833
+Pesticide|"Diethatyl ethyl"|1999|1833
+Pesticide|Diflubenzuron|2000|1833
+Pesticide|Dimethenamid|2001|1833
+Pesticide|Dimethoate|2002|1833
+Pesticide|Dimethomorph|2003|1833
+Pesticide|Dinex|2004|1833
+Pesticide|Dinoseb|2005|1833
+Pesticide|Dioxacarb|2006|1833
+Pesticide|Dioxathion|2007|1833
+Pesticide|Diphenamid|2008|1833
+Pesticide|Diphenylamine|2009|1833
+Pesticide|Diquat|2010|1833
+Pesticide|Disulfoton|2011|1833
+Pesticide|"Disulfoton sulfone"|2012|1833
+Pesticide|Diuron|2013|1833
+Pesticide|Endosulfan|2014|1833
+Pesticide|"Endosulfan sulfate"|2015|1833
+Pesticide|Endothall|2016|1833
+Pesticide|Endrin|2017|1833
+Pesticide|"Endrin aldehyde"|2018|1833
+Pesticide|"Endrin ketone"|2019|1833
+Pesticide|Esfenvalerate|2020|1833
+Pesticide|Ethalfluralin|2021|1833
+Pesticide|"Ethanimidothioic acid, N-hydroxy-, methyl ester"|2022|1833
+Pesticide|"Ethene, 1,2-dibromo-"|2023|1833
+Pesticide|Ethion|2024|1833
+Pesticide|"Ethion monooxon"|2025|1833
+Pesticide|Ethoprop|2026|1833
+Pesticide|Ethylan|2027|1833
+Pesticide|"Ethylene dibromide"|2028|1833
+Pesticide|"Ethylene thiourea"|2029|1833
+Pesticide|Etridiazole|2030|1833
+Pesticide|Etrimfos|2031|1833
+Pesticide|Famphur|2032|1833
+Pesticide|Fenamiphos|2033|1833
+Pesticide|Fenarimol|2034|1833
+Pesticide|Fenitrothion|2035|1833
+Pesticide|Fenpropathrin|2036|1833
+Pesticide|Fensulfothion|2037|1833
+Pesticide|Fenthion|2038|1833
+Pesticide|Fenuron|2039|1833
+Pesticide|Fipronil|2040|1833
+Pesticide|Fluchloralin|2041|1833
+Pesticide|"Triazines mixture, unspecified"|2234|1833
+Pesticide|Tribenuron-methyl|2235|1833
+Pesticide|Tribufos|2236|1833
+Pesticide|Trichloronate|2237|1833
+Pesticide|Trichlorophenol|2238|1833
+Pesticide|Triclopyr|2239|1833
+Pesticide|Tricyclazole|2240|1833
+Pesticide|Trifluralin|2241|1833
+Pesticide|Triflusulfuron-methyl|2242|1833
+Pesticide|Trimethacarb|2243|1833
+Pesticide|"Urea, (4-chlorophenyl)-"|2244|1833
+Pesticide|"Urea, [3-(trifluoromethyl)phenyl]-"|2245|1833
+Pesticide|"Urea, N-[5-(ethylsulfonyl)-1,3,4-thiadiazol-2-yl]-N,N'-dimethyl-"|2246|1833
+Pesticide|"Urea, phenyl-"|2247|1833
+Pesticide|Vernolate|2248|1833
+Pesticide|Ziram|2249|1833
+Pesticide|"1,4-Benzenedicarboxylic acid, 2,3,5,6-tetrachloro-, monomethyl ester"|1848|1833
+Pesticide|"1,4-Ethenopentalene, 1,2,3,5,7,8-hexachloro-1,3a,4,5,6,6a-hexahydro-, (1R,3aS,4S,5S,6aS)-rel-"|1849|1833
+Pesticide|1,4-Naphthoquinone|1850|1833
+Pesticide|"1,6-Methano-1H-indene, 2,3,3a,4,5,8-hexachloro-3a,6,7,7a-tetrahydro-, (1R,3aR,6S,7aR,8R)-rel-"|1851|1833
+Pesticide|"1H-Isoindole-1,3(2H)-dione, 3a,4,7,7a-tetrahydro-2-[(1,1,2,2-tetrachloroethyl)thio]-"|1852|1833
+Pesticide|1-Naphthol|1853|1833
+Pesticide|cis-Permethrin|1854|1833
+Pesticide|"2(1H)-Pyridinone, 3,5,6-trichloro-"|1855|1833
+Pesticide|"2-(Dimethylamino)-N-hydroxy-2-oxoethanimidothioic acid methyl ester"|1856|1833
+Pesticide|2-(p-tert-Butylphenoxy)cyclohexanol|1857|1833
+Pesticide|2,2,4,5,6,7,8,8-Octachloro-2,3,3a,4,7,7a-hexahydro-4,7-methano-1H-indene|1858|1833
+Pesticide|2,3,4,5-Tetrachlorophenol|1859|1833
+Pesticide|2,3,4,6-Tetrachlorophenol|1860|1833
+Pesticide|2,4,5-T|1861|1833
+Pesticide|2,4,5-TB|1862|1833
+Pesticide|2,4,5-Trichlorophenol|1863|1833
+Pesticide|2,4,6-Trichlorophenol|1864|1833
+Pesticide|2,4-D|1865|1833
+Pesticide|"2,4-D methyl ester"|1866|1833
+Pesticide|2,4-DB|1867|1833
+Pesticide|Flufenacet|2042|1833
+Pesticide|Flumetralin|2043|1833
+Pesticide|Flumetsulam|2044|1833
+Pesticide|Fluometuron|2045|1833
+Pesticide|Fluridone|2046|1833
+Pesticide|Fonofos|2047|1833
+Pesticide|"Formetanate hydrochloride"|2048|1833
+Pesticide|Glyphosate|2049|1833
+Pesticide|Halofenozide|2050|1833
+Pesticide|Halosulfuron-methyl|2051|1833
+Pesticide|Heptachlor|2052|1833
+Pesticide|"Heptachlor epoxide"|2053|1833
+Pesticide|Hexachlorobenzene|2054|1833
+Pesticide|Hexachlorodibenzo-p-dioxin|2055|1833
+Pesticide|Hexazinone|2056|1833
+Pesticide|Imazapyr|2057|1833
+Pesticide|Imazaquin|2058|1833
+Pesticide|Imazethapyr|2059|1833
+Pesticide|Imidacloprid|2060|1833
+Pesticide|Ioxynil|2061|1833
+Pesticide|Iprodione|2062|1833
+Pesticide|Isodrin|2063|1833
+Pesticide|Isofenphos|2064|1833
+Pesticide|Isoprocarb|2065|1833
+Pesticide|Isoxaflutole|2066|1833
+Pesticide|Leptophos|2067|1833
+Pesticide|Lindane|2068|1833
+Pesticide|Linuron|2069|1833
+Pesticide|m-(Trifluoromethyl)aniline|2070|1833
+Pesticide|Malaoxon|2071|1833
+Pesticide|Malathion|2072|1833
+Pesticide|Mancozeb|2073|1833
+Pesticide|Maneb|2074|1833
+Pesticide|MCPA|2075|1833
+Pesticide|MCPB|2076|1833
+Pesticide|Mecoprop|2077|1833
+Pesticide|Merphos|2078|1833
+Pesticide|Metalaxyl|2079|1833
+Pesticide|Methamidophos|2080|1833
+Pesticide|"Methanone, bis(4-chlorophenyl)-"|2081|1833
+Pesticide|Methidathion|2082|1833
+Pesticide|Methiocarb|2083|1833
+Pesticide|Methomyl|2084|1833
+Pesticide|Methoprene|2085|1833
+Pesticide|Methoxychlor|2086|1833
+Pesticide|"Methyl bromide"|2087|1833
+Pesticide|"Methyl iodide"|2088|1833
+Pesticide|"Methyl paraoxon"|2089|1833
+Pesticide|"Methyl parathion"|2090|1833
+Pesticide|Metolachlor|2091|1833
+Pesticide|Metolcarb|2092|1833
+Pesticide|Metribuzin|2093|1833
+Pesticide|Metsulfuron-methyl|2094|1833
+Pesticide|Mevinphos|2095|1833
+Pesticide|Mexacarbate|2096|1833
+Pesticide|Mirex|2097|1833
+Pesticide|Mobam|2098|1833
+Pesticide|Molinate|2099|1833
+Pesticide|Monocrotophos|2100|1833
+Pesticide|Monolinuron|2101|1833
+Pesticide|"Monosodium methanearsonate"|2102|1833
+Pesticide|Monuron|2103|1833
+Pesticide|Myclobutanil|2104|1833
+Pesticide|N,N-Diethyl-m-toluamide|2105|1833
+Pesticide|N-2-Ethylhexylbicycloheptenedicarboximide|2106|1833
+Pesticide|Naled|2107|1833
+Pesticide|Napropamide|2108|1833
+Pesticide|Neburon|2109|1833
+Pesticide|Nicosulfuron|2110|1833
+Pesticide|Nitrapyrin|2111|1833
+Pesticide|Norflurazon|2112|1833
+Pesticide|"O,O,O-Triethyl phosphorothioate"|2113|1833
+Pesticide|o,p'-DDD|2114|1833
+Pesticide|o,p'-DDE|2115|1833
+Pesticide|o,p'-DDT|2116|1833
+Pesticide|o-Cresol|2117|1833
+Pesticide|"O-Ethyl O-(p-nitrophenyl) phenylphosphonothioate"|2118|1833
+Pesticide|Omethoate|2119|1833
+Pesticide|Oryzalin|2120|1833
+Pesticide|Oxadiazon|2121|1833
+Pesticide|2,4-Dichlorophenol|1868|1833
+Pesticide|2,4-Dimethylphenol|1869|1833
+Pesticide|2,5-Dichloroaniline|1870|1833
+Pesticide|2,6-Diethylaniline|1871|1833
+Pesticide|2-Chloro-4,6-diamino-s-triazine|1872|1833
+Pesticide|2-Chloro-4-isopropylamino-6-amino-s-triazine|1873|1833
+Pesticide|2-Chloro-6-ethylamino-4-amino-s-triazine|1874|1833
+Pesticide|2-Ethyl-6-methylaniline|1875|1833
+Pesticide|"3(2H)-Pyridazinone, 5-amino-4-chloro-2-[3-(trifluoromethyl)phenyl]-"|1876|1833
+Pesticide|3,4-Dichloroaniline|1877|1833
+Pesticide|3,5-Dichloroaniline|1878|1833
+Pesticide|3-Hydroxycarbofuran|1879|1833
+Pesticide|3-Phenoxybenzenemethanol|1880|1833
+Pesticide|4,6-Dinitro-o-cresol|1881|1833
+Pesticide|4-Chloro-2-methylphenol|1882|1833
+Pesticide|5-Amino-1-[2,6-dichloro-4-(trifluoromethyl)phenyl]-4-[(trifluoromethyl)thio]pyrazole-3-carbonitrile|1883|1833
+Pesticide|Acephate|1884|1833
+Pesticide|Acetochlor|1885|1833
+Pesticide|Acifluorfen|1886|1833
+Pesticide|"Acifluorfen, sodium salt"|1887|1833
+Pesticide|Acrylonitrile|1888|1833
+Pesticide|Alachlor|1889|1833
+Pesticide|"Alachlor ESA"|1890|1833
+Pesticide|Aldicarb|1891|1833
+Pesticide|"Aldicarb sulfone"|1892|1833
+Pesticide|"Aldicarb sulfoxide"|1893|1833
+Pesticide|Aldrin|1894|1833
+Pesticide|Allethrin|1895|1833
+Pesticide|"Allyl chloride"|1896|1833
+Pesticide|Ametryn|1897|1833
+Pesticide|Aminocarb|1898|1833
+Pesticide|"Aminomethylphosphonic acid"|1899|1833
+Pesticide|Aramite|1900|1833
+Pesticide|Asulam|1901|1833
+Pesticide|Atraton|1902|1833
+Pesticide|Atrazine|1903|1833
+Pesticide|Azinphos-ethyl|1904|1833
+Pesticide|Azinphos-methyl|1905|1833
+Pesticide|Azobenzene|1906|1833
+Pesticide|Barban|1907|1833
+Pesticide|Bendiocarb|1908|1833
+Pesticide|Benfluralin|1909|1833
+Pesticide|Benomyl|1910|1833
+Pesticide|Bensulfuron-methyl|1911|1833
+Pesticide|Bentazon|1912|1833
+Pesticide|"Benzamide, 2-amino-N-(1-methylethyl)-"|1913|1833
+Pesticide|"Benzene, 1,1'-(chloroethenylidene)bis(4-chloro-"|1914|1833
+Pesticide|"Benzene, 1-chloro-4-(methylsulfonyl)-"|1915|1833
+Pesticide|"Benzene, 1-methoxy-2-[2,2,2-trichloro-1-(4-methoxyphenyl)ethyl]-"|1916|1833
+Pesticide|"Benzene, pentachloromethoxy-"|1917|1833
+Pesticide|"Benzoic acid, 2,5-dichloro-3-hydroxy-6-methoxy-"|1918|1833
+Pesticide|"Benzoic acid, 3,5-dichloro-"|1919|1833
+Pesticide|Bifenthrin|1920|1833
+Pesticide|Bromacil|1921|1833
+Pesticide|Bromophos|1922|1833
+Pesticide|Bromophos-ethyl|1923|1833
+Pesticide|Bromoxynil|1924|1833
+Pesticide|Bufencarb|1925|1833
+Pesticide|"Bulan mixt. with 2-nitro-1,1-bis(p-chlorophenyl)propane"|1926|1833
+Pesticide|Butachlor|1927|1833
+Pesticide|Butoxycarboxim|1928|1833
+Pesticide|Butylamine|1929|1833
+Pesticide|Butylate|1930|1833
+Pesticide|"Cacodylic acid"|1931|1833
+Pesticide|Cadusafos|1932|1833
+Pesticide|Camphor|1933|1833
+Pesticide|Captan|1934|1833
+Pesticide|"Carbamic acid, methyl-, 2-chlorophenyl ester"|1935|1833
+Pesticide|Carbaryl|1936|1833
+Pesticide|Carbazole|1937|1833
+Pesticide|Carbofuran|1938|1833
+Pesticide|"Carbon disulfide"|1939|1833
+Pesticide|Carbophenothion|1940|1833
+Pesticide|Carbophenothion-methyl|1941|1833
+Pesticide|Carboxin|1942|1833
+Pesticide|Chloramben|1943|1833
+Pesticide|Chloramben-methyl|1944|1833
+Pesticide|"Chlordane, technical"|1945|1833
+Pesticide|"Chlordane, technical, and/or chlordane metabolites"|1946|1833
+Pesticide|Chlordecone|1947|1833
+Pesticide|Chlorethoxyfos|1948|1833
+Pesticide|Chlorfenvinphos|1949|1833
+Pesticide|Chlorimuron-ethyl|1950|1833
+Pesticide|"Chlorinated phenoxy acid group"|1951|1833
+Pesticide|Chlorobenzilate|1952|1833
+Pesticide|Chloroneb|1953|1833
+Pesticide|Chloropicrin|1954|1833
+Pesticide|Chlorothalonil|1955|1833
+Pesticide|Chlorotoluron|1956|1833
+Pesticide|Chloroxuron|1957|1833
+Pesticide|Chlorpropham|1958|1833
+Pesticide|Chlorpyrifos|1959|1833
+Pesticide|Chlorpyrifos-methyl|1960|1833
+Pesticide|Chlorsulfuron|1961|1833
+Pesticide|Chlorthal-dimethyl|1962|1833
+Pesticide|Chlorthion|1963|1833
+Pesticide|"Cinerin I"|1964|1833
+Pesticide|cis-1,3-Dichloropropene|1965|1833
+Pesticide|cis-Chlordane|1966|1833
+Pesticide|.alpha.-Endosulfan|1834|1833
+Pesticide|.alpha.-Hexachlorocyclohexane|1835|1833
+Pesticide|.beta.-Endosulfan|1836|1833
+Pesticide|.beta.-Hexachlorocyclohexane|1837|1833
+Pesticide|.delta.-Hexachlorocyclohexane|1838|1833
+Pesticide|.lambda.-Cyhalothrin|1839|1833
+Pesticide|1,2,3-Trichloropropane|1840|1833
+Pesticide|1,2-Dibromo-3-chloropropane|1841|1833
+Pesticide|1,2-Dichloroethane|1842|1833
+Pesticide|1,2-Dichloropropane|1843|1833
+Pesticide|"1,3,5-Triazin-2(1H)-one, 4-(ethylamino)-6-[(1-methylethyl)amino]-"|1844|1833
+Pesticide|"1,3,5-Triazin-2(1H)-one, 4,6-bis(ethylamino)-"|1845|1833
+Pesticide|1,3-Dichloropropane|1846|1833
+Pesticide|1,3-Dichloropropene|1847|1833
+Inorganic|"Dissolved Gas"|2251|2250
+Inorganic|"Dissolved Solids"|2264|2250
+Inorganic|Major|2267|2250
+Inorganic|Minor|2299|2250
+"Dissolved Gas"|Hydrogen|2257|2251
+"Dissolved Gas"|"Hydrogen sulfide"|2258|2251
+"Dissolved Gas"|Argon|2259|2251
+"Dissolved Gas"|Krypton|2260|2251
+"Dissolved Gas"|Xenon|2261|2251
+"Dissolved Gas"|"Nitrogen, gas"|2262|2251
+"Dissolved Gas"|"Nitrous oxide"|2263|2251
+"Dissolved Gas"|"Sulfur dioxide"|5049|2251
+"Dissolved Gas"|"Oxygen, dissolved"|2252|2251
+"Dissolved Gas"|"Oxygen, dissolved percent of saturation"|2253|2251
+"Dissolved Gas"|"Carbon dioxide"|2254|2251
+"Dissolved Gas"|Chlorine|2255|2251
+"Dissolved Gas"|Fluorine|2256|2251
+"Dissolved Solids"|"Solids, fixed dissolved"|2265|2264
+"Dissolved Solids"|"Solids, total dissolved"|2266|2264
+Major|"Major, metals"|2268|2267
+Major|"Major, non-metals"|2276|2267
+Major|"Major, bulk properties"|2291|2267
+"Major, metals"|Calcium|2269|2268
+"Major, metals"|Magnesium|2270|2268
+"Major, metals"|Potassium|2271|2268
+"Major, metals"|Sodium|2272|2268
+"Major, metals"|"Sodium adsorption ratio"|2273|2268
+"Major, metals"|"Sodium plus potassium"|2274|2268
+"Major, metals"|"Sodium, fraction of cations"|2275|2268
+"Major, non-metals"|Acidity|2277|2276
+"Major, non-metals"|Alkalinity|2278|2276
+"Major, non-metals"|Bicarbonate|2279|2276
+"Major, non-metals"|Bromide|2280|2276
+"Major, non-metals"|Chloride|2281|2276
+"Major, non-metals"|"Chlorine demand"|2282|2276
+"Major, non-metals"|Fluoride|2283|2276
+"Major, non-metals"|"Hydrogen ion"|2284|2276
+"Major, non-metals"|Hydroxide|2285|2276
+"Major, non-metals"|Silica|2286|2276
+"Major, non-metals"|Sulfate|2287|2276
+"Major, non-metals"|Sulfide|2288|2276
+"Major, non-metals"|Sulfur|2289|2276
+"Major, non-metals"|Thiosulfate|2290|2276
+"Major, bulk properties"|"Oxidation reduction potential"|2292|2291
+"Major, bulk properties"|pH|2293|2291
+"Major, bulk properties"|Salinity|2294|2291
+"Major, bulk properties"|"Hardness, carbonate"|2295|2291
+"Major, bulk properties"|"Hardness, non-carbonate"|2296|2291
+"Major, bulk properties"|"Specific conductance"|2297|2291
+"Major, bulk properties"|"Hardness, total"|2298|2291
+Minor|"Minor, metals"|2300|2299
+Minor|"Minor, non-metals"|2360|2299
+"Minor, metals"|Aluminum|2301|2300
+"Minor, metals"|Barium|2302|2300
+"Minor, metals"|Beryllium|2303|2300
+"Minor, metals"|Bismuth|2304|2300
+"Minor, metals"|Cadmium|2305|2300
+"Minor, metals"|Cerium|2306|2300
+"Minor, metals"|Cesium|2307|2300
+"Minor, metals"|Chromium|2308|2300
+"Minor, metals"|Chromium(III)|2309|2300
+"Minor, metals"|Chromium(VI)|2310|2300
+"Minor, metals"|Cobalt|2311|2300
+"Minor, metals"|Copper|2312|2300
+"Minor, metals"|Dysprosium|2313|2300
+"Minor, metals"|Erbium|2314|2300
+"Minor, metals"|Europium|2315|2300
+"Minor, metals"|"Iron, ferric"|2316|2300
+"Minor, metals"|"Iron, ferrous"|2317|2300
+"Minor, metals"|Gadolinium|2318|2300
+"Minor, metals"|Gallium|2319|2300
+"Minor, metals"|Gold|2320|2300
+"Minor, metals"|Hafnium|2321|2300
+"Minor, metals"|Holmium|2322|2300
+"Minor, metals"|Indium|2323|2300
+"Minor, metals"|Iridium|2324|2300
+"Minor, metals"|Iron|2325|2300
+"Minor, metals"|Lanthanum|2326|2300
+"Minor, metals"|Lead|2327|2300
+"Minor, metals"|Lithium|2328|2300
+"Minor, metals"|Lutetium|2329|2300
+"Minor, metals"|Manganese|2330|2300
+"Minor, metals"|Mercury|2331|2300
+"Minor, metals"|Molybdenum|2332|2300
+"Minor, metals"|Neodymium|2333|2300
+"Minor, metals"|Nickel|2334|2300
+"Minor, metals"|Niobium|2335|2300
+"Minor, metals"|Osmium|2336|2300
+"Minor, metals"|Palladium|2337|2300
+"Minor, metals"|Platinum|2338|2300
+"Minor, metals"|Praseodymium|2339|2300
+"Minor, metals"|Rhenium|2340|2300
+"Minor, metals"|Rhodium|2341|2300
+"Minor, metals"|Rubidium|2342|2300
+"Minor, metals"|Ruthenium|2343|2300
+"Minor, metals"|Samarium|2344|2300
+"Minor, metals"|Scandium|2345|2300
+"Minor, metals"|Silver|2346|2300
+"Minor, metals"|Strontium|2347|2300
+"Minor, metals"|Tantalum|2348|2300
+"Minor, metals"|Terbium|2349|2300
+"Minor, metals"|Thallium|2350|2300
+"Minor, metals"|Thulium|2351|2300
+"Minor, metals"|Tin|2352|2300
+"Minor, metals"|Titanium|2353|2300
+"Minor, metals"|Tungsten|2354|2300
+"Minor, metals"|Vanadium|2355|2300
+"Minor, metals"|Ytterbium|2356|2300
+"Minor, metals"|Yttrium|2357|2300
+"Minor, metals"|Zinc|2358|2300
+"Minor, metals"|Zirconium|2359|2300
+"Minor, metals"|Uranium|5020|2300
+"Minor, non-metals"|Antimony|2361|2360
+"Minor, non-metals"|Arsenic|2362|2360
+"Minor, non-metals"|"Arsenic acid"|2363|2360
+"Minor, non-metals"|Asbestos|2364|2360
+"Minor, non-metals"|Boron|2365|2360
+"Minor, non-metals"|Bromine|2366|2360
+"Minor, non-metals"|Chlorate|2367|2360
+"Minor, non-metals"|Cyanide|2368|2360
+"Minor, non-metals"|"Cyanides amenable to chlorination (HCN & CN)"|2369|2360
+"Minor, non-metals"|Germanium|2370|2360
+"Minor, non-metals"|Helium|2371|2360
+"Minor, non-metals"|Iodide|2372|2360
+"Minor, non-metals"|Iodine|2373|2360
+"Minor, non-metals"|Neon|2374|2360
+"Minor, non-metals"|Perchlorate|2375|2360
+"Minor, non-metals"|Selenium|2376|2360
+"Minor, non-metals"|"Sulfite (SO3)"|2377|2360
+"Minor, non-metals"|"Sulfur hexafluoride"|2378|2360
+"Minor, non-metals"|Tellurium|2379|2360
+"Minor, non-metals"|Thiocyanate|2380|2360
+Nutrient|Nitrogen|2382|2381
+Nutrient|Phosphorus|2401|2381
+Nutrient|Carbon|2413|2381
+Nitrogen|Ammonia|2383|2382
+Nitrogen|"N, albuminoid"|2388|2382
+Nitrogen|"Nitrogen, nitrate (NO3) "|2389|2382
+Nitrogen|"Nitrogen, nitrite (NO2) "|2390|2382
+Nitrogen|"Nitrogen, nitrite (NO2) + nitrate (NO3)"|2391|2382
+Nitrogen|"Nitrogen, total organic "|2392|2382
+Nitrogen|"Nitrogen, dissolved organic"|2393|2382
+Nitrogen|"Nitrogen, suspended organic"|2394|2382
+Nitrogen|"Nitrogen, total inorganic "|2395|2382
+Nitrogen|"Nitrogen, dissolved inorganic"|2396|2382
+Nitrogen|"Nitrogen, suspended inorganic"|2397|2382
+Nitrogen|"Nitrogen, total kjeldahl"|2398|2382
+Nitrogen|"Nitrogen, total "|2399|2382
+Nitrogen|"Nitrogen, total dissolved"|2400|2382
+Nitrogen|"Nitrogen, dissolved kjeldahl"|5018|2382
+Ammonia|Ammonium|2384|2383
+Ammonia|"Total ammonia"|2385|2383
+Ammonia|Ammonia|2386|2383
+Ammonia|"Ammonium ammonia ratio"|2387|2383
+Phosphorus|"Hydrolyzable phopshorus"|2402|2401
+Phosphorus|"Hydrolyzable P plus orthophosphate"|2403|2401
+Phosphorus|"Phosphorus, total organic "|2404|2401
+Phosphorus|"Phosphorus, dissolved organic "|2405|2401
+Phosphorus|"Phosphorus, suspended organic"|2406|2401
+Phosphorus|"Phosphorus, total inorganic "|2407|2401
+Phosphorus|"Phosphorus, dissolved inorganic "|2408|2401
+Phosphorus|"Phosphorus, suspended inorganic"|2409|2401
+Phosphorus|"Phosphorus, ortophosphate"|2410|2401
+Phosphorus|"Phosphorus, polyphosphate "|2411|2401
+Phosphorus|"Phosphorus, total "|2412|2401
+Phosphorus|"Phosphorus, total dissolved"|5008|2401
+Carbon|"Carbon, dissolved organic"|2417|2413
+Carbon|"Carbon, suspended organic"|2418|2413
+Carbon|"Carbon, total inorganic"|2419|2413
+Carbon|"Carbon, dissolved inorganic"|2420|2413
+Carbon|"Carbon, suspended inorganic"|2421|2413
+Carbon|"Carbon, total dissolved"|2422|2413
+Carbon|"Colored dissolved organic matter"|5037|2413
+Carbon|"Carbon, total suspended"|5038|2413
+Carbon|"Carbonate (CO3)"|2414|2413
+Carbon|"Carbon, total"|2415|2413
+Carbon|"Carbon, total organic"|2416|2413
+"Oxygen Demand"|"Chemical oxygen demand"|2424|2423
+"Oxygen Demand"|"Biochemical oxygen demand"|2425|2423
+"Oxygen Demand"|"Carbonaceous biochemical oxygen demand"|2426|2423
+"Oxygen Demand"|"Nitrogenous biochemical oxygen demand"|2427|2423
+"Radiochemical "|Actinium-228|2429|2428
+"Radiochemical "|"Alpha emitting radium isotopes"|2430|2428
+"Radiochemical "|"Alpha radiation"|2431|2428
+"Radiochemical "|Americium-241|2432|2428
+"Radiochemical "|Antimony-124|2433|2428
+"Radiochemical "|Antimony-125|2434|2428
+"Radiochemical "|Barium-140|2435|2428
+"Radiochemical "|Beryllium-7|2436|2428
+"Radiochemical "|"Beta radiation"|2437|2428
+"Radiochemical "|Bismuth-212|2438|2428
+"Radiochemical "|Bismuth-214|2439|2428
+"Radiochemical "|Calcium-45|2440|2428
+"Radiochemical "|Carbon-14|2441|2428
+"Radiochemical "|Cerium-141|2442|2428
+"Radiochemical "|Cerium-144|2443|2428
+"Radiochemical "|Cesium-134|2444|2428
+"Radiochemical "|Cesium-137|2445|2428
+"Radiochemical "|Chlorine-36|2446|2428
+"Radiochemical "|Chromium-51|2447|2428
+"Radiochemical "|Cobalt-57|2448|2428
+"Radiochemical "|Cobalt-58|2449|2428
+"Radiochemical "|Cobalt-60|2450|2428
+"Radiochemical "|Curium-242|2451|2428
+"Radiochemical "|Curium-244|2452|2428
+"Radiochemical "|Europium-152|2453|2428
+"Radiochemical "|Europium-155|2454|2428
+"Radiochemical "|"Gamma radiation"|2455|2428
+"Radiochemical "|Hafnium-175|2456|2428
+"Radiochemical "|Hafnium-181|2457|2428
+"Radiochemical "|Iodine-129|2458|2428
+"Radiochemical "|Iodine-131|2459|2428
+"Radiochemical "|Iodine-133|2460|2428
+"Radiochemical "|Iron-59|2461|2428
+"Radiochemical "|Lanthanum-140|2462|2428
+"Radiochemical "|Lead-210|2463|2428
+"Radiochemical "|Lead-212|2464|2428
+"Radiochemical "|Lead-214|2465|2428
+"Radiochemical "|Manganese-54|2466|2428
+"Radiochemical "|Molybdenum-99|2467|2428
+"Radiochemical "|Neodymium-147|2468|2428
+"Radiochemical "|Neptunium-239|2469|2428
+"Radiochemical "|Nickel-63|2470|2428
+"Radiochemical "|Niobium-95|2471|2428
+"Radiochemical "|Plutonium-238|2472|2428
+"Radiochemical "|Plutonium-239|2473|2428
+"Radiochemical "|"Plutonium-239 and Plutonium-240 combined"|2474|2428
+"Radiochemical "|Plutonium-241|2475|2428
+"Radiochemical "|Polonium-210|2476|2428
+"Radiochemical "|Potassium-40|2477|2428
+"Radiochemical "|Radium-224|2478|2428
+"Radiochemical "|Radium-226|2479|2428
+"Radiochemical "|Radium-228|2480|2428
+"Radiochemical "|Radon-222|2481|2428
+"Radiochemical "|Ruthenium-103|2482|2428
+"Radiochemical "|Ruthenium-106|2483|2428
+"Radiochemical "|Scandium-46|2484|2428
+"Radiochemical "|Selenium-75|2485|2428
+"Radiochemical "|Silver-108|2486|2428
+"Radiochemical "|Silver-110|2487|2428
+"Radiochemical "|Sodium-24|2488|2428
+"Radiochemical "|"Strontium Radionuclides"|2489|2428
+"Radiochemical "|Strontium-89|2490|2428
+"Radiochemical "|Strontium-90|2491|2428
+"Radiochemical "|Strontium-91|2492|2428
+"Radiochemical "|Sulfur-35|2493|2428
+"Radiochemical "|Technetium-99|2494|2428
+"Radiochemical "|Tellurium-132|2495|2428
+"Radiochemical "|Thallium-208|2496|2428
+"Radiochemical "|Thorium-228|2497|2428
+"Radiochemical "|Thorium-230|2498|2428
+"Radiochemical "|Thorium-232|2499|2428
+"Radiochemical "|Tritium|2500|2428
+"Radiochemical "|"Uranium 238/234 ratio"|2501|2428
+"Radiochemical "|Uranium-234|2502|2428
+"Radiochemical "|"Uranium-234 and/or uranium-235 and/or uranium-238"|2503|2428
+"Radiochemical "|Uranium-235|2504|2428
+"Radiochemical "|Uranium-238|2505|2428
+"Radiochemical "|Xenon-135|2506|2428
+"Radiochemical "|Yttrium-91|2507|2428
+"Radiochemical "|Zinc-65|2508|2428
+"Radiochemical "|Zirconium/Niobium-95|2509|2428
+"Radiochemical "|Zirconium-95|2510|2428
+Biological|"Biological taxa"|2512|2511
+Biological|"Biological community"|4824|2511
+Biological|"Indicator Organisms"|4904|2511
+"Biological taxa"|"Benthic species"|2513|2512
+"Biological taxa"|"Fish species"|3806|2512
+"Biological taxa"|"Macrophyte species"|4099|2512
+"Biological taxa"|"Nekton species"|4154|2512
+"Biological taxa"|"Phytoplankton species"|4192|2512
+"Biological taxa"|"Zooplankton species"|4562|2512
+"Benthic species"|Ceraclea|2719|2513
+"Benthic species"|"Cerapus tubularius"|2720|2513
+"Benthic species"|Ceratocephale|2721|2513
+"Benthic species"|Ceratonereis|2722|2513
+"Benthic species"|"Ceratonereis irritabilis"|2723|2513
+"Benthic species"|"Ceratonereis tridentata"|2724|2513
+"Benthic species"|"Ceratopogonidae (heleidae)"|2725|2513
+"Benthic species"|Ceratopsyche|2726|2513
+"Benthic species"|Cerebratulus|2727|2513
+"Benthic species"|"Cerebratulus lacteus"|2728|2513
+"Benthic species"|Cernotina|2729|2513
+"Benthic species"|Chaetogaster|2730|2513
+"Benthic species"|Chaetognatha|2731|2513
+"Benthic species"|Chaetozone|2732|2513
+"Benthic species"|Chaoboridae|2733|2513
+"Benthic species"|Chaoborus|2734|2513
+"Benthic species"|"Chaoborus punctipennis"|2735|2513
+"Benthic species"|Chauliodes|2736|2513
+"Benthic species"|Cheumatopsyche|2737|2513
+"Benthic species"|Chimarra|2738|2513
+"Benthic species"|"Chimarra unidentified species a"|2739|2513
+"Benthic species"|"Chione cancelata"|2740|2513
+"Benthic species"|"Chione clenchi"|2741|2513
+"Benthic species"|Chiridotea|2742|2513
+"Benthic species"|Chironomidae|2743|2513
+"Benthic species"|Chironominae|2744|2513
+"Benthic species"|Chironomus|2745|2513
+"Benthic species"|"Chironomus attenuatus"|2746|2513
+"Benthic species"|"Chironomus decorus"|2747|2513
+"Benthic species"|"Chironomus riparius"|2748|2513
+"Benthic species"|"Chironomus tentans"|2749|2513
+"Benthic species"|Chlamydotheca|2750|2513
+"Benthic species"|"Chlamydotheca arcuata"|2751|2513
+"Benthic species"|Chlorotabanus|2752|2513
+"Benthic species"|Chone|2753|2513
+"Benthic species"|"Chone americana"|2754|2513
+"Benthic species"|"Chone duneri"|2755|2513
+"Benthic species"|Choroterpes|2756|2513
+"Benthic species"|"Choroterpes mexicanus"|2757|2513
+"Benthic species"|Chrysomelidae|2758|2513
+"Benthic species"|Chrysops|2759|2513
+"Benthic species"|Cicadellidae|2760|2513
+"Benthic species"|"Cincinnatia cincinnatiensis"|2761|2513
+"Benthic species"|Cinygma|2762|2513
+"Benthic species"|Cinygmula|2763|2513
+"Benthic species"|Cirratulidae|2764|2513
+"Benthic species"|Cirripedia|2765|2513
+"Benthic species"|Cirrophorus|2766|2513
+"Benthic species"|"Cirrophorus americanus"|2767|2513
+"Benthic species"|"Cirrophorus furcatus"|2768|2513
+"Benthic species"|"Cirrophorus lyra"|2769|2513
+"Benthic species"|Claassenia|2770|2513
+"Benthic species"|Cladocera|2771|2513
+"Benthic species"|Cladotanytarsus|2772|2513
+"Benthic species"|"Cladotanytarsus mancus"|2773|2513
+"Benthic species"|"Clibanarius vittatus"|2774|2513
+"Benthic species"|"Climacia areolaris"|2775|2513
+"Benthic species"|Clinotanypus|2776|2513
+"Benthic species"|"Clymenella torquata"|2777|2513
+"Benthic species"|Cnephia|2778|2513
+"Benthic species"|Cochliopa|2779|2513
+"Benthic species"|"Cochliopa texana"|2780|2513
+"Benthic species"|Coelotanypus|2781|2513
+"Benthic species"|Coenagrionidae|2782|2513
+"Benthic species"|Coleoptera|2783|2513
+"Benthic species"|Collembola|2784|2513
+"Benthic species"|Conchapelopia|2785|2513
+"Benthic species"|"Conchapelopia fasciata"|2786|2513
+"Benthic species"|Conchostraca|2787|2513
+"Benthic species"|"Congeria leucophaeata"|2788|2513
+"Benthic species"|Constempellina|2789|2513
+"Benthic species"|Copelatus|2790|2513
+"Benthic species"|Copepoda|2791|2513
+"Benthic species"|Cortotomus|2792|2513
+"Benthic species"|Corbicula|2793|2513
+"Benthic species"|"Corbicula fluminea"|2794|2513
+"Benthic species"|"Corbicula manilensis"|2795|2513
+"Benthic species"|"Corbiculidae (cyrenidae)"|2796|2513
+"Benthic species"|Corbula|2797|2513
+"Benthic species"|"Corbula swiftiana"|2798|2513
+"Benthic species"|Cordulegaster|2799|2513
+"Benthic species"|Corduliidae|2800|2513
+"Benthic species"|Corethrella|2801|2513
+"Benthic species"|Corixidae|2802|2513
+"Benthic species"|"Corophium "|2803|2513
+"Benthic species"|"Corophium tuberculatum"|2804|2513
+"Benthic species"|Corydalidae|2805|2513
+"Benthic species"|Corydalus|2806|2513
+"Benthic species"|"Corydalus cornutus"|2807|2513
+"Benthic species"|Corynoneura|2808|2513
+"Benthic species"|Coryphella|2809|2513
+"Benthic species"|Cossura|2810|2513
+"Benthic species"|"Cossura delta"|2811|2513
+"Benthic species"|"Crassinella lunulata"|2812|2513
+"Benthic species"|"Crassostrea virginica"|2813|2513
+"Benthic species"|"Cratena kaoruae"|2814|2513
+"Benthic species"|Crepidula|2815|2513
+"Benthic species"|"Crepidula convexa"|2816|2513
+"Benthic species"|"Crepidula fornicata"|2817|2513
+"Benthic species"|"Crepidula plana"|2818|2513
+"Benthic species"|Cricotopus|2819|2513
+"Benthic species"|"Cricotopus bicinctus"|2820|2513
+"Benthic species"|"Cricotopus tremulus"|2821|2513
+"Benthic species"|Crustacea|2822|2513
+"Benthic species"|Cryphocricos|2823|2513
+"Benthic species"|"Cryphocricos hungerfordi"|2824|2513
+"Benthic species"|Cryptochironomus|2825|2513
+"Benthic species"|"Cryptochironomus fulvus"|2826|2513
+"Benthic species"|Cryptolabis|2827|2513
+"Benthic species"|Culex|2828|2513
+"Benthic species"|Culicidae|2829|2513
+"Benthic species"|Culicoides|2830|2513
+"Benthic species"|Cumacea|2831|2513
+"Benthic species"|"Cumulativ abun of benthic from feed grp % of com"|2832|2513
+"Benthic species"|Curculionidae|2833|2513
+"Benthic species"|Curicta|2834|2513
+"Benthic species"|Cybister|2835|2513
+"Benthic species"|Cyclaspis|2836|2513
+"Benthic species"|"Cyclaspis varians"|2837|2513
+"Benthic species"|Cyclopoida|2838|2513
+"Benthic species"|"Cyclops navus"|2839|2513
+"Benthic species"|Cyclorrhapha|2840|2513
+"Benthic species"|"Cylichna Bidentata"|2841|2513
+"Benthic species"|Cylloepus|2842|2513
+"Benthic species"|"Cylloepus abnormis"|2843|2513
+"Benthic species"|"Cymatium nicobaricum"|2844|2513
+"Benthic species"|Cymbiodyta|2845|2513
+"Benthic species"|"Cymodoce faxoni"|2846|2513
+"Benthic species"|Cyphon|2847|2513
+"Benthic species"|Cypridopsis|2848|2513
+"Benthic species"|"Cypridopsis vidua"|2849|2513
+"Benthic species"|Cyrenella|2850|2513
+"Benthic species"|"Anadara ovalis"|2564|2513
+"Benthic species"|Anax|2565|2513
+"Benthic species"|Ancistrosyllis|2566|2513
+"Benthic species"|"Ancistrosyllis jonesi"|2567|2513
+"Benthic species"|"Ancistrosyllis papillosa"|2568|2513
+"Benthic species"|"Ancistrosyllis sp b"|2569|2513
+"Benthic species"|Ancylidae|2570|2513
+"Benthic species"|Ancylus|2571|2513
+"Benthic species"|Ancyronyx|2572|2513
+"Benthic species"|"Ancyronyx variegata"|2573|2513
+"Benthic species"|Anisoptera|2574|2513
+"Benthic species"|Annelida|2575|2513
+"Benthic species"|Anodonta|2576|2513
+"Benthic species"|"Anomalocardia auberiana"|2577|2513
+"Benthic species"|"Anomia simplex"|2578|2513
+"Benthic species"|Anopheles|2579|2513
+"Benthic species"|Anoplodactylus|2580|2513
+"Benthic species"|Anostraca|2581|2513
+"Benthic species"|Anthomyiidae|2582|2513
+"Benthic species"|Aphroditacea|2583|2513
+"Benthic species"|Aphylla|2584|2513
+"Benthic species"|Aquarius|2585|2513
+"Benthic species"|"Arabella mutans"|2586|2513
+"Benthic species"|Arabellidae|2587|2513
+"Benthic species"|Archilestes|2588|2513
+"Benthic species"|Arenicola|2589|2513
+"Benthic species"|"Arenicola cristata"|2590|2513
+"Benthic species"|Argia|2591|2513
+"Benthic species"|"Argia translata"|2592|2513
+"Benthic species"|"Argia unid. sp. C"|2593|2513
+"Benthic species"|"Argia unidentified species a"|2594|2513
+"Benthic species"|"Argia unidentified species b"|2595|2513
+"Benthic species"|Argulus|2596|2513
+"Benthic species"|Aricidea|2597|2513
+"Benthic species"|"Aricidea catherinae"|2598|2513
+"Benthic species"|"Aricidea fragilis"|2599|2513
+"Benthic species"|"Aricidea phylbinae"|2600|2513
+"Benthic species"|"Aricidea suecica"|2601|2513
+"Benthic species"|"Aricidea wassi"|2602|2513
+"Benthic species"|Arigomphus|2603|2513
+"Benthic species"|"Armandia agilis"|2604|2513
+"Benthic species"|"Armandia maculata"|2605|2513
+"Benthic species"|Arrenurus|2606|2513
+"Benthic species"|Arthroplea|2607|2513
+"Benthic species"|Arthropoda|2608|2513
+"Benthic species"|Ascidiacea|2609|2513
+"Benthic species"|Asellidae|2610|2513
+"Benthic species"|Asellus|2611|2513
+"Benthic species"|Astacidae|2612|2513
+"Benthic species"|Asteroidea|2613|2513
+"Benthic species"|"Asychis elongatus"|2614|2513
+"Benthic species"|Athericidae|2615|2513
+"Benthic species"|"Atherix "|2616|2513
+"Benthic species"|"Atherix variegeta"|2617|2513
+"Benthic species"|Athripsodes|2618|2513
+"Benthic species"|"Atoperla ephyre"|2619|2513
+"Benthic species"|Atopsyche|2620|2513
+"Benthic species"|Atrichopogon|2621|2513
+"Benthic species"|Atyidae|2622|2513
+"Benthic species"|Atylus|2623|2513
+"Benthic species"|Aulodrilus|2624|2513
+"Benthic species"|"Aulodrilus pigueti"|2625|2513
+"Benthic species"|"Aulodrilus pluriseta"|2626|2513
+"Benthic species"|"Axiothella mucosa"|2627|2513
+"Benthic species"|Baetidae|2628|2513
+"Benthic species"|Baetis|2629|2513
+"Benthic species"|Baetisca|2630|2513
+"Benthic species"|Baetodes|2631|2513
+"Benthic species"|Balanoglossus|2632|2513
+"Benthic species"|Balanus|2633|2513
+"Benthic species"|"Balanus eburneus"|2634|2513
+"Benthic species"|"Balanus truncatus"|2635|2513
+"Benthic species"|Basiaeschna|2636|2513
+"Benthic species"|"Basiaeschna janata"|2637|2513
+"Benthic species"|Batracobdella|2638|2513
+"Benthic species"|"Batracobdella phalera"|2639|2513
+"Benthic species"|"Bdellodrilus illuminatus"|2640|2513
+"Benthic species"|"Belonia saturata"|2641|2513
+"Benthic species"|Belostoma|2642|2513
+"Benthic species"|Belostomatidae|2643|2513
+"Benthic species"|"Dactylobaetis mexicanus"|2851|2513
+"Benthic species"|"Daphnia pulex"|2852|2513
+"Benthic species"|Dasyhelea|2853|2513
+"Benthic species"|Decamastus|2854|2513
+"Benthic species"|Decapoda|2855|2513
+"Benthic species"|Dero|2856|2513
+"Benthic species"|"Dero digitata"|2857|2513
+"Benthic species"|"Dero trifida"|2858|2513
+"Benthic species"|Derovatellus|2859|2513
+"Benthic species"|Diamesa|2860|2513
+"Benthic species"|Diamesinae|2861|2513
+"Benthic species"|Diastylis|2862|2513
+"Benthic species"|"Diastylis quadrispinosa"|2863|2513
+"Benthic species"|"Diastylis sculpta"|2864|2513
+"Benthic species"|Dicrotendipes|2865|2513
+"Benthic species"|"Dicrotendipes modestus"|2866|2513
+"Benthic species"|"Dicrotendipes neomodestus"|2867|2513
+"Benthic species"|"Dicrotendipes nervosus"|2868|2513
+"Benthic species"|Didymops|2869|2513
+"Benthic species"|Dina|2870|2513
+"Benthic species"|"Benthic - unknown organism"|2644|2513
+"Benthic species"|Berosus|2645|2513
+"Benthic species"|"Berosus striatus"|2646|2513
+"Benthic species"|Bezzia|2647|2513
+"Benthic species"|Bidessonotus|2648|2513
+"Benthic species"|Bidessus|2649|2513
+"Benthic species"|Bittacomorpha|2650|2513
+"Benthic species"|Bittacomorphella|2651|2513
+"Benthic species"|"Boccardia hamata"|2652|2513
+"Benthic species"|Boccardiella|2653|2513
+"Benthic species"|"Boccardiella ligerica"|2654|2513
+"Benthic species"|"Bothrioneurum vejdovskyanum"|2655|2513
+"Benthic species"|Bowmaniella|2656|2513
+"Benthic species"|"Bowmaniella floridana"|2657|2513
+"Benthic species"|Boyeria|2658|2513
+"Benthic species"|"Boyeria vinosa"|2659|2513
+"Benthic species"|"Brachidontes exustus"|2660|2513
+"Benthic species"|Brachycentrus|2661|2513
+"Benthic species"|Brachycercus|2662|2513
+"Benthic species"|Brachyptera|2663|2513
+"Benthic species"|Brachyvatus|2664|2513
+"Benthic species"|Branchiobdella|2665|2513
+"Benthic species"|Branchiobdellida|2666|2513
+"Benthic species"|Branchiobdellidae|2667|2513
+"Benthic species"|Branchiura|2668|2513
+"Benthic species"|"Branchiura sowerbyi"|2669|2513
+"Benthic species"|Brechmorhoga|2670|2513
+"Benthic species"|"Brechmorhoga mendax"|2671|2513
+"Benthic species"|Brillia|2672|2513
+"Benthic species"|Brychius|2673|2513
+"Benthic species"|"Bryocamptus zschokkei"|2674|2513
+"Benthic species"|Bryozoa|2675|2513
+"Benthic species"|Buenoa|2676|2513
+"Benthic species"|"Bulimidae (Amnicolidae)"|2677|2513
+"Benthic species"|"Bunodosoma cavernata"|2678|2513
+"Benthic species"|"Caecum johnsoni"|2679|2513
+"Benthic species"|"Caecum pulchellum"|2680|2513
+"Benthic species"|Caenidae|2681|2513
+"Benthic species"|Caenis|2682|2513
+"Benthic species"|"Caenis amica"|2683|2513
+"Benthic species"|"Caenis hilaris"|2684|2513
+"Benthic species"|"Caenis unid. sp. a"|2685|2513
+"Benthic species"|Callianassa|2686|2513
+"Benthic species"|"Callianassa jamaicense louisianensis"|2687|2513
+"Benthic species"|Callibaetis|2688|2513
+"Benthic species"|"Callibaetis californicus"|2689|2513
+"Benthic species"|"Callibaetis floridanus"|2690|2513
+"Benthic species"|Callinectes|2691|2513
+"Benthic species"|"Callinectes sapidus"|2692|2513
+"Benthic species"|Calopsectra|2693|2513
+"Benthic species"|Calopterygidae|2694|2513
+"Benthic species"|Calopteryx|2695|2513
+"Benthic species"|Calphyaryphus|2696|2513
+"Benthic species"|Cambarellus|2697|2513
+"Benthic species"|Cambaridae|2698|2513
+"Benthic species"|Cambarinae|2699|2513
+"Benthic species"|Cambarus|2700|2513
+"Benthic species"|"Camelobaetidius (Formerly dactylobaetis)"|2701|2513
+"Benthic species"|"Camelobaetidius variabilis"|2702|2513
+"Benthic species"|Campeloma|2703|2513
+"Benthic species"|Campsicnemus|2704|2513
+"Benthic species"|Campsurus|2705|2513
+"Benthic species"|Cannacria|2706|2513
+"Benthic species"|"Cantharus cancellarius"|2707|2513
+"Benthic species"|Capitella|2708|2513
+"Benthic species"|"Capitella capitata"|2709|2513
+"Benthic species"|Capitellidae|2710|2513
+"Benthic species"|"Capitellides jonesi"|2711|2513
+"Benthic species"|"Capitomastus aciculatus"|2712|2513
+"Benthic species"|Caprella|2713|2513
+"Benthic species"|Caprellidae|2714|2513
+"Benthic species"|Carabidae|2715|2513
+"Benthic species"|Cardiocladius|2716|2513
+"Benthic species"|Celina|2717|2513
+"Benthic species"|Centroptilum|2718|2513
+"Benthic species"|Abedus|2514|2513
+"Benthic species"|Ablabesmyia|2515|2513
+"Benthic species"|"Ablabesmyia annulata"|2516|2513
+"Benthic species"|"Ablabesmyia mallochi"|2517|2513
+"Benthic species"|"Abra aequalis"|2518|2513
+"Benthic species"|Acamptocladius|2519|2513
+"Benthic species"|Acanthagrion|2520|2513
+"Benthic species"|Acentrella|2521|2513
+"Benthic species"|Acerpenna|2522|2513
+"Benthic species"|"Acetes americanus"|2523|2513
+"Benthic species"|Acilius|2524|2513
+"Benthic species"|Acroneuria|2525|2513
+"Benthic species"|"Acteocina canaliculata"|2526|2513
+"Benthic species"|Actiniaria|2527|2513
+"Benthic species"|Aedes|2528|2513
+"Benthic species"|Aelosomatidae|2529|2513
+"Benthic species"|Aeolosoma|2530|2513
+"Benthic species"|Aeschna|2531|2513
+"Benthic species"|Aeschnidae|2532|2513
+"Benthic species"|Agabinus|2533|2513
+"Benthic species"|Agabus|2534|2513
+"Benthic species"|Agapetus|2535|2513
+"Benthic species"|Agraylea|2536|2513
+"Benthic species"|Agrion|2537|2513
+"Benthic species"|"Agrionidae (Calopterygidae)"|2538|2513
+"Benthic species"|"Aligena texasiana"|2539|2513
+"Benthic species"|Alpheus|2540|2513
+"Benthic species"|"Alpheus heterochaelis"|2541|2513
+"Benthic species"|"Amaeana trilobata"|2542|2513
+"Benthic species"|Ambrysus|2543|2513
+"Benthic species"|"Ambrysus circumcinctus"|2544|2513
+"Benthic species"|"Ambrysus lunatus"|2545|2513
+"Benthic species"|"Ambrysus pulchellus"|2546|2513
+"Benthic species"|Ameletus|2547|2513
+"Benthic species"|Ametropus|2548|2513
+"Benthic species"|Amnicola|2549|2513
+"Benthic species"|Ampelisca|2550|2513
+"Benthic species"|"Ampelisca abdita"|2551|2513
+"Benthic species"|"Ampelisca vadorum"|2552|2513
+"Benthic species"|Ampharetidae|2553|2513
+"Benthic species"|Amphiagrion|2554|2513
+"Benthic species"|Amphinomidae|2555|2513
+"Benthic species"|"Amphipholis squamata"|2556|2513
+"Benthic species"|Amphipoda|2557|2513
+"Benthic species"|"Ampithoe Longimannia"|2558|2513
+"Benthic species"|"Amygdalum papyria"|2559|2513
+"Benthic species"|"Anachis avara"|2560|2513
+"Benthic species"|"Anachis obesa"|2561|2513
+"Benthic species"|Anacroneuria|2562|2513
+"Benthic species"|"Anadara floridana"|2563|2513
+"Benthic species"|Dineutus|2871|2513
+"Benthic species"|Diogenidae|2872|2513
+"Benthic species"|Diopatra|2873|2513
+"Benthic species"|"Diopatra cuprea"|2874|2513
+"Benthic species"|Diplectrona|2875|2513
+"Benthic species"|Diplocladius|2876|2513
+"Benthic species"|Diplodonta|2877|2513
+"Benthic species"|"Diplodonta semiaspera"|2878|2513
+"Benthic species"|"Diplothyra smythi"|2879|2513
+"Benthic species"|Diptera|2880|2513
+"Benthic species"|"Dispio uncinata"|2881|2513
+"Benthic species"|"Diversity - benthos"|2882|2513
+"Benthic species"|Dixa|2883|2513
+"Benthic species"|Dixella|2884|2513
+"Benthic species"|Dixidae|2885|2513
+"Benthic species"|Dolania|2886|2513
+"Benthic species"|Dolichopodidae|2887|2513
+"Benthic species"|Dolophilodes|2888|2513
+"Benthic species"|"Dominant benthic func feeding grp, % of communit"|2889|2513
+"Benthic species"|Donacia|2890|2513
+"Benthic species"|Dorocordulia|2891|2513
+"Benthic species"|Dorvilleidae|2892|2513
+"Benthic species"|"Dosinia discus"|2893|2513
+"Benthic species"|"Dosinia elegans"|2894|2513
+"Benthic species"|Drilonereis|2895|2513
+"Benthic species"|"Drilonereis longa"|2896|2513
+"Benthic species"|"Drilonereis magna"|2897|2513
+"Benthic species"|Dromogomphus|2898|2513
+"Benthic species"|Dryopidae|2899|2513
+"Benthic species"|Dryops|2900|2513
+"Benthic species"|Dubiraphia|2901|2513
+"Benthic species"|Dugesia|2902|2513
+"Benthic species"|"Dugesia dorotocephala"|2903|2513
+"Benthic species"|"Dugesia tigrina"|2904|2513
+"Benthic species"|Dythemis|2905|2513
+"Benthic species"|Dytiscidae|2906|2513
+"Benthic species"|Dytiscus|2907|2513
+"Benthic species"|"Eclipidrilus (mesoporodrilus)"|2908|2513
+"Benthic species"|"Edotea montosa"|2909|2513
+"Benthic species"|"Edotea triloba"|2910|2513
+"Benthic species"|Ehlersileanira|2911|2513
+"Benthic species"|"Ehlersileanira incisa"|2912|2513
+"Benthic species"|Elimia|2913|2513
+"Benthic species"|"Elimia comalensis"|2914|2513
+"Benthic species"|Ellipes|2915|2513
+"Benthic species"|Elmidae|2916|2513
+"Benthic species"|Elodes|2917|2513
+"Benthic species"|Elophila|2918|2513
+"Benthic species"|Empididae|2919|2513
+"Benthic species"|Enallagma|2920|2513
+"Benthic species"|"Enallagma boreale"|2921|2513
+"Benthic species"|Enchytraeidae|2922|2513
+"Benthic species"|Endochironomus|2923|2513
+"Benthic species"|Enochrus|2924|2513
+"Benthic species"|"Ensis minor"|2925|2513
+"Benthic species"|Ephemera|2926|2513
+"Benthic species"|"Ephemera varia"|2927|2513
+"Benthic species"|Ephemerella|2928|2513
+"Benthic species"|Ephemerellidae|2929|2513
+"Benthic species"|Ephemeridae|2930|2513
+"Benthic species"|Ephemeroptera|2931|2513
+"Benthic species"|Ephoron|2932|2513
+"Benthic species"|Ephydra|2933|2513
+"Benthic species"|"Ephydra riparia"|2934|2513
+"Benthic species"|Ephydridae|2935|2513
+"Benthic species"|Epicordulia|2936|2513
+"Benthic species"|Epitheca|2937|2513
+"Benthic species"|Epitonium|2938|2513
+"Benthic species"|"Epitonium albidum"|2939|2513
+"Benthic species"|"Epitonium humphreysi"|2940|2513
+"Benthic species"|"Epitonium rupicola"|2941|2513
+"Benthic species"|"Ept index"|2942|2513
+"Benthic species"|"Equitability - benthos"|2943|2513
+"Benthic species"|Eriocera|2944|2513
+"Benthic species"|Erioptera|2945|2513
+"Benthic species"|Erpetogomphus|2946|2513
+"Benthic species"|Erpobdellidae|2947|2513
+"Benthic species"|Erythemis|2948|2513
+"Benthic species"|"Eteone heteropoda"|2949|2513
+"Benthic species"|"Eteone lactea"|2950|2513
+"Benthic species"|Euclymene|2951|2513
+"Benthic species"|Eudorella|2952|2513
+"Benthic species"|"Eudorella truncatula"|2953|2513
+"Benthic species"|Eukiefferiella|2954|2513
+"Benthic species"|Eulalia|2955|2513
+"Benthic species"|"Eulimastoma weberi"|2956|2513
+"Benthic species"|"Eumida sanguinea"|2957|2513
+"Benthic species"|Eunicidae|2958|2513
+"Benthic species"|Euparyphus|2959|2513
+"Benthic species"|Eupera|2960|2513
+"Benthic species"|"Eupera cubensis"|2961|2513
+"Benthic species"|Eurylophella|2962|2513
+"Benthic species"|"Fallceon quilleri (formerly baetis)"|2963|2513
+"Benthic species"|"Farrodes texanus"|2964|2513
+"Benthic species"|Ferrissia|2965|2513
+"Benthic species"|Flabellifera|2966|2513
+"Benthic species"|Forcipomyia|2967|2513
+"Benthic species"|Fossaria|2968|2513
+"Benthic species"|Galerucella|2969|2513
+"Benthic species"|Gammaridae|2970|2513
+"Benthic species"|Gammarus|2971|2513
+"Benthic species"|"Gammarus fasciatus"|2972|2513
+"Benthic species"|"Gammarus lacustris"|2973|2513
+"Benthic species"|"Gammarus limnaeus"|2974|2513
+"Benthic species"|Gastropoda|2975|2513
+"Benthic species"|"Gattyana cirrosa"|2976|2513
+"Benthic species"|Gelastocoridae|2977|2513
+"Benthic species"|Gelastocoris|2978|2513
+"Benthic species"|Georyssidae|2979|2513
+"Benthic species"|Gerridae|2980|2513
+"Benthic species"|Gerris|2981|2513
+"Benthic species"|Geukensia|2982|2513
+"Benthic species"|"Geukensia demissa"|2983|2513
+"Benthic species"|Glossiphonia|2984|2513
+"Benthic species"|Glossiphoniidae|2985|2513
+"Benthic species"|Glossosomatidae|2986|2513
+"Benthic species"|Glycera|2987|2513
+"Benthic species"|"Glycera americana"|2988|2513
+"Benthic species"|"Glycinde solitaria"|2989|2513
+"Benthic species"|Glyptotendipes|2990|2513
+"Benthic species"|"Glyptotendipes senilis"|2991|2513
+"Benthic species"|Goeldichironomus|2992|2513
+"Benthic species"|"Goeldichironomus holoprasinus"|2993|2513
+"Benthic species"|"Goeldichironomus natans gr."|2994|2513
+"Benthic species"|"Goeldichironomus pictus gr."|2995|2513
+"Benthic species"|Gomphidae|2996|2513
+"Benthic species"|Gomphoides|2997|2513
+"Benthic species"|Gomphus|2998|2513
+"Benthic species"|"Gomphus (arigomphus) lentulus"|2999|2513
+"Benthic species"|"Gomphus externus"|3000|2513
+"Benthic species"|"Gomphus modestus"|3001|2513
+"Benthic species"|Goniadidae|3002|2513
+"Benthic species"|Gordius|3003|2513
+"Benthic species"|Graptocorixa|3004|2513
+"Benthic species"|"Gundlachia radiata"|3005|2513
+"Benthic species"|"Gyptis brevipalpa"|3006|2513
+"Benthic species"|"Gyptis vittata"|3007|2513
+"Benthic species"|Gyraulus|3008|2513
+"Benthic species"|Gyretes|3009|2513
+"Benthic species"|Gyrinidae|3010|2513
+"Benthic species"|Gyrinus|3011|2513
+"Benthic species"|Habrophlebia|3012|2513
+"Benthic species"|Habrophlebiodes|3013|2513
+"Benthic species"|Hagenius|3014|2513
+"Benthic species"|"Hagenius brevistylus"|3015|2513
+"Benthic species"|Haliplidae|3016|2513
+"Benthic species"|Haliplus|3017|2513
+"Benthic species"|Halobates|3018|2513
+"Benthic species"|Haplotaxis|3019|2513
+"Benthic species"|Harnischia|3020|2513
+"Benthic species"|"Harnischia edwardsi"|3021|2513
+"Benthic species"|"Hastaperla brevis"|3022|2513
+"Benthic species"|Haustoriidae|3023|2513
+"Benthic species"|"Hebetancylus excentricus"|3024|2513
+"Benthic species"|Hebrus|3025|2513
+"Benthic species"|Heleidae|3026|2513
+"Benthic species"|Helichus|3027|2513
+"Benthic species"|"Helichus immsi"|3028|2513
+"Benthic species"|"Helichus lithophilus"|3029|2513
+"Benthic species"|"Helichus suturalis"|3030|2513
+"Benthic species"|Helicopsyche|3031|2513
+"Benthic species"|Helicopsychidae|3032|2513
+"Benthic species"|Helisoma|3033|2513
+"Benthic species"|"Helisoma anceps"|3034|2513
+"Benthic species"|Helobata|3035|2513
+"Benthic species"|Helobdella|3036|2513
+"Benthic species"|"Helobdella elongata"|3037|2513
+"Benthic species"|"Helobdella stagnalis"|3038|2513
+"Benthic species"|"Helobdella triserialis"|3039|2513
+"Benthic species"|Helochares|3040|2513
+"Benthic species"|Helocordulia|3041|2513
+"Benthic species"|Helodidae|3042|2513
+"Benthic species"|Helophorus|3043|2513
+"Benthic species"|Hemerodromia|3044|2513
+"Benthic species"|"Hemiaegina minuta"|3045|2513
+"Benthic species"|Hemiptera|3046|2513
+"Benthic species"|Heptagenia|3047|2513
+"Benthic species"|Heptageniidae|3048|2513
+"Benthic species"|Herpetocypris|3049|2513
+"Benthic species"|Hesionidae|3050|2513
+"Benthic species"|Hesperocorixa|3051|2513
+"Benthic species"|Hesperophylax|3052|2513
+"Benthic species"|Hetaerina|3053|2513
+"Benthic species"|Heterelmis|3054|2513
+"Benthic species"|"Heterelmis glabra"|3055|2513
+"Benthic species"|"Heterelmis vulnerata"|3056|2513
+"Benthic species"|"Heteromastus filiformis"|3057|2513
+"Benthic species"|Heterotrissocladius|3058|2513
+"Benthic species"|Hexacylloepus|3059|2513
+"Benthic species"|"Hexacylloepus ferrugineous"|3060|2513
+"Benthic species"|Hexagenia|3061|2513
+"Benthic species"|"Hexagenia limbata"|3062|2513
+"Benthic species"|"Hexagenia rigida"|3063|2513
+"Benthic species"|Hexatoma|3064|2513
+"Benthic species"|"Hilsenhoff biotic index"|3065|2513
+"Benthic species"|Hirudinea|3066|2513
+"Benthic species"|"Hirudinidae (Hirudidae)"|3067|2513
+"Benthic species"|"Hobsonia florida"|3068|2513
+"Benthic species"|Holothuroida|3069|2513
+"Benthic species"|Homoeoneuria|3070|2513
+"Benthic species"|Homoptera|3071|2513
+"Benthic species"|"Hyalella azteca"|3072|2513
+"Benthic species"|Hydaticus|3073|2513
+"Benthic species"|Hydra|3074|2513
+"Benthic species"|"Hydra carnea"|3075|2513
+"Benthic species"|Hydracarina|3076|2513
+"Benthic species"|Hydrachna|3077|2513
+"Benthic species"|Hydraena|3078|2513
+"Benthic species"|Hydrobiidae|3079|2513
+"Benthic species"|Hydrobiomorpha|3080|2513
+"Benthic species"|Hydrobius|3081|2513
+"Benthic species"|Hydrocanthus|3082|2513
+"Benthic species"|Hydrochara|3083|2513
+"Benthic species"|Hydrochus|3084|2513
+"Benthic species"|"Hydrodroma despiciens"|3085|2513
+"Benthic species"|Hydroides|3086|2513
+"Benthic species"|"Hydroides dianthus"|3087|2513
+"Benthic species"|Hydrometra|3088|2513
+"Benthic species"|"Hydroperla crosbyl"|3089|2513
+"Benthic species"|Hydrophilidae|3090|2513
+"Benthic species"|Hydrophilus|3091|2513
+"Benthic species"|"Hydrophilus triangularis"|3092|2513
+"Benthic species"|Hydrophorus|3093|2513
+"Benthic species"|Hydroporus|3094|2513
+"Benthic species"|Hydropsyche|3095|2513
+"Benthic species"|"Hydropsyche unid. sp. a"|3096|2513
+"Benthic species"|Hydropsychidae|3097|2513
+"Benthic species"|Hydroptila|3098|2513
+"Benthic species"|Hydroptilidae|3099|2513
+"Benthic species"|Hydroscaphidae|3100|2513
+"Benthic species"|Hydrovatus|3101|2513
+"Benthic species"|Hydrozetes|3102|2513
+"Benthic species"|Hydrozoa|3103|2513
+"Benthic species"|Hydryphantes|3104|2513
+"Benthic species"|Hygrotus|3105|2513
+"Benthic species"|Hymenoptara|3106|2513
+"Benthic species"|Hyponeura|3107|2513
+"Benthic species"|"Hyponeura lucens"|3108|2513
+"Benthic species"|Ilybius|3109|2513
+"Benthic species"|"Ilyodrilus templetoni"|3110|2513
+"Benthic species"|Insecta|3111|2513
+"Benthic species"|"Ischadium recurvum"|3112|2513
+"Benthic species"|Ischnura|3113|2513
+"Benthic species"|"Isogenus (Hydroperla)"|3114|2513
+"Benthic species"|Isonychia|3115|2513
+"Benthic species"|"Isonychia sicca"|3116|2513
+"Benthic species"|"Isonychia sicca manca"|3117|2513
+"Benthic species"|Isoperla|3118|2513
+"Benthic species"|Isopoda|3119|2513
+"Benthic species"|Isotomidae|3120|2513
+"Benthic species"|Ithytrichia|3121|2513
+"Benthic species"|Kiefferulus|3122|2513
+"Benthic species"|Kurtziella|3123|2513
+"Benthic species"|Labiobaetis|3124|2513
+"Benthic species"|Laccobius|3125|2513
+"Benthic species"|"Laccophilus terminalis"|3126|2513
+"Benthic species"|"Laeonereis culveri"|3127|2513
+"Benthic species"|Lampsilis|3128|2513
+"Benthic species"|Lampyridae|3129|2513
+"Benthic species"|Lauterborniella|3130|2513
+"Benthic species"|Leitoscoloplos|3131|2513
+"Benthic species"|"Leitoscoloplos foliosus"|3132|2513
+"Benthic species"|"Leitoscoloplos fragilis"|3133|2513
+"Benthic species"|"Lembos smithi"|3134|2513
+"Benthic species"|"Lepidonotus sublevis"|3135|2513
+"Benthic species"|Lepidoptera|3136|2513
+"Benthic species"|Leptocella|3137|2513
+"Benthic species"|Leptoceridae|3138|2513
+"Benthic species"|Leptocerus|3139|2513
+"Benthic species"|"Leptochela serratorbita"|3140|2513
+"Benthic species"|Leptoconops|3141|2513
+"Benthic species"|Leptohyphes|3142|2513
+"Benthic species"|"Leptohyphes packeri"|3143|2513
+"Benthic species"|"Leptohyphes vescus"|3144|2513
+"Benthic species"|Leptophlebia|3145|2513
+"Benthic species"|Leptophlebiidae|3146|2513
+"Benthic species"|Lestes|3147|2513
+"Benthic species"|Lestidae|3148|2513
+"Benthic species"|Lethocerus|3149|2513
+"Benthic species"|"Leucon americanus"|3150|2513
+"Benthic species"|Leucotricha|3151|2513
+"Benthic species"|Leucrocuta|3152|2513
+"Benthic species"|Levinsenia|3153|2513
+"Benthic species"|Libellula|3154|2513
+"Benthic species"|Libellulidae|3155|2513
+"Benthic species"|Limnephilidae|3156|2513
+"Benthic species"|Limnephilus|3157|2513
+"Benthic species"|Limnochares|3158|2513
+"Benthic species"|Limnocoris|3159|2513
+"Benthic species"|"Limnocoris lutzi"|3160|2513
+"Benthic species"|Limnocythere|3161|2513
+"Benthic species"|Limnodrilus|3162|2513
+"Benthic species"|"Limnodrilus cervix"|3163|2513
+"Benthic species"|"Limnodrilus hoffmeisteri"|3164|2513
+"Benthic species"|"Limnodrilus udekemianus"|3165|2513
+"Benthic species"|Limnophila|3166|2513
+"Benthic species"|Limnophora|3167|2513
+"Benthic species"|"Limnophora aequifrons"|3168|2513
+"Benthic species"|Limnoporus|3169|2513
+"Benthic species"|Limonia|3170|2513
+"Benthic species"|"Lineus pallidus"|3171|2513
+"Benthic species"|Liodessus|3172|2513
+"Benthic species"|Lipogomphus|3173|2513
+"Benthic species"|Lirceus|3174|2513
+"Benthic species"|Lispe|3175|2513
+"Benthic species"|Listriella|3176|2513
+"Benthic species"|"Listriella barnardi"|3177|2513
+"Benthic species"|"Listriella clymenellae"|3178|2513
+"Benthic species"|Littoridina|3179|2513
+"Benthic species"|Loimia|3180|2513
+"Benthic species"|Lumbricidae|3181|2513
+"Benthic species"|Lumbridulidae|3182|2513
+"Benthic species"|Lumbrineridae|3183|2513
+"Benthic species"|Lumbrineris|3184|2513
+"Benthic species"|"Lumbrineris parvipedata"|3185|2513
+"Benthic species"|"Lumbrineris tenuis"|3186|2513
+"Benthic species"|"Lumbrineris verilli"|3187|2513
+"Benthic species"|Lutrochus|3188|2513
+"Benthic species"|"Lutrochus luteus"|3189|2513
+"Benthic species"|Lymnaea|3190|2513
+"Benthic species"|Lymnaeidae|3191|2513
+"Benthic species"|Lynceus|3192|2513
+"Benthic species"|"Lyonsia hyalina"|3193|2513
+"Benthic species"|Lype|3194|2513
+"Benthic species"|"Lysidice ninetta"|3195|2513
+"Benthic species"|Macoma|3196|2513
+"Benthic species"|"Macoma constricta"|3197|2513
+"Benthic species"|"Macoma mitchelli"|3198|2513
+"Benthic species"|"Macrelmis (formerly elsianus)"|3199|2513
+"Benthic species"|"Macrelmis texana (formerly elsianus texanus)"|3200|2513
+"Benthic species"|Macrobrachium|3201|2513
+"Benthic species"|"Macrobrachium carcinus"|3202|2513
+"Benthic species"|Macromia|3203|2513
+"Benthic species"|Macromiidae|3204|2513
+"Benthic species"|Macronychus|3205|2513
+"Benthic species"|"Macronychus glabratus"|3206|2513
+"Benthic species"|Macrostemum|3207|2513
+"Benthic species"|Macrostomidae|3208|2513
+"Benthic species"|Macrothemis|3209|2513
+"Benthic species"|Macrovelia|3210|2513
+"Benthic species"|Magelona|3211|2513
+"Benthic species"|"Magelona pettiboneae"|3212|2513
+"Benthic species"|"Magelona phyllisae"|3213|2513
+"Benthic species"|"Magelona rosea"|3214|2513
+"Benthic species"|"Magelona sp. 1"|3215|2513
+"Benthic species"|"Maldane sarsi"|3216|2513
+"Benthic species"|Maldanidae|3217|2513
+"Benthic species"|Malmgreniella|3218|2513
+"Benthic species"|"Malmgreniella sp. a"|3219|2513
+"Benthic species"|"Mangelia plicosa"|3220|2513
+"Benthic species"|Margaritifera|3221|2513
+"Benthic species"|Margaritiferidae|3222|2513
+"Benthic species"|Marilia|3223|2513
+"Benthic species"|"Marilia flexuosa"|3224|2513
+"Benthic species"|Marphysa|3225|2513
+"Benthic species"|Mayatrichia|3226|2513
+"Benthic species"|"Mayatrichia ponta"|3227|2513
+"Benthic species"|"Mean point score (% of community)"|3228|2513
+"Benthic species"|Mediomastus|3229|2513
+"Benthic species"|"Mediomastus ambiseta"|3230|2513
+"Benthic species"|"Mediomastus californiensis"|3231|2513
+"Benthic species"|Megalomma|3232|2513
+"Benthic species"|"Megalomma bioculatum"|3233|2513
+"Benthic species"|"Megalops stage, crab larvae"|3234|2513
+"Benthic species"|"Melinna maculata"|3235|2513
+"Benthic species"|Melita|3236|2513
+"Benthic species"|"Melita nitida"|3237|2513
+"Benthic species"|"Menippe mercenaria"|3238|2513
+"Benthic species"|"Mercenaria campechiensis"|3239|2513
+"Benthic species"|Meropelopia|3240|2513
+"Benthic species"|Mesovelia|3241|2513
+"Benthic species"|"Mesovelia mulsanti"|3242|2513
+"Benthic species"|Mesoveliidae|3243|2513
+"Benthic species"|Metrichia|3244|2513
+"Benthic species"|Metriocnemus|3245|2513
+"Benthic species"|Metrobates|3246|2513
+"Benthic species"|Miathyria|3247|2513
+"Benthic species"|Micrasema|3248|2513
+"Benthic species"|Microcylloepus|3249|2513
+"Benthic species"|"Microcylloepus pusillis"|3250|2513
+"Benthic species"|"Microcylloepus texanus"|3251|2513
+"Benthic species"|Micropanope|3252|2513
+"Benthic species"|"Micropholis atra"|3253|2513
+"Benthic species"|Micropsectra|3254|2513
+"Benthic species"|"Microstoma mooreobdella"|3255|2513
+"Benthic species"|Microtendipes|3256|2513
+"Benthic species"|Microvelia|3257|2513
+"Benthic species"|"Minuspio cirrifera"|3258|2513
+"Benthic species"|"Mitrella lunata"|3259|2513
+"Benthic species"|Molgula|3260|2513
+"Benthic species"|"Mogula manhattensis"|3261|2513
+"Benthic species"|Mollusca|3262|2513
+"Benthic species"|Monoculodes|3263|2513
+"Benthic species"|"Monoculodes edwardsi"|3264|2513
+"Benthic species"|Monopylephorus|3265|2513
+"Benthic species"|"Montacuta texasiana"|3266|2513
+"Benthic species"|"Mooreobdella microstoma"|3267|2513
+"Benthic species"|Morphocorixa|3268|2513
+"Benthic species"|Mulinia|3269|2513
+"Benthic species"|"Mulinia lateralis"|3270|2513
+"Benthic species"|Munroessa|3271|2513
+"Benthic species"|Musculium|3272|2513
+"Benthic species"|Myrmicinae|3273|2513
+"Benthic species"|Mysella|3274|2513
+"Benthic species"|"Mysella planulata"|3275|2513
+"Benthic species"|Mysidacea|3276|2513
+"Benthic species"|Mysidae|3277|2513
+"Benthic species"|"Mysidopsis bahia"|3278|2513
+"Benthic species"|"Mysidopsis bigelowi"|3279|2513
+"Benthic species"|"Mysidopsis furca"|3280|2513
+"Benthic species"|Mystacides|3281|2513
+"Benthic species"|Mytilidae|3282|2513
+"Benthic species"|"Mytilis edulis"|3283|2513
+"Benthic species"|"Mytilopsis leucophaeta"|3284|2513
+"Benthic species"|Myxosargus|3285|2513
+"Benthic species"|"Myzobdella moorei"|3286|2513
+"Benthic species"|Naididae|3287|2513
+"Benthic species"|Nadium|3288|2513
+"Benthic species"|Nais|3289|2513
+"Benthic species"|"Nais communis"|3290|2513
+"Benthic species"|"Nais elinguis"|3291|2513
+"Benthic species"|"Nais pardalis"|3292|2513
+"Benthic species"|"Nais variabilis"|3293|2513
+"Benthic species"|Nanocladius|3294|2513
+"Benthic species"|Narpus|3295|2513
+"Benthic species"|Nasiaeschna|3296|2513
+"Benthic species"|"Nasiaeschna pentacantha"|3297|2513
+"Benthic species"|Nassarius|3298|2513
+"Benthic species"|"Nassarius acutus"|3299|2513
+"Benthic species"|"Nassarius vibex"|3300|2513
+"Benthic species"|"Natica canrema"|3301|2513
+"Benthic species"|Naucoridae|3302|2513
+"Benthic species"|Neanthes|3303|2513
+"Benthic species"|"Neanthes acuminata"|3304|2513
+"Benthic species"|"Neanthes micromma"|3305|2513
+"Benthic species"|"Neanthes succinea"|3306|2513
+"Benthic species"|Nebrioporus|3307|2513
+"Benthic species"|Nectopsyche|3308|2513
+"Benthic species"|"Nectopsyche gracilis"|3309|2513
+"Benthic species"|Nehalennia|3310|2513
+"Benthic species"|"Nemata (Nematoda)"|3311|2513
+"Benthic species"|"Nematomorpha (Gordiida)"|3312|2513
+"Benthic species"|Nemertea|3313|2513
+"Benthic species"|Nemotelus|3314|2513
+"Benthic species"|Neobidessus|3315|2513
+"Benthic species"|Neochoroterpes|3316|2513
+"Benthic species"|Neoclypeodytes|3317|2513
+"Benthic species"|Neocorixa|3318|2513
+"Benthic species"|Neoelmis|3319|2513
+"Benthic species"|"Neoelmis caesa"|3320|2513
+"Benthic species"|Neoephemera|3321|2513
+"Benthic species"|Neogerris|3322|2513
+"Benthic species"|"Neopanope Texana"|3323|2513
+"Benthic species"|Neoperla|3324|2513
+"Benthic species"|Neoplea|3325|2513
+"Benthic species"|"Neoplea striola"|3326|2513
+"Benthic species"|Neoscatella|3327|2513
+"Benthic species"|Neotrichia|3328|2513
+"Benthic species"|Nepa|3329|2513
+"Benthic species"|"Nephtys incisa"|3330|2513
+"Benthic species"|Nepidae|3331|2513
+"Benthic species"|Nereidae|3332|2513
+"Benthic species"|Nereis|3333|2513
+"Benthic species"|"Nereis falsa"|3334|2513
+"Benthic species"|"Nereis lamellosa"|3335|2513
+"Benthic species"|"Nereis pelagica"|3336|2513
+"Benthic species"|"Nereis riisei"|3337|2513
+"Benthic species"|Neritidae|3338|2513
+"Benthic species"|Nerthra|3339|2513
+"Benthic species"|Neureclipsis|3340|2513
+"Benthic species"|Neurocordulia|3341|2513
+"Benthic species"|Neuroptera|3342|2513
+"Benthic species"|Nilotanypus|3343|2513
+"Benthic species"|Noctuidae|3344|2513
+"Benthic species"|Noteridae|3345|2513
+"Benthic species"|"Notomastus lobatus"|3346|2513
+"Benthic species"|Notonecta|3347|2513
+"Benthic species"|Notonectidae|3348|2513
+"Benthic species"|"Nuculana acuta"|3349|2513
+"Benthic species"|"Nuculana concentrica"|3350|2513
+"Benthic species"|Nudibranchia|3351|2513
+"Benthic species"|Nyctiophylax|3352|2513
+"Benthic species"|Nymphula|3353|2513
+"Benthic species"|Ochrotrichia|3354|2513
+"Benthic species"|Octogomphus|3355|2513
+"Benthic species"|Odonata|3356|2513
+"Benthic species"|Odontoceridae|3357|2513
+"Benthic species"|Odontomyia|3358|2513
+"Benthic species"|Odostomia|3359|2513
+"Benthic species"|"Odostomia gibossa"|3360|2513
+"Benthic species"|"Odostomia impressa"|3361|2513
+"Benthic species"|"Odostomia laevigata"|3362|2513
+"Benthic species"|Oecetis|3363|2513
+"Benthic species"|"Oecetis avara"|3364|2513
+"Benthic species"|"Oecetis cincerascens"|3365|2513
+"Benthic species"|"Oecetis eddlestoni"|3366|2513
+"Benthic species"|"Oecetis unid. sp. c"|3367|2513
+"Benthic species"|"Ogyrides alphaerostris"|3368|2513
+"Benthic species"|Oligochaeta|3369|2513
+"Benthic species"|Oligoneuriidae|3370|2513
+"Benthic species"|Onuphidae|3371|2513
+"Benthic species"|"Onuphis eremita"|3372|2513
+"Benthic species"|"Onuphis magna"|3373|2513
+"Benthic species"|Opheliidae|3374|2513
+"Benthic species"|"Ophidonais serpentina"|3375|2513
+"Benthic species"|Ophiogomphus|3376|2513
+"Benthic species"|Ophiuroidea|3377|2513
+"Benthic species"|Orbiniidae|3378|2513
+"Benthic species"|Orconectes|3379|2513
+"Benthic species"|Ordobrevia|3380|2513
+"Benthic species"|Oreianthus|3381|2513
+"Benthic species"|Oreodytes|3382|2513
+"Benthic species"|Ormosia|3383|2513
+"Benthic species"|Orthemis|3384|2513
+"Benthic species"|"Orthemis ferruginea"|3385|2513
+"Benthic species"|Orthocladiinae|3386|2513
+"Benthic species"|Orthocladius|3387|2513
+"Benthic species"|"Orthocladius dentifer"|3388|2513
+"Benthic species"|"Orthocladius sobrinus"|3389|2513
+"Benthic species"|Orthopodomyia|3390|2513
+"Benthic species"|Orthotrichia|3391|2513
+"Benthic species"|Ostracoda|3392|2513
+"Benthic species"|Owenia|3393|2513
+"Benthic species"|"Owenia fusiformis"|3394|2513
+"Benthic species"|Oxyethira|3395|2513
+"Benthic species"|"Oxyurostylis smithi"|3396|2513
+"Benthic species"|Pachydiplax|3397|2513
+"Benthic species"|Palaemonetes|3398|2513
+"Benthic species"|"Palaemonetes intermedius"|3399|2513
+"Benthic species"|"Palaemonetes kadiakensis"|3400|2513
+"Benthic species"|"Palaemonetes pugia"|3401|2513
+"Benthic species"|Palaemonidae|3402|2513
+"Benthic species"|"Paleanotus heteroseta"|3403|2513
+"Benthic species"|Palingeniidae|3404|2513
+"Benthic species"|Palpomyia|3405|2513
+"Benthic species"|"Palpomyia tibialis"|3406|2513
+"Benthic species"|Paludestrina|3407|2513
+"Benthic species"|"Pandora trilineata"|3408|2513
+"Benthic species"|Panopeus|3409|2513
+"Benthic species"|Parachironomus|3410|2513
+"Benthic species"|Paracladopelma|3411|2513
+"Benthic species"|Paracloeodes|3412|2513
+"Benthic species"|Paracymus|3413|2513
+"Benthic species"|"Paracymus subcuprens"|3414|2513
+"Benthic species"|"Paraeurythoe americana"|3415|2513
+"Benthic species"|Paragnetina|3416|2513
+"Benthic species"|Paragyractis|3417|2513
+"Benthic species"|"Paragyractis truckedlis"|3418|2513
+"Benthic species"|Paralauterborniella|3419|2513
+"Benthic species"|Paraleptophlebia|3420|2513
+"Benthic species"|Parametriocnemus|3421|2513
+"Benthic species"|Paramphinome|3422|2513
+"Benthic species"|"Paramphinome sp. b"|3423|2513
+"Benthic species"|"Paranais literalis"|3424|2513
+"Benthic species"|Parandalia|3425|2513
+"Benthic species"|"Parandalia americana"|3426|2513
+"Benthic species"|"Parandalia fauveli"|3427|2513
+"Benthic species"|"Parandalia ocularis"|3428|2513
+"Benthic species"|"Paranthus rapiformis"|3429|2513
+"Benthic species"|Paraonidae|3430|2513
+"Benthic species"|"Paraonis gracilis"|3431|2513
+"Benthic species"|Paraplea|3432|2513
+"Benthic species"|Parapoynx|3433|2513
+"Benthic species"|"Paraprionospio pinnata"|3434|2513
+"Benthic species"|Parapsyche|3435|2513
+"Benthic species"|"Paratendipes nudisquama"|3436|2513
+"Benthic species"|Paravelia|3437|2513
+"Benthic species"|Parthenopidae|3438|2513
+"Benthic species"|"Pectinaria gouldi"|3439|2513
+"Benthic species"|Pedicia|3440|2513
+"Benthic species"|Pedomoecus|3441|2513
+"Benthic species"|Pelecypoda|3442|2513
+"Benthic species"|Pelocoris|3443|2513
+"Benthic species"|Pelonomus|3444|2513
+"Benthic species"|Peloscolex|3445|2513
+"Benthic species"|"Peloscolex gabriellae"|3446|2513
+"Benthic species"|Peltodytes|3447|2513
+"Benthic species"|Peltoperla|3448|2513
+"Benthic species"|Penaeidae|3449|2513
+"Benthic species"|Penaeus|3450|2513
+"Benthic species"|"Penaeus aztecus"|3451|2513
+"Benthic species"|"Penaeus setiferus"|3452|2513
+"Benthic species"|Pentaneura|3453|2513
+"Benthic species"|Pentaneurini|3454|2513
+"Benthic species"|Pericoma|3455|2513
+"Benthic species"|Periploma|3456|2513
+"Benthic species"|"Periploma inequale"|3457|2513
+"Benthic species"|"Periploma margaritaceum"|3458|2513
+"Benthic species"|"Periploma orbiculare"|3459|2513
+"Benthic species"|Perithemis|3460|2513
+"Benthic species"|"Perithemis domitia"|3461|2513
+"Benthic species"|Perlesta|3462|2513
+"Benthic species"|"Perlesta placida"|3463|2513
+"Benthic species"|Perlidae|3464|2513
+"Benthic species"|Perlinella|3465|2513
+"Benthic species"|Perlodidae|3466|2513
+"Benthic species"|"Petricola pholadiformis"|3467|2513
+"Benthic species"|Petrophila|3468|2513
+"Benthic species"|Phaenopsectra|3469|2513
+"Benthic species"|Phanocerus|3470|2513
+"Benthic species"|"Phascolion strombi"|3471|2513
+"Benthic species"|Philopotamidae|3472|2513
+"Benthic species"|"Pholas camphechiensis"|3473|2513
+"Benthic species"|"Phoronis architecta"|3474|2513
+"Benthic species"|Phoxocephalidae|3475|2513
+"Benthic species"|Phryganea|3476|2513
+"Benthic species"|"Phyllodoce arenae"|3477|2513
+"Benthic species"|Phyllodocidae|3478|2513
+"Benthic species"|Phyllogomphoides|3479|2513
+"Benthic species"|"Phyllogomphoides allbrighti"|3480|2513
+"Benthic species"|"Phyllogomphoidea stigmatus"|3481|2513
+"Benthic species"|"Phylloicus ornatus"|3482|2513
+"Benthic species"|Phylocentropus|3483|2513
+"Benthic species"|Physella|3484|2513
+"Benthic species"|"Physella virgata"|3485|2513
+"Benthic species"|Physidae|3486|2513
+"Benthic species"|Pilargidae|3487|2513
+"Benthic species"|Pilargis|3488|2513
+"Benthic species"|"Pilargis berkeleyae"|3489|2513
+"Benthic species"|Pinnixa|3490|2513
+"Benthic species"|"Pinnixa chaetopterana"|3491|2513
+"Benthic species"|"Pinnixa cristata"|3492|2513
+"Benthic species"|"Pinnixa sayana"|3493|2513
+"Benthic species"|"Pinnotheres ostreum"|3494|2513
+"Benthic species"|Piscicolidae|3495|2513
+"Benthic species"|Pisidium|3496|2513
+"Benthic species"|"Pisidium casertanum"|3497|2513
+"Benthic species"|Pista|3498|2513
+"Benthic species"|"Pista cristata"|3499|2513
+"Benthic species"|"Pista palmata"|3500|2513
+"Benthic species"|Placobdella|3501|2513
+"Benthic species"|"Placobdella ornata"|3502|2513
+"Benthic species"|"Placobdella parasitica"|3503|2513
+"Benthic species"|Planaria|3504|2513
+"Benthic species"|Planariidae|3505|2513
+"Benthic species"|Planorbella|3506|2513
+"Benthic species"|Planorbidae|3507|2513
+"Benthic species"|Planorbula|3508|2513
+"Benthic species"|Plathemis|3509|2513
+"Benthic species"|Platyhelminthes|3510|2513
+"Benthic species"|Plauditus|3511|2513
+"Benthic species"|Plecoptera|3512|2513
+"Benthic species"|Plesiopora|3513|2513
+"Benthic species"|Pleurocera|3514|2513
+"Benthic species"|Pleuroceridae|3515|2513
+"Benthic species"|Podonominae|3516|2513
+"Benthic species"|"Polinices duplicatus"|3517|2513
+"Benthic species"|Polycentropodidae|3518|2513
+"Benthic species"|Polycentropus|3519|2513
+"Benthic species"|Polychaeta|3520|2513
+"Benthic species"|Polydora|3521|2513
+"Benthic species"|"Polydora aggregata"|3522|2513
+"Benthic species"|"Polydora caulleryi"|3523|2513
+"Benthic species"|"Polydora ciliata"|3524|2513
+"Benthic species"|"Polydora ligni"|3525|2513
+"Benthic species"|"Polydora quadrilobata"|3526|2513
+"Benthic species"|"Polydora socialis"|3527|2513
+"Benthic species"|"Polydora websteri"|3528|2513
+"Benthic species"|Polymeda|3529|2513
+"Benthic species"|"Polymesoda caroliniana"|3530|2513
+"Benthic species"|Polynoidae|3531|2513
+"Benthic species"|Polypedilum|3532|2513
+"Benthic species"|"Polypedilum digitifer"|3533|2513
+"Benthic species"|"Polypedilum flavum"|3534|2513
+"Benthic species"|"Polypedilum halterale"|3535|2513
+"Benthic species"|"Polypedilum illinoense"|3536|2513
+"Benthic species"|"Polypedilum ontario"|3537|2513
+"Benthic species"|Polyplectropus|3538|2513
+"Benthic species"|Pomatiopsis|3539|2513
+"Benthic species"|Pomatoceros|3540|2513
+"Benthic species"|"Pomatoceros americanus"|3541|2513
+"Benthic species"|Portunidae|3542|2513
+"Benthic species"|Potamanthus|3543|2513
+"Benthic species"|"Potamilla reniformis"|3544|2513
+"Benthic species"|Potamothrix|3545|2513
+"Benthic species"|"Potamothrix vejdovsky"|3546|2513
+"Benthic species"|Potamyia|3547|2513
+"Benthic species"|Potthastia|3548|2513
+"Benthic species"|Prionospio|3549|2513
+"Benthic species"|"Prionospio cirrifera"|3550|2513
+"Benthic species"|"Prionospio heterobranchia"|3551|2513
+"Benthic species"|"Prionospio pygmdea"|3552|2513
+"Benthic species"|Pristina|3553|2513
+"Benthic species"|"Pristina americana"|3554|2513
+"Benthic species"|"Pristina idrensis"|3555|2513
+"Benthic species"|"Pristina leidyi"|3556|2513
+"Benthic species"|"Pristina osborni"|3557|2513
+"Benthic species"|"Pristina sima"|3558|2513
+"Benthic species"|"Pristina synclites"|3559|2513
+"Benthic species"|Probezzia|3560|2513
+"Benthic species"|Procambarus|3561|2513
+"Benthic species"|"Procambarus clarki"|3562|2513
+"Benthic species"|"Procambarus dupratzi"|3563|2513
+"Benthic species"|Procladius|3564|2513
+"Benthic species"|"Procladius (holotanypus)"|3565|2513
+"Benthic species"|"Procloeon distinctum"|3566|2513
+"Benthic species"|"Procloeon rufostrigatum"|3567|2513
+"Benthic species"|"Procloeon, genus of mayfly"|3568|2513
+"Benthic species"|Prodiamesa|3569|2513
+"Benthic species"|Progomphus|3570|2513
+"Benthic species"|"Progomphus borealis"|3571|2513
+"Benthic species"|Promoresia|3572|2513
+"Benthic species"|Pronoterus|3573|2513
+"Benthic species"|"Prostoma graecens"|3574|2513
+"Benthic species"|"Prostoma rubrum"|3575|2513
+"Benthic species"|Protoptila|3576|2513
+"Benthic species"|Psectrocladius|3577|2513
+"Benthic species"|Psectrotanypus|3578|2513
+"Benthic species"|Psephenidae|3579|2513
+"Benthic species"|Psephenus|3580|2513
+"Benthic species"|"Psephenus texanus"|3581|2513
+"Benthic species"|"Pseudesuccinea columella"|3582|2513
+"Benthic species"|"Pseudeurythoe ambigua"|3583|2513
+"Benthic species"|Pseudocentroptiloides|3584|2513
+"Benthic species"|Pseudochironomus|3585|2513
+"Benthic species"|Pseudocloeon|3586|2513
+"Benthic species"|"Pseudocloeon propinquum"|3587|2513
+"Benthic species"|Pseudoleon|3588|2513
+"Benthic species"|Pseudolimnophila|3589|2513
+"Benthic species"|Pseudorthocladius|3590|2513
+"Benthic species"|Psychoda|3591|2513
+"Benthic species"|Psychodidae|3592|2513
+"Benthic species"|Psychomyia|3593|2513
+"Benthic species"|Psychomyiidae|3594|2513
+"Benthic species"|Pteronarcys|3595|2513
+"Benthic species"|Ptilostomis|3596|2513
+"Benthic species"|Pugesiatigrina|3597|2513
+"Benthic species"|Pycnogonid|3598|2513
+"Benthic species"|Pycnopsyche|3599|2513
+"Benthic species"|Pyralidae|3600|2513
+"Benthic species"|"Pyramidella crenulata"|3601|2513
+"Benthic species"|"Pyrgophorus spinosus"|3602|2513
+"Benthic species"|Ranatra|3603|2513
+"Benthic species"|Rangia|3604|2513
+"Benthic species"|"Rangia cuneata"|3605|2513
+"Benthic species"|"Rangia flexuosa"|3606|2513
+"Benthic species"|"Redundancy - benthos"|3607|2513
+"Benthic species"|"Retusa canaliculata"|3608|2513
+"Benthic species"|Rhagionidae|3609|2513
+"Benthic species"|Rhagovelia|3610|2513
+"Benthic species"|Rhantus|3611|2513
+"Benthic species"|Rheocricotopus|3612|2513
+"Benthic species"|"Rheocricotopus fuscipes"|3613|2513
+"Benthic species"|Rheotanytarsus|3614|2513
+"Benthic species"|"Rheotanytarsus exiguus"|3615|2513
+"Benthic species"|Rheumatobates|3616|2513
+"Benthic species"|Rhithrogena|3617|2513
+"Benthic species"|"Rhithropanopeus harrisii"|3618|2513
+"Benthic species"|Rhyacodrilus|3619|2513
+"Benthic species"|Rhyacophila|3620|2513
+"Benthic species"|Rhyacophilidae|3621|2513
+"Benthic species"|"Rhynchocoela (nemertea)"|3622|2513
+"Benthic species"|"Rictaxis punctostriatus"|3623|2513
+"Benthic species"|Sabella|3624|2513
+"Benthic species"|"Sabella melanostigma"|3625|2513
+"Benthic species"|"Sabella microphthalma"|3626|2513
+"Benthic species"|Sabellidae|3627|2513
+"Benthic species"|Saldidae|3628|2513
+"Benthic species"|Saldula|3629|2513
+"Benthic species"|Scatella|3630|2513
+"Benthic species"|Schistomeringos|3631|2513
+"Benthic species"|"Schistomeringos rudolphi"|3632|2513
+"Benthic species"|"Sciomyzidae (tetanoceridae)"|3633|2513
+"Benthic species"|Scirtes|3634|2513
+"Benthic species"|"Scolelepis squamata"|3635|2513
+"Benthic species"|"Scolelepis texana"|3636|2513
+"Benthic species"|Scoloplos|3637|2513
+"Benthic species"|"Seila adamsi"|3638|2513
+"Benthic species"|"Semele proficua"|3639|2513
+"Benthic species"|Serpulidae|3640|2513
+"Benthic species"|Sialis|3641|2513
+"Benthic species"|"Sialodea (megaloptera)"|3642|2513
+"Benthic species"|"Sigambra bassi"|3643|2513
+"Benthic species"|"Sigambra tentaculata"|3644|2513
+"Benthic species"|Simuliidae|3645|2513
+"Benthic species"|Simulium|3646|2513
+"Benthic species"|"Simulium bivittatum"|3647|2513
+"Benthic species"|"Simulium venustum"|3648|2513
+"Benthic species"|"Simulium vittatum"|3649|2513
+"Benthic species"|Siphlonuridae|3650|2513
+"Benthic species"|Siphilonurinae|3651|2513
+"Benthic species"|Siphlonurus|3652|2513
+"Benthic species"|Sipuncula|3653|2513
+"Benthic species"|"Slavina appendiculata"|3654|2513
+"Benthic species"|Smicridea|3655|2513
+"Benthic species"|Smittia|3656|2513
+"Benthic species"|Somatochlora|3657|2513
+"Benthic species"|Spanglerogyrus|3658|2513
+"Benthic species"|"Sparganophilus tamesis"|3659|2513
+"Benthic species"|Sperchon|3660|2513
+"Benthic species"|"Sperchon texana"|3661|2513
+"Benthic species"|Sphaeriidae|3662|2513
+"Benthic species"|Sphaerium|3663|2513
+"Benthic species"|"Sphaerium striatinum"|3664|2513
+"Benthic species"|"Sphaerium transversum"|3665|2513
+"Benthic species"|Sphaeromidae|3666|2513
+"Benthic species"|"Spiochaetopterus oculatus"|3667|2513
+"Benthic species"|Spionidae|3668|2513
+"Benthic species"|Spiophanes|3669|2513
+"Benthic species"|"Spiophanes bombyx"|3670|2513
+"Benthic species"|Squilla|3671|2513
+"Benthic species"|"Stactobiella (tascobia)"|3672|2513
+"Benthic species"|Staphylinidae|3673|2513
+"Benthic species"|"Stelechomyia perpulchra"|3674|2513
+"Benthic species"|Stenacron|3675|2513
+"Benthic species"|Stenelmis|3676|2513
+"Benthic species"|"Stenelmis cheryl (formerly s.bicarinata)"|3677|2513
+"Benthic species"|"Stenelmis crenata"|3678|2513
+"Benthic species"|"Stenelmis decorata"|3679|2513
+"Benthic species"|"Stenelmis new species"|3680|2513
+"Benthic species"|"Stenelmis occidentalis (was s. mexicana)"|3681|2513
+"Benthic species"|Stenochironomus|3682|2513
+"Benthic species"|Stenonema|3683|2513
+"Benthic species"|"Stenonema femoratum"|3684|2513
+"Benthic species"|"Stenothoe minuta"|3685|2513
+"Benthic species"|Stenus|3686|2513
+"Benthic species"|Sthenelais|3687|2513
+"Benthic species"|Stictochironomus|3688|2513
+"Benthic species"|Stilobezzia|3689|2513
+"Benthic species"|Stratiomyia|3690|2513
+"Benthic species"|Stratiomyidae|3691|2513
+"Benthic species"|Stratiomys|3692|2513
+"Benthic species"|Streblospio|3693|2513
+"Benthic species"|"Streblospio benedicti"|3694|2513
+"Benthic species"|Strophitus|3695|2513
+"Benthic species"|"Stylochus ellipticus"|3696|2513
+"Benthic species"|Stylogomphus|3697|2513
+"Benthic species"|Stylurus|3698|2513
+"Benthic species"|"Suphisellus bicolor "|3699|2513
+"Benthic species"|Suragina|3700|2513
+"Benthic species"|Syllidae|3701|2513
+"Benthic species"|"Syllis cornuta"|3702|2513
+"Benthic species"|"Sympetrum "|3703|2513
+"Benthic species"|"Sympleustes glaber"|3704|2513
+"Benthic species"|Syndiamesa|3705|2513
+"Benthic species"|Syrphidae|3706|2513
+"Benthic species"|Tabanidae|3707|2513
+"Benthic species"|Tabanus|3708|2513
+"Benthic species"|"Tachopteryx thoreyi"|3709|2513
+"Benthic species"|Taeniopterygidae|3710|2513
+"Benthic species"|Taeniopteryx|3711|2513
+"Benthic species"|"Tagelus divisus"|3712|2513
+"Benthic species"|Talitridae|3713|2513
+"Benthic species"|Tanaidacea|3714|2513
+"Benthic species"|Tanypodinae|3715|2513
+"Benthic species"|Tanypus|3716|2513
+"Benthic species"|"Tanypus neopunctipennis"|3717|2513
+"Benthic species"|Tanytarsini|3718|2513
+"Benthic species"|Tanytarsus|3719|2513
+"Benthic species"|"Tanytarsus glabrescens"|3720|2513
+"Benthic species"|"Taphromysis bowmanii"|3721|2513
+"Benthic species"|"Taphromysis louisianae"|3722|2513
+"Benthic species"|Tardigrada|3723|2513
+"Benthic species"|Tauriphila|3724|2513
+"Benthic species"|"Teinostoma biscaynense"|3725|2513
+"Benthic species"|Telebasis|3726|2513
+"Benthic species"|Tellina|3727|2513
+"Benthic species"|"Tellina texana"|3728|2513
+"Benthic species"|"Tellina versicolor"|3729|2513
+"Benthic species"|Tellinidae|3730|2513
+"Benthic species"|Telopelopia|3731|2513
+"Benthic species"|"Telopelopia okaboji"|3732|2513
+"Benthic species"|Tenagobia|3733|2513
+"Benthic species"|"Terebella rubra"|3734|2513
+"Benthic species"|Terebellidae|3735|2513
+"Benthic species"|Tetanocera|3736|2513
+"Benthic species"|Tetragoneuria|3737|2513
+"Benthic species"|"Texadina baretti"|3738|2513
+"Benthic species"|"Texadina sphinctostoma"|3739|2513
+"Benthic species"|Thalassema|3740|2513
+"Benthic species"|Tharyx|3741|2513
+"Benthic species"|"Tharyx marioni"|3742|2513
+"Benthic species"|"Tharyx setigera"|3743|2513
+"Benthic species"|Thaumaleidae|3744|2513
+"Benthic species"|Thermonectus|3745|2513
+"Benthic species"|"Thiara (melanoides) tuberculata"|3746|2513
+"Benthic species"|Thienemanniella|3747|2513
+"Benthic species"|Thienemannimyia|3748|2513
+"Benthic species"|Thoracica|3749|2513
+"Benthic species"|Thraulodes|3750|2513
+"Benthic species"|"Thraulodes gonzalesi"|3751|2513
+"Benthic species"|Throscinus|3752|2513
+"Benthic species"|Thyas|3753|2513
+"Benthic species"|Tipula|3754|2513
+"Benthic species"|Tipulidae|3755|2513
+"Benthic species"|Torrenticola|3756|2513
+"Benthic species"|Traverella|3757|2513
+"Benthic species"|"Traverella presidiana"|3758|2513
+"Benthic species"|Trepobates|3759|2513
+"Benthic species"|Triaenodes|3760|2513
+"Benthic species"|"Triaenodes injustus"|3761|2513
+"Benthic species"|Tribelos|3762|2513
+"Benthic species"|Trichocladius|3763|2513
+"Benthic species"|Trichocorixa|3764|2513
+"Benthic species"|Trichoptera|3765|2513
+"Benthic species"|Tricorythidae|3766|2513
+"Benthic species"|Tricorythodes|3767|2513
+"Benthic species"|"Tricorythodes albilineatus"|3768|2513
+"Benthic species"|"Tricorythodes albilineatus sp b"|3769|2513
+"Benthic species"|"Tricorythodes curvatus"|3770|2513
+"Benthic species"|Trissocladius|3771|2513
+"Benthic species"|"Tritigonia agassiz"|3772|2513
+"Benthic species"|Tropicorbis|3773|2513
+"Benthic species"|Tropisternus|3774|2513
+"Benthic species"|"Tropisternus lateralis"|3775|2513
+"Benthic species"|Truncilla|3776|2513
+"Benthic species"|"Tubifera (eristalis)"|3777|2513
+"Benthic species"|Tubifex|3778|2513
+"Benthic species"|Tubificidae|3779|2513
+"Benthic species"|"Tubulanus pellucidus"|3780|2513
+"Benthic species"|Turbellaria|3781|2513
+"Benthic species"|Turbonilla|3782|2513
+"Benthic species"|"Turbonilla hemphilli"|3783|2513
+"Benthic species"|"Turbonilla interrupta"|3784|2513
+"Benthic species"|Unio|3785|2513
+"Benthic species"|Uniomerus|3786|2513
+"Benthic species"|Unionidae|3787|2513
+"Benthic species"|Uvarus|3788|2513
+"Benthic species"|Valvatidae|3789|2513
+"Benthic species"|Velia|3790|2513
+"Benthic species"|Vellidae|3791|2513
+"Benthic species"|"Vioscalba loiuisianae"|3792|2513
+"Benthic species"|Vitrinellidae|3793|2513
+"Benthic species"|Viviparidae|3794|2513
+"Benthic species"|Viviparus|3795|2513
+"Benthic species"|"Websterinereis tridentata"|3796|2513
+"Benthic species"|Wormaldia|3797|2513
+"Benthic species"|Xenochironomus|3798|2513
+"Benthic species"|"Xenochironomus xenolabis"|3799|2513
+"Benthic species"|Xiphocentron|3800|2513
+"Benthic species"|Zaitzevia|3801|2513
+"Benthic species"|Zalutschia|3802|2513
+"Benthic species"|Zavrelia|3803|2513
+"Benthic species"|Zealeuctra|3804|2513
+"Benthic species"|Zygoptera|3805|2513
+"Fish species"|"Pomoxis nigromaculatus"|4064|3806
+"Fish species"|"Porichthys plectrodon"|4065|3806
+"Fish species"|"Porichthys porosissimus"|4066|3806
+"Fish species"|"Prionotus tribulus"|4067|3806
+"Fish species"|"Psopoeodus emiliae"|4068|3806
+"Fish species"|"Pterygoplichthys multiradiatus"|4069|3806
+"Fish species"|"Pylodictis olivaris"|4070|3806
+"Fish species"|"Sarda sarda"|4071|3806
+"Fish species"|"Sciaenidae #/sample"|4072|3806
+"Fish species"|"Sciaenops ocellata"|4073|3806
+"Fish species"|"Scomberomorus maculatus"|4074|3806
+"Fish species"|"Selene vomer"|4075|3806
+"Fish species"|"Semotilus atromaculatus"|4076|3806
+"Fish species"|"Sphoeroides parvus"|4077|3806
+"Fish species"|"Stellifer lanceolatus"|4078|3806
+"Fish species"|"Stizostedion vitreum"|4079|3806
+"Fish species"|"Strongylura marina"|4080|3806
+"Fish species"|"Symphurus plagiusa"|4081|3806
+"Fish species"|Syngnathidae|4082|3806
+"Fish species"|"Syngnathus floridae"|4083|3806
+"Fish species"|"Syngnathus louisianae"|4084|3806
+"Fish species"|"Syngnathus scovelli"|4085|3806
+"Fish species"|Synodus|4086|3806
+"Fish species"|"Synodus foetens"|4087|3806
+"Fish species"|"Tilapia aurea, blue tilapia"|4088|3806
+"Fish species"|"Tilapia mossambica"|4089|3806
+"Fish species"|"Tilapia zilli"|4090|3806
+"Fish species"|"Trachinotus falcatus"|4091|3806
+"Fish species"|"Trichiurus lepturus"|4092|3806
+"Fish species"|"Trinectes maculatus"|4093|3806
+"Fish species"|"Trogloglanis pattersoni"|4094|3806
+"Fish species"|"Umbrina coroides"|4095|3806
+"Fish species"|"Urophycis floridanus"|4096|3806
+"Fish species"|"Xiphophorus helleri"|4097|3806
+"Fish species"|"Zygonectes notatus"|4098|3806
+"Fish species"|"Achirus lineatus"|3807|3806
+"Fish species"|"Adinia xenica"|3808|3806
+"Fish species"|"Alosa chrysochloris"|3809|3806
+"Fish species"|"Ambloplites rupestris"|3810|3806
+"Fish species"|"Ameiurus melas ictaluarus melas"|3811|3806
+"Fish species"|"Ameiurus natalis ictaluarus natalis"|3812|3806
+"Fish species"|"Amia calva"|3813|3806
+"Fish species"|"Ammocrypta clara"|3814|3806
+"Fish species"|"Ammocrypta vivax"|3815|3806
+"Fish species"|"Anchoa hepsetus"|3816|3806
+"Fish species"|"Anchoa mitchilli"|3817|3806
+"Fish species"|"Anguilla rostrata"|3818|3806
+"Fish species"|Anguilliformes|3819|3806
+"Fish species"|"Aphredoderus sayanus"|3820|3806
+"Fish species"|"Aplodinotus grunniens"|3821|3806
+"Fish species"|"Archosargus probatocephalus"|3822|3806
+"Fish species"|"Arius felis"|3823|3806
+"Fish species"|"Astroscopus y-graecum"|3824|3806
+"Fish species"|"Astyanax mexicanus"|3825|3806
+"Fish species"|Atherinidae|3826|3806
+"Fish species"|"Bagre marinus"|3827|3806
+"Fish species"|"Bairdiella chrysura"|3828|3806
+"Fish species"|"Bascanichthys scuticaris"|3829|3806
+"Fish species"|Bothidae|3830|3806
+"Fish species"|Brevoortia|3831|3806
+"Fish species"|"Brevoortia gunteri"|3832|3806
+"Fish species"|"Brevoortia patronus"|3833|3806
+"Fish species"|Campostoma|3834|3806
+"Fish species"|"Campostoma anomalum"|3835|3806
+"Fish species"|"Campostoma ornatum"|3836|3806
+"Fish species"|"Caranx hippos"|3837|3806
+"Fish species"|"Carassius auratus"|3838|3806
+"Fish species"|"Carcharhinus leucas"|3839|3806
+"Fish species"|"Carcharhinus limbatus"|3840|3806
+"Fish species"|Carpiodes|3841|3806
+"Fish species"|"Carpiodes carpio"|3842|3806
+"Fish species"|"Centrarchus macropterus"|3843|3806
+"Fish species"|"Centropomus undecimalis"|3844|3806
+"Fish species"|"Centropristes philadelphicus"|3845|3806
+"Fish species"|"Chaenobryttus gulosus"|3846|3806
+"Fish species"|"Chaetodipterus faber"|3847|3806
+"Fish species"|"Chasmodes bosquianus"|3848|3806
+"Fish species"|"Chloroscombrus chrysurus"|3849|3806
+"Fish species"|"Cichlasoma cyanoguttatum"|3850|3806
+"Fish species"|Cichlidae|3851|3806
+"Fish species"|"Citharichthys macrops"|3852|3806
+"Fish species"|"Citharichthys spilopterus"|3853|3806
+"Fish species"|Clupeidae|3854|3806
+"Fish species"|"Ctenopharyhgodon idellus"|3855|3806
+"Fish species"|Cycleptus|3856|3806
+"Fish species"|"Cycleptus elongatus"|3857|3806
+"Fish species"|"Cynoscion arenarius"|3858|3806
+"Fish species"|"Cynoscion nebulosus"|3859|3806
+"Fish species"|"Cynoscion nothus"|3860|3806
+"Fish species"|"Cyprinella lutrensis notropis lutrensi"|3861|3806
+"Fish species"|"Cyprinella venustus notropis venustus"|3862|3806
+"Fish species"|Cyprinidae|3863|3806
+"Fish species"|Cyprinodon|3864|3806
+"Fish species"|"Cyprinodon exemius"|3865|3806
+"Fish species"|"Cyprinodon rubrofluviatilis"|3866|3806
+"Fish species"|"Cyprinodon spp."|3867|3806
+"Fish species"|"Cyprinodon variegatus"|3868|3806
+"Fish species"|"Cyprinus carpio"|3869|3806
+"Fish species"|"Dasyatis americana"|3870|3806
+"Fish species"|"Dasyatis sabina"|3871|3806
+"Fish species"|Dionda|3872|3806
+"Fish species"|"Dionda episcola"|3873|3806
+"Fish species"|"Dormitator maculatus"|3874|3806
+"Fish species"|Dorosoma|3875|3806
+"Fish species"|"Dorosoma cepedianum"|3876|3806
+"Fish species"|"Dorosoma petenense"|3877|3806
+"Fish species"|"Elassoma zonatum"|3878|3806
+"Fish species"|"Eleotris pisonis"|3879|3806
+"Fish species"|"Elops saurus"|3880|3806
+"Fish species"|"Erimyzon oblongus"|3881|3806
+"Fish species"|"Erimyzon succetta"|3882|3806
+"Fish species"|"Esox americanus"|3883|3806
+"Fish species"|"Esox niger"|3884|3806
+"Fish species"|Etheostoma|3885|3806
+"Fish species"|"Etheostoma asprigene"|3886|3806
+"Fish species"|"Etheostoma chlorosomum"|3887|3806
+"Fish species"|"Etheostoma fusiforme"|3888|3806
+"Fish species"|"Etheostoma gracile"|3889|3806
+"Fish species"|"Etheostoma grahmi"|3890|3806
+"Fish species"|"Etheostoma histrio"|3891|3806
+"Fish species"|"Etheostoma lepidum"|3892|3806
+"Fish species"|"Etheostoma parvipinne"|3893|3806
+"Fish species"|"Etheostoma proeliare"|3894|3806
+"Fish species"|"Etheostoma radiosum"|3895|3806
+"Fish species"|"Etheostoma spectabile"|3896|3806
+"Fish species"|"Etheostoma whipplei"|3897|3806
+"Fish species"|"Etropus crossotus"|3898|3806
+"Fish species"|Eucinostomus|3899|3806
+"Fish species"|"Eucinostomus argenteus"|3900|3806
+"Fish species"|"Eucinostomus lefroyi"|3901|3806
+"Fish species"|Fundulus|3902|3806
+"Fish species"|"Fundulus blairae"|3903|3806
+"Fish species"|"Fundulus chrysotus"|3904|3806
+"Fish species"|"Fundulus grandis"|3905|3806
+"Fish species"|"Fundulus jenkinsi"|3906|3806
+"Fish species"|"Fundulus kansae"|3907|3806
+"Fish species"|"Fundulus notatus"|3908|3806
+"Fish species"|"Fundulus olivaceus"|3909|3806
+"Fish species"|"Fundulus pulvereus"|3910|3806
+"Fish species"|"Fundulus similis"|3911|3806
+"Fish species"|"Fundulus zebrinus"|3912|3806
+"Fish species"|"Gambusia affinis"|3913|3806
+"Fish species"|"Gambusia gaigei"|3914|3806
+"Fish species"|"Gambusia geiseri"|3915|3806
+"Fish species"|"Gambusia spp."|3916|3806
+"Fish species"|Gerreidae|3917|3806
+"Fish species"|"Gnathagnus egregus"|3918|3806
+"Fish species"|"Gobiesox punctulatus"|3919|3806
+"Fish species"|"Gobiesox strumosus"|3920|3806
+"Fish species"|Gobiidae|3921|3806
+"Fish species"|"Gobiodes broussonneti"|3922|3806
+"Fish species"|"Gobionellus boleosoma"|3923|3806
+"Fish species"|"Gobionellus hastatus"|3924|3806
+"Fish species"|"Gobionellus oceanicus"|3925|3806
+"Fish species"|"Gobionellus shufeldti"|3926|3806
+"Fish species"|"Gobiosoma bosci"|3927|3806
+"Fish species"|"Gobiosoma robustum"|3928|3806
+"Fish species"|"Gymnachirus texae"|3929|3806
+"Fish species"|"Harengula jaguana"|3930|3806
+"Fish species"|"Hemicaranx amblyrhynchus"|3931|3806
+"Fish species"|"Heterandria formosa"|3932|3806
+"Fish species"|"Histrio histrio"|3933|3806
+"Fish species"|"Hybognathus hayi"|3934|3806
+"Fish species"|"Hybognathus nuchalis"|3935|3806
+"Fish species"|"Hybognathus placitus"|3936|3806
+"Fish species"|Hypleurochilus|3937|3806
+"Fish species"|"Hypostomus plecostomus"|3938|3806
+"Fish species"|Hypsoblennius|3939|3806
+"Fish species"|"Hypsoblennius ionthas"|3940|3806
+"Fish species"|"Ichthyomyzon castaneus"|3941|3806
+"Fish species"|"Ichthyomyzon gagei"|3942|3806
+"Fish species"|Ictaluridae|3943|3806
+"Fish species"|Ictalurus|3944|3806
+"Fish species"|"Ictalurus furcatus"|3945|3806
+"Fish species"|"Ictalurus lupus"|3946|3806
+"Fish species"|"Ictalurus punctatus"|3947|3806
+"Fish species"|Ictiobus|3948|3806
+"Fish species"|"Ictiobus bubalus"|3949|3806
+"Fish species"|"Ictiobus cyprinellus"|3950|3806
+"Fish species"|"Ictiobus niger"|3951|3806
+"Fish species"|"Individuals as non-native species"|3952|3806
+"Fish species"|Labidesthes|3953|3806
+"Fish species"|"Labidesthes sicculus"|3954|3806
+"Fish species"|"Lagodon rhomboides"|3955|3806
+"Fish species"|"Leiostomus xanthurus"|3956|3806
+"Fish species"|Lepisosteus|3957|3806
+"Fish species"|"Lepisosteus oculatus"|3958|3806
+"Fish species"|"lepisosteus osseus"|3959|3806
+"Fish species"|"Lepisosteus platostomus"|3960|3806
+"Fish species"|"Lepisosteus spatula"|3961|3806
+"Fish species"|Lepomis|3962|3806
+"Fish species"|"Lepomis auritus"|3963|3806
+"Fish species"|"Lepomis cyanellus"|3964|3806
+"Fish species"|"Lepomis gulosus"|3965|3806
+"Fish species"|"Lepomis humilis"|3966|3806
+"Fish species"|"Lepomis macrochirus"|3967|3806
+"Fish species"|"Lepomis macrochirus x lepomis cyanellus (#/samp)"|3968|3806
+"Fish species"|"Lepomis marginatus"|3969|3806
+"Fish species"|"Lepomis megalotis"|3970|3806
+"Fish species"|"Lepomis microlophus"|3971|3806
+"Fish species"|"Lepomis punctatus"|3972|3806
+"Fish species"|"Lepomis symmetricus"|3973|3806
+"Fish species"|"Lucania parva"|3974|3806
+"Fish species"|"Luxilus chrysocephalus n.chrysocephal"|3975|3806
+"Fish species"|"Lythrurus fumeus notropis fumeus"|3976|3806
+"Fish species"|"Lythrurus umbratilis notropis umbratil"|3977|3806
+"Fish species"|"Macrhybopsis aestivalis h.aestivalis"|3978|3806
+"Fish species"|"Megalops atlanticus"|3979|3806
+"Fish species"|"Membras martinica"|3980|3806
+"Fish species"|"Menidia audens"|3981|3806
+"Fish species"|"Menidia beryllina"|3982|3806
+"Fish species"|"Menidia peninsulae"|3983|3806
+"Fish species"|"Menticirrhus americanus"|3984|3806
+"Fish species"|"Menticirrhus littoralis"|3985|3806
+"Fish species"|"Microgobius gulosus"|3986|3806
+"Fish species"|"Microgobius thalassinus"|3987|3806
+"Fish species"|Micropogon|3988|3806
+"Fish species"|"Micropogon undulatus"|3989|3806
+"Fish species"|"Micropogonias undulatus"|3990|3806
+"Fish species"|Micropterus|3991|3806
+"Fish species"|"Micropterus dolomieu m. dolomieui"|3992|3806
+"Fish species"|"Micropterus punctulatus"|3993|3806
+"Fish species"|"Micropterus salmoides"|3994|3806
+"Fish species"|"Micropterus treculi"|3995|3806
+"Fish species"|"Minytrema melanops"|3996|3806
+"Fish species"|"Morone chrysops"|3997|3806
+"Fish species"|"Morone mississippiensis"|3998|3806
+"Fish species"|"Morone saxatilis"|3999|3806
+"Fish species"|"Morone saxatilis x m. chrysops hybrid #/sample"|4000|3806
+"Fish species"|"Moxostoma congestum"|4001|3806
+"Fish species"|"Moxostoma erythurum"|4002|3806
+"Fish species"|"Moxostoma poecilurum"|4003|3806
+"Fish species"|Mugil|4004|3806
+"Fish species"|"Mugil cephalus"|4005|3806
+"Fish species"|"Mugil curema"|4006|3806
+"Fish species"|"Myrophis punctatus"|4007|3806
+"Fish species"|"Mystriophis punctifer"|4008|3806
+"Fish species"|"Notemigonus crysoleucas"|4009|3806
+"Fish species"|Notropis|4010|3806
+"Fish species"|"Notropis amabilis"|4011|3806
+"Fish species"|"Notropis amnis"|4012|3806
+"Fish species"|"Notropis antherinoides"|4013|3806
+"Fish species"|"Notropis atrocaudalis"|4014|3806
+"Fish species"|"Notropis bairdi"|4015|3806
+"Fish species"|"Notropis blennius"|4016|3806
+"Fish species"|"Notropis braytoni"|4017|3806
+"Fish species"|"Notropis buccula"|4018|3806
+"Fish species"|"Notropis buchanani"|4019|3806
+"Fish species"|"Notropis chalybaeus"|4020|3806
+"Fish species"|"Notropis cornutus"|4021|3806
+"Fish species"|"Notropis oxyrhyncus"|4022|3806
+"Fish species"|"Notropis proserpinus"|4023|3806
+"Fish species"|"Notropis sabinae"|4024|3806
+"Fish species"|"Notropis shumardi"|4025|3806
+"Fish species"|"Notropis stramineus"|4026|3806
+"Fish species"|"Notropis texanus"|4027|3806
+"Fish species"|"Notropis volucellis"|4028|3806
+"Fish species"|"Noturus gyrinus"|4029|3806
+"Fish species"|"Noturus nocturnus"|4030|3806
+"Fish species"|"Oligoplites saurus"|4031|3806
+"Fish species"|"Oncorhynchus mykiss salmo gairdneri"|4032|3806
+"Fish species"|"Ophichthus gomesi"|4033|3806
+"Fish species"|"Opisthonema oglinum"|4034|3806
+"Fish species"|"Opsanus beta"|4035|3806
+"Fish species"|"Opsopoeodus emiliae notropis emiliae"|4036|3806
+"Fish species"|"Orthopristis chrysopterus"|4037|3806
+"Fish species"|Osteichthyes|4038|3806
+"Fish species"|"Paralichthys lethostigma"|4039|3806
+"Fish species"|"Parexocoetus brachypterus"|4040|3806
+"Fish species"|"Peprilus alepidotus"|4041|3806
+"Fish species"|"Peprilus burti"|4042|3806
+"Fish species"|"Peprilus paru"|4043|3806
+"Fish species"|"Perca flavescens"|4044|3806
+"Fish species"|"Percina caprodes"|4045|3806
+"Fish species"|"Percina carbonaria"|4046|3806
+"Fish species"|"Percina macrolepida"|4047|3806
+"Fish species"|"Percina maculata"|4048|3806
+"Fish species"|"Percina sciera"|4049|3806
+"Fish species"|"Percina shumardi"|4050|3806
+"Fish species"|"Phenacobius mirabilis"|4051|3806
+"Fish species"|Pimephales|4052|3806
+"Fish species"|"Pimephales notatus"|4053|3806
+"Fish species"|"Pimephales promelas"|4054|3806
+"Fish species"|"Pimephales vigilax"|4055|3806
+"Fish species"|"Plecostomus plecostomus"|4056|3806
+"Fish species"|"Poecilia formosa"|4057|3806
+"Fish species"|"Poecilia latipinna"|4058|3806
+"Fish species"|"Pogonias cromis"|4059|3806
+"Fish species"|"Polydactylus octonemus"|4060|3806
+"Fish species"|"Pomatomus saltatrix"|4061|3806
+"Fish species"|Pomoxis|4062|3806
+"Fish species"|"Pomoxis annularis"|4063|3806
+"Macrophyte species"|Acnida|4100|4099
+"Macrophyte species"|Alisma|4101|4099
+"Macrophyte species"|Alternanthera|4102|4099
+"Macrophyte species"|Ambrosia|4103|4099
+"Macrophyte species"|"Anacharis (elodea)"|4104|4099
+"Macrophyte species"|Azolla|4105|4099
+"Macrophyte species"|Bacopa|4106|4099
+"Macrophyte species"|Boehmaria|4107|4099
+"Macrophyte species"|Ceratophyllum|4108|4099
+"Macrophyte species"|"Ceratophyllum demersum"|4109|4099
+"Macrophyte species"|Chara|4110|4099
+"Macrophyte species"|Chlorophyta|4111|4099
+"Macrophyte species"|"Cladium jamaicensis"|4112|4099
+"Macrophyte species"|Cyperus|4113|4099
+"Macrophyte species"|"Diversity - macrophytes"|4114|4099
+"Macrophyte species"|Echinodorus|4115|4099
+"Macrophyte species"|"Egeria densa"|4116|4099
+"Macrophyte species"|Eichhornia|4117|4099
+"Macrophyte species"|Elatine|4118|4099
+"Macrophyte species"|Gramineae|4119|4099
+"Macrophyte species"|Heteranthera|4120|4099
+"Macrophyte species"|"Hydrilla verticillata"|4121|4099
+"Macrophyte species"|Hydrocotyle|4122|4099
+"Macrophyte species"|Lemna|4123|4099
+"Macrophyte species"|"Ludwigia decurrens"|4124|4099
+"Macrophyte species"|"Ludwigia (jussiaea)"|4125|4099
+"Macrophyte species"|Lythrum|4126|4099
+"Macrophyte species"|"Macrophytes sampled - none present"|4127|4099
+"Macrophyte species"|Marsilea|4128|4099
+"Macrophyte species"|"Mikania scandens"|4129|4099
+"Macrophyte species"|Myriophyllum|4130|4099
+"Macrophyte species"|"Myriophyllum brasiliense"|4131|4099
+"Macrophyte species"|Najas|4132|4099
+"Macrophyte species"|Nuphar|4133|4099
+"Macrophyte species"|"Phragmites communis"|4134|4099
+"Macrophyte species"|Phyla|4135|4099
+"Macrophyte species"|Polygonum|4136|4099
+"Macrophyte species"|Potamogeton|4137|4099
+"Macrophyte species"|"Potamogeton crispus"|4138|4099
+"Macrophyte species"|"Rorippa nasturtium - aquaticum"|4139|4099
+"Macrophyte species"|Rotala|4140|4099
+"Macrophyte species"|"Rotala ramosior"|4141|4099
+"Macrophyte species"|Sabol|4142|4099
+"Macrophyte species"|Sagittaria|4143|4099
+"Macrophyte species"|"Sagittaria falcata"|4144|4099
+"Macrophyte species"|"Sagittaria lancifolia"|4145|4099
+"Macrophyte species"|Salix|4146|4099
+"Macrophyte species"|"Sapium sebiferum"|4147|4099
+"Macrophyte species"|Saururus|4148|4099
+"Macrophyte species"|"Saururus cernuus"|4149|4099
+"Macrophyte species"|Scirpus|4150|4099
+"Macrophyte species"|Spirodela|4151|4099
+"Macrophyte species"|Utricularia|4152|4099
+"Macrophyte species"|"Zizaniopsis miliacea"|4153|4099
+"Nekton species"|"Alligator mississippiensis"|4155|4154
+"Nekton species"|Amphibia|4156|4154
+"Nekton species"|"Arenaeus cribrarius"|4157|4154
+"Nekton species"|"Callinectes sapidus"|4158|4154
+"Nekton species"|"Callinectes similis"|4159|4154
+"Nekton species"|Cambarus|4160|4154
+"Nekton species"|"Chrysemys scripta"|4161|4154
+"Nekton species"|Decopoda|4162|4154
+"Nekton species"|"Diversity - nekton"|4163|4154
+"Nekton species"|"Equitability - nekton"|4164|4154
+"Nekton species"|Lolliguncula|4165|4154
+"Nekton species"|"Lolliguncula (loligo) brevis"|4166|4154
+"Nekton species"|Machrobrachium|4167|4154
+"Nekton species"|"Machrobrachium acanthurus"|4168|4154
+"Nekton species"|"Machrobrachium ohione"|4169|4154
+"Nekton species"|"Menippe mercenaria"|4170|4154
+"Nekton species"|Mollusca|4171|4154
+"Nekton species"|"Nekton organisms - none present"|4172|4154
+"Nekton species"|"Neopanope texana texana"|4173|4154
+"Nekton species"|Paguridae|4174|4154
+"Nekton species"|"Pagurus politus"|4175|4154
+"Nekton species"|Palaemonetes|4176|4154
+"Nekton species"|"Palaemonetes pugio"|4177|4154
+"Nekton species"|"Palaemonetes vulgaris"|4178|4154
+"Nekton species"|"Penaeus aztecus"|4179|4154
+"Nekton species"|"Penaeus duorarum"|4180|4154
+"Nekton species"|"Penaeus setiferus"|4181|4154
+"Nekton species"|Pseudemys|4182|4154
+"Nekton species"|Rana|4183|4154
+"Nekton species"|"Rhithropanopeus harrissii"|4184|4154
+"Nekton species"|"Sicyonia dorsalis"|4185|4154
+"Nekton species"|Squilla|4186|4154
+"Nekton species"|Stomolophus|4187|4154
+"Nekton species"|"Trachemys scripta elegans"|4188|4154
+"Nekton species"|"Trachypenaeus spp."|4189|4154
+"Nekton species"|Xanthidae|4190|4154
+"Nekton species"|"Xiphopeneus kroyeri"|4191|4154
+"Phytoplankton species"|"Rhopalodia gibba"|4497|4192
+"Phytoplankton species"|Scenedesmus|4498|4192
+"Phytoplankton species"|"Scenedesmus acuminatus"|4499|4192
+"Phytoplankton species"|"Scenedesmus armatus"|4500|4192
+"Phytoplankton species"|"Scenedesmus bijuga"|4501|4192
+"Phytoplankton species"|"Scenedesmus denticulatus"|4502|4192
+"Phytoplankton species"|"Scenedesmus dimorphus"|4503|4192
+"Phytoplankton species"|"Scenedesmus quadricauda"|4504|4192
+"Phytoplankton species"|"Schizomeris leibleinii"|4505|4192
+"Phytoplankton species"|Schroederia|4506|4192
+"Phytoplankton species"|Scoliopleura|4507|4192
+"Phytoplankton species"|"Scytonema myochrous"|4508|4192
+"Phytoplankton species"|Selenastrum|4509|4192
+"Phytoplankton species"|Skeletonema|4510|4192
+"Phytoplankton species"|"Skeletonema costatum"|4511|4192
+"Phytoplankton species"|Sphaerocystis|4512|4192
+"Phytoplankton species"|Spirogyra|4513|4192
+"Phytoplankton species"|Spirulina|4514|4192
+"Phytoplankton species"|Spondylosium|4515|4192
+"Phytoplankton species"|Staurastrum|4516|4192
+"Phytoplankton species"|Stephanodiscus|4517|4192
+"Phytoplankton species"|"Stephanodiscus astrea"|4518|4192
+"Phytoplankton species"|Stephanopyxis|4519|4192
+"Phytoplankton species"|"Stephanopyxis palmeriana"|4520|4192
+"Phytoplankton species"|"Stephanopyxis turris"|4521|4192
+"Phytoplankton species"|"Stipitococcus vasiformis"|4522|4192
+"Phytoplankton species"|Striatella|4523|4192
+"Phytoplankton species"|Surirella|4524|4192
+"Phytoplankton species"|"Surirella fastuoso"|4525|4192
+"Phytoplankton species"|"Surirella striatula"|4526|4192
+"Phytoplankton species"|Synedra|4527|4192
+"Phytoplankton species"|"Synedra acus"|4528|4192
+"Phytoplankton species"|"Synedra fasciculata"|4529|4192
+"Phytoplankton species"|"Synedra superba"|4530|4192
+"Phytoplankton species"|"Synedra ulna"|4531|4192
+"Phytoplankton species"|Synura|4532|4192
+"Phytoplankton species"|"Synura uvella"|4533|4192
+"Phytoplankton species"|Tabellaria|4534|4192
+"Phytoplankton species"|Terpsinoe|4535|4192
+"Phytoplankton species"|"Terpsinoe americana"|4536|4192
+"Phytoplankton species"|Tetradesmus|4537|4192
+"Phytoplankton species"|Tetraedron|4538|4192
+"Phytoplankton species"|"Tetraedron minimum"|4539|4192
+"Phytoplankton species"|"Tetraedron trigonum"|4540|4192
+"Phytoplankton species"|"Tetraspora lacustris"|4541|4192
+"Phytoplankton species"|Tetrastrum|4542|4192
+"Phytoplankton species"|Thalassionema|4543|4192
+"Phytoplankton species"|"Thalassionema nitzchioides"|4544|4192
+"Phytoplankton species"|Thalassiosira|4545|4192
+"Phytoplankton species"|"Thalassiosira aestivalis"|4546|4192
+"Phytoplankton species"|"Thalassiosira decipiens"|4547|4192
+"Phytoplankton species"|"Thalassiosira gravida"|4548|4192
+"Phytoplankton species"|"Thalassiosira rotula"|4549|4192
+"Phytoplankton species"|Thalassiothrix|4550|4192
+"Phytoplankton species"|"Thalassiothrix frauenfeldii"|4551|4192
+"Phytoplankton species"|"Thalassiothrix longissima"|4552|4192
+"Phytoplankton species"|"Thalassiothrix mediterranea"|4553|4192
+"Phytoplankton species"|Trachelomonas|4554|4192
+"Phytoplankton species"|Tribonema|4555|4192
+"Phytoplankton species"|Ulothrix|4556|4192
+"Phytoplankton species"|"Ulothrix cylindricum"|4557|4192
+"Phytoplankton species"|"Ulothrix zonata"|4558|4192
+"Phytoplankton species"|Volvox|4559|4192
+"Phytoplankton species"|Zygnema|4560|4192
+"Phytoplankton species"|Zygnemopsis|4561|4192
+"Phytoplankton species"|Euglenophyta|4351|4192
+"Phytoplankton species"|Eunotia|4352|4192
+"Phytoplankton species"|"Eupodiscus radiatus"|4353|4192
+"Phytoplankton species"|Eutreptia|4354|4192
+"Phytoplankton species"|Exuviaella|4355|4192
+"Phytoplankton species"|"Exuviaella baltica"|4356|4192
+"Phytoplankton species"|Fragilaria|4357|4192
+"Phytoplankton species"|"Fragilaria crotonensis"|4358|4192
+"Phytoplankton species"|Frustulia|4359|4192
+"Phytoplankton species"|Geminella|4360|4192
+"Phytoplankton species"|Glenodinium|4361|4192
+"Phytoplankton species"|"Glenodinium armatum"|4362|4192
+"Phytoplankton species"|Gloeocapsa|4363|4192
+"Phytoplankton species"|Gloeocystis|4364|4192
+"Phytoplankton species"|Golenkinia|4365|4192
+"Phytoplankton species"|Golenkiniopsis|4366|4192
+"Phytoplankton species"|Gomphonema|4367|4192
+"Phytoplankton species"|Gomphosphaeria|4368|4192
+"Phytoplankton species"|Gonium|4369|4192
+"Phytoplankton species"|Gonyaulax|4370|4192
+"Phytoplankton species"|"Gonyaulax monilata"|4371|4192
+"Phytoplankton species"|Guinardia|4372|4192
+"Phytoplankton species"|"Guinardia flaccida"|4373|4192
+"Phytoplankton species"|Gymnodinium|4374|4192
+"Phytoplankton species"|Gyrosigma|4375|4192
+"Phytoplankton species"|"Gyrosigma balticum"|4376|4192
+"Phytoplankton species"|Haematococcus|4377|4192
+"Phytoplankton species"|Hapalosiphon|4378|4192
+"Phytoplankton species"|Hemiaulus|4379|4192
+"Phytoplankton species"|"Hemiaulus hauckii"|4380|4192
+"Phytoplankton species"|"Hemiaulus membranaceous"|4381|4192
+"Phytoplankton species"|"Hemiaulus sinensis"|4382|4192
+"Phytoplankton species"|"Hemidiscus hardmanianus"|4383|4192
+"Phytoplankton species"|Hyalotheca|4384|4192
+"Phytoplankton species"|Hydrodictyon|4385|4192
+"Phytoplankton species"|Hydrosera|4386|4192
+"Phytoplankton species"|Hypnodinium|4387|4192
+"Phytoplankton species"|Keriochlamys|4388|4192
+"Phytoplankton species"|Kirchneriella|4389|4192
+"Phytoplankton species"|"Lagerheimia quadriseta"|4390|4192
+"Phytoplankton species"|"Lagerheimia (chodatella)"|4391|4192
+"Phytoplankton species"|Lauderia|4392|4192
+"Phytoplankton species"|"Lauderia borealis"|4393|4192
+"Phytoplankton species"|Leptocylindricus|4394|4192
+"Phytoplankton species"|"Leptocylindricus danicus"|4395|4192
+"Phytoplankton species"|Licmophora|4396|4192
+"Phytoplankton species"|"Lithodesmium undulatum"|4397|4192
+"Phytoplankton species"|Lyngbya|4398|4192
+"Phytoplankton species"|Mallomonas|4399|4192
+"Phytoplankton species"|"Mallomonas pseudocoronata"|4400|4192
+"Phytoplankton species"|Melosira|4401|4192
+"Phytoplankton species"|"Melosira crenulata"|4402|4192
+"Phytoplankton species"|"Melosira distans"|4403|4192
+"Phytoplankton species"|"Melosira granulata"|4404|4192
+"Phytoplankton species"|"Melosira herzogii"|4405|4192
+"Phytoplankton species"|"Melosira moniliformis"|4406|4192
+"Phytoplankton species"|"Melosira numuloides"|4407|4192
+"Phytoplankton species"|"Melosira varians"|4408|4192
+"Phytoplankton species"|Meridion|4409|4192
+"Phytoplankton species"|Merismopedia|4410|4192
+"Phytoplankton species"|Micractinium|4411|4192
+"Phytoplankton species"|Micrasterias|4412|4192
+"Phytoplankton species"|Anisonema|4211|4192
+"Phytoplankton species"|Ankistrodesmus|4212|4192
+"Phytoplankton species"|"Ankistrodesmus falcatus"|4213|4192
+"Phytoplankton species"|Anomoeoneis|4214|4192
+"Phytoplankton species"|Aphanizomenon|4215|4192
+"Phytoplankton species"|"Aphanizomenon holsaticum (flos-aquae)"|4216|4192
+"Phytoplankton species"|Arthrospira|4217|4192
+"Phytoplankton species"|Astrionella|4218|4192
+"Phytoplankton species"|"Asterionella formosa"|4219|4192
+"Phytoplankton species"|"Asterionella japonica"|4220|4192
+"Phytoplankton species"|Asterococcus|4221|4192
+"Phytoplankton species"|"Auliscus coelatus"|4222|4192
+"Phytoplankton species"|Bacillariophyceae|4223|4192
+"Phytoplankton species"|Bacillariophyceae-centric|4224|4192
+"Phytoplankton species"|Bacillariophyceae-pennate|4225|4192
+"Phytoplankton species"|Bacteriastrum|4226|4192
+"Phytoplankton species"|Microspora|4413|4192
+"Phytoplankton species"|Mougeotia|4414|4192
+"Phytoplankton species"|"Mougeotia scalaris"|4415|4192
+"Phytoplankton species"|Nanochloris|4416|4192
+"Phytoplankton species"|Navicula|4417|4192
+"Phytoplankton species"|Nephrocytium|4418|4192
+"Phytoplankton species"|"Nephrocytium limneticum"|4419|4192
+"Phytoplankton species"|Nitzschia|4420|4192
+"Phytoplankton species"|"Nitzschia closterium"|4421|4192
+"Phytoplankton species"|"Nitzschia dubia"|4422|4192
+"Phytoplankton species"|"Nitzschia holsatica"|4423|4192
+"Phytoplankton species"|"Nitzschia hungarica"|4424|4192
+"Phytoplankton species"|"Nitzschia longissima"|4425|4192
+"Phytoplankton species"|"Nitzschia lorenziana"|4426|4192
+"Phytoplankton species"|"Nitzschia palea"|4427|4192
+"Phytoplankton species"|"Nitzschia paradoxa"|4428|4192
+"Phytoplankton species"|"Nitzschia pungens"|4429|4192
+"Phytoplankton species"|"Nitzschia seriata"|4430|4192
+"Phytoplankton species"|"Nitzschia sigma"|4431|4192
+"Phytoplankton species"|"Nitzschia sigmoidea"|4432|4192
+"Phytoplankton species"|Nodularia|4433|4192
+"Phytoplankton species"|Nostoc|4434|4192
+"Phytoplankton species"|Oedogonium|4435|4192
+"Phytoplankton species"|Oocystis|4436|4192
+"Phytoplankton species"|Opephora|4437|4192
+"Phytoplankton species"|Ophiocytium|4438|4192
+"Phytoplankton species"|Oscillatoria|4439|4192
+"Phytoplankton species"|"Oscillatoria granulata"|4440|4192
+"Phytoplankton species"|Ourococcus|4441|4192
+"Phytoplankton species"|Oxytoxum|4442|4192
+"Phytoplankton species"|Palmella|4443|4192
+"Phytoplankton species"|Palmellococcus|4444|4192
+"Phytoplankton species"|Pandorina|4445|4192
+"Phytoplankton species"|Pectodictyon|4446|4192
+"Phytoplankton species"|Pediastrum|4447|4192
+"Phytoplankton species"|"Pediastrum biradiatum"|4448|4192
+"Phytoplankton species"|"Pediastrum boryanum"|4449|4192
+"Phytoplankton species"|"Pediastrum duplex"|4450|4192
+"Phytoplankton species"|"Pediastrum integrum"|4451|4192
+"Phytoplankton species"|"Pediastrum simplex"|4452|4192
+"Phytoplankton species"|Peridinium|4453|4192
+"Phytoplankton species"|"Peridinium claudicans"|4454|4192
+"Phytoplankton species"|"Peridinium tuba"|4455|4192
+"Phytoplankton species"|"Peridinium venustum"|4456|4192
+"Phytoplankton species"|Phacus|4457|4192
+"Phytoplankton species"|Phormidium|4458|4192
+"Phytoplankton species"|Phyllobium|4459|4192
+"Phytoplankton species"|Phytoconis|4460|4192
+"Phytoplankton species"|"Phytoplankton - unknown organism"|4461|4192
+"Phytoplankton species"|Pinnularia|4462|4192
+"Phytoplankton species"|Planktosphaeria|4463|4192
+"Phytoplankton species"|"Planktosphaeria gelatinosa"|4464|4192
+"Phytoplankton species"|Platydorina|4465|4192
+"Phytoplankton species"|Pleurosigma|4466|4192
+"Phytoplankton species"|Prorocentrum|4467|4192
+"Phytoplankton species"|"Prorocentrum gracile"|4468|4192
+"Phytoplankton species"|"Prorocentrum mariae-lebourae"|4469|4192
+"Phytoplankton species"|"Prorocentrum maximum"|4470|4192
+"Phytoplankton species"|Protococcus|4471|4192
+"Phytoplankton species"|"Prymnesium parvum"|4472|4192
+"Phytoplankton species"|Pyrobotrys|4473|4192
+"Phytoplankton species"|Pyrrophyta|4474|4192
+"Phytoplankton species"|Quadrigula|4475|4192
+"Phytoplankton species"|"Quadrigula chodatii"|4476|4192
+"Phytoplankton species"|Radiofilum|4477|4192
+"Phytoplankton species"|Rhabdoderma|4478|4192
+"Phytoplankton species"|"Rhizochrysis limnetica"|4479|4192
+"Phytoplankton species"|Rhizosolenia|4480|4192
+"Phytoplankton species"|"Rhizosolenia alata"|4481|4192
+"Phytoplankton species"|"Rhizosolenia alata f. indica"|4482|4192
+"Phytoplankton species"|"Rhizosolenia bergonii"|4483|4192
+"Phytoplankton species"|"Rhizosolenia calcar avis"|4484|4192
+"Phytoplankton species"|"Rhizosolenia castracaneis"|4485|4192
+"Phytoplankton species"|"Rhizosolenia curvisetum"|4486|4192
+"Phytoplankton species"|"Rhizosolenia delicatala"|4487|4192
+"Phytoplankton species"|"Rhizosolenia eriensis"|4488|4192
+"Phytoplankton species"|"Rhizosolenia imbricata"|4489|4192
+"Phytoplankton species"|"Rhizosolenia robusta"|4490|4192
+"Phytoplankton species"|"Rhizosolenia setigera"|4491|4192
+"Phytoplankton species"|"Rhizosolenia shrubsolei"|4492|4192
+"Phytoplankton species"|"Rhizosolenia stolterfothii"|4493|4192
+"Phytoplankton species"|"Rhizosolenia styliformis"|4494|4192
+"Phytoplankton species"|"Rhoicosphenia curvata"|4495|4192
+"Phytoplankton species"|Rhopalodia|4496|4192
+"Phytoplankton species"|"Bacteriastrum delicatulum"|4227|4192
+"Phytoplankton species"|"Bacteriastrum varians"|4228|4192
+"Phytoplankton species"|Biddulphia|4229|4192
+"Phytoplankton species"|"Biddulphia aurita"|4230|4192
+"Phytoplankton species"|"Biddulphia mobiliensis"|4231|4192
+"Phytoplankton species"|"Biddulphia sinensis"|4232|4192
+"Phytoplankton species"|Botrycoccus|4233|4192
+"Phytoplankton species"|Caloneis|4234|4192
+"Phytoplankton species"|"Caloneis amphisbaena"|4235|4192
+"Phytoplankton species"|Campylodiscus|4236|4192
+"Phytoplankton species"|"Campylodiscus punctulatus"|4237|4192
+"Phytoplankton species"|Capartogramma|4238|4192
+"Phytoplankton species"|Carteria|4239|4192
+"Phytoplankton species"|Centronella|4240|4192
+"Phytoplankton species"|Cerataulina|4241|4192
+"Phytoplankton species"|"Cerataulina pelagica"|4242|4192
+"Phytoplankton species"|Ceratium|4243|4192
+"Phytoplankton species"|"Ceratium cornutum"|4244|4192
+"Phytoplankton species"|"Ceratium furca"|4245|4192
+"Phytoplankton species"|"Ceratium fusus"|4246|4192
+"Phytoplankton species"|"Ceratium hircus"|4247|4192
+"Phytoplankton species"|"Ceratium hirundinella"|4248|4192
+"Phytoplankton species"|"Ceratium massiliense"|4249|4192
+"Phytoplankton species"|"Ceratium pentagonum"|4250|4192
+"Phytoplankton species"|"Ceratium pulchellum"|4251|4192
+"Phytoplankton species"|"Ceratium tripos"|4252|4192
+"Phytoplankton species"|Chaetoceros|4253|4192
+"Phytoplankton species"|"Chaetoceros affinis"|4254|4192
+"Phytoplankton species"|"Chaetoceros atlanticum"|4255|4192
+"Phytoplankton species"|"Chaetoceros brevis"|4256|4192
+"Phytoplankton species"|"Chaetoceros compressum"|4257|4192
+"Phytoplankton species"|"Chaetoceros constrictum"|4258|4192
+"Phytoplankton species"|"Chaetoceros costatum"|4259|4192
+"Phytoplankton species"|"Chaetoceros curvisetum"|4260|4192
+"Phytoplankton species"|"Chaetoceros danicum"|4261|4192
+"Phytoplankton species"|"Chaetoceros decipiens"|4262|4192
+"Phytoplankton species"|"Chaetoceros densum"|4263|4192
+"Phytoplankton species"|"Chaetoceros didymum"|4264|4192
+"Phytoplankton species"|"Chaetoceros difficilis"|4265|4192
+"Phytoplankton species"|"Chaetoceros diversum"|4266|4192
+"Phytoplankton species"|"Chaetoceros gracilis"|4267|4192
+"Phytoplankton species"|"Chaetoceros laciniosum"|4268|4192
+"Phytoplankton species"|"Chaetoceros lorenzianum"|4269|4192
+"Phytoplankton species"|"Chaetoceros orientalis"|4270|4192
+"Phytoplankton species"|"Chaetoceros pelagicum"|4271|4192
+"Phytoplankton species"|"Chaetoceros peruvianum"|4272|4192
+"Phytoplankton species"|"Chaetoceros simplex"|4273|4192
+"Phytoplankton species"|"Chaetoceros tortissimus"|4274|4192
+"Phytoplankton species"|"Chaetoceros valve"|4275|4192
+"Phytoplankton species"|"Chaetoceros varians"|4276|4192
+"Phytoplankton species"|"Chaetosphaeridium globosum"|4277|4192
+"Phytoplankton species"|Chlamydomonas|4278|4192
+"Phytoplankton species"|Chlorella|4279|4192
+"Phytoplankton species"|"Chlorella vulgaris"|4280|4192
+"Phytoplankton species"|Chilorococcum|4281|4192
+"Phytoplankton species"|Chilorogonium|4282|4192
+"Phytoplankton species"|Chloromonadophyta|4283|4192
+"Phytoplankton species"|Chlorophyta|4284|4192
+"Phytoplankton species"|"Chlorophyta - flamentous"|4285|4192
+"Phytoplankton species"|"Chlorophyta - unicellular"|4286|4192
+"Phytoplankton species"|Chroococcus|4287|4192
+"Phytoplankton species"|"Chroococcus dispersus"|4288|4192
+"Phytoplankton species"|Chrysococcus|4289|4192
+"Phytoplankton species"|Chrysophyta|4290|4192
+"Phytoplankton species"|Cladophora|4291|4192
+"Phytoplankton species"|Closteridium|4292|4192
+"Phytoplankton species"|Closteriopsis|4293|4192
+"Phytoplankton species"|"Closteriopsis longissima"|4294|4192
+"Phytoplankton species"|Closterium|4295|4192
+"Phytoplankton species"|Coccochloris|4296|4192
+"Phytoplankton species"|Cocconeis|4297|4192
+"Phytoplankton species"|Coelastrum|4298|4192
+"Phytoplankton species"|"Coelastrum microporum"|4299|4192
+"Phytoplankton species"|"Coelastrum reticulatum"|4300|4192
+"Phytoplankton species"|Coelosphaerium|4301|4192
+"Phytoplankton species"|Corethron|4302|4192
+"Phytoplankton species"|"Corethron criophylum"|4303|4192
+"Phytoplankton species"|"Corethron hystrix"|4304|4192
+"Phytoplankton species"|Coscinodiscus|4305|4192
+"Phytoplankton species"|"Coscinodiscus asteromphalus"|4306|4192
+"Phytoplankton species"|"Coscinodiscus centralis"|4307|4192
+"Phytoplankton species"|"Coscinodiscus concinnis"|4308|4192
+"Phytoplankton species"|"Coscinodiscus denarius"|4309|4192
+"Phytoplankton species"|"Coscinodiscus excentricus"|4310|4192
+"Phytoplankton species"|"Coscinodiscus granii"|4311|4192
+"Phytoplankton species"|"Coscinodiscus radiatus"|4312|4192
+"Phytoplankton species"|"Coscinodiscus rothii"|4313|4192
+"Phytoplankton species"|"Coscinodiscus wailsii"|4314|4192
+"Phytoplankton species"|Cosmarium|4315|4192
+"Phytoplankton species"|Crucigenia|4316|4192
+"Phytoplankton species"|"Crucigenia quadrata"|4317|4192
+"Phytoplankton species"|"Crucigenia tetrapedia"|4318|4192
+"Phytoplankton species"|Cryptochrysis|4319|4192
+"Phytoplankton species"|Cryptomonas|4320|4192
+"Phytoplankton species"|Cyanophyta|4321|4192
+"Phytoplankton species"|Cyclotella|4322|4192
+"Phytoplankton species"|"Cyclotella stelligera"|4323|4192
+"Phytoplankton species"|Cylindrocystis|4324|4192
+"Phytoplankton species"|"Cymatopleura solea"|4325|4192
+"Phytoplankton species"|Cymbella|4326|4192
+"Phytoplankton species"|"Cymbella mexicanum"|4327|4192
+"Phytoplankton species"|Dactylococcopsis|4328|4192
+"Phytoplankton species"|Desmidium|4329|4192
+"Phytoplankton species"|Diatoma|4330|4192
+"Phytoplankton species"|Diatomella|4331|4192
+"Phytoplankton species"|Dinobryon|4332|4192
+"Phytoplankton species"|"Dinobryon bavaricum"|4333|4192
+"Phytoplankton species"|Dinoflagellata|4334|4192
+"Phytoplankton species"|Dinophyceae|4335|4192
+"Phytoplankton species"|"Dinophysis caudata"|4336|4192
+"Phytoplankton species"|Diploneis|4337|4192
+"Phytoplankton species"|"Diploneis crabro"|4338|4192
+"Phytoplankton species"|"Diploneis smithii"|4339|4192
+"Phytoplankton species"|Ditylum|4340|4192
+"Phytoplankton species"|"Ditylum brightwelli"|4341|4192
+"Phytoplankton species"|"Diversity - phytoplankton"|4342|4192
+"Phytoplankton species"|Elakatothrix|4343|4192
+"Phytoplankton species"|Epithemia|4344|4192
+"Phytoplankton species"|"Epithemia sorex"|4345|4192
+"Phytoplankton species"|Euastrum|4346|4192
+"Phytoplankton species"|Eucampia|4347|4192
+"Phytoplankton species"|"Eucampia zoodiacus"|4348|4192
+"Phytoplankton species"|Eudorina|4349|4192
+"Phytoplankton species"|Euglena|4350|4192
+"Phytoplankton species"|Achnanthes|4193|4192
+"Phytoplankton species"|"Achnanthes coarctata"|4194|4192
+"Phytoplankton species"|Actinastrum|4195|4192
+"Phytoplankton species"|Actinocyclus|4196|4192
+"Phytoplankton species"|"Actinocyclus ehrenbergii"|4197|4192
+"Phytoplankton species"|"Actinoptychus undulatus"|4198|4192
+"Phytoplankton species"|"Agmenellum quadruplicatum"|4199|4192
+"Phytoplankton species"|"Agmenellum (merismopoedia)"|4200|4192
+"Phytoplankton species"|Amphipleura|4201|4192
+"Phytoplankton species"|Amphiprora|4202|4192
+"Phytoplankton species"|"Amphiprora alata"|4203|4192
+"Phytoplankton species"|Amphora|4204|4192
+"Phytoplankton species"|Anabaena|4205|4192
+"Phytoplankton species"|"Anabaena flos-aquae"|4206|4192
+"Phytoplankton species"|Anabaenopsis|4207|4192
+"Phytoplankton species"|"Anacystis cyanea"|4208|4192
+"Phytoplankton species"|"Anacystis dimidiata"|4209|4192
+"Phytoplankton species"|"Anacystis (microcystis)"|4210|4192
+"Zooplankton species"|"Taphromysis louisianne"|4800|4562
+"Zooplankton species"|Testudinella|4801|4562
+"Zooplankton species"|Thecacineta|4802|4562
+"Zooplankton species"|Tintinnidae|4803|4562
+"Zooplankton species"|Tintinnidium|4804|4562
+"Zooplankton species"|Tintinnopsis|4805|4562
+"Zooplankton species"|"Tintinnopsis beroidea"|4806|4562
+"Zooplankton species"|"Tintinnopsis kofoidi"|4807|4562
+"Zooplankton species"|"Tintinnopsis mortensis"|4808|4562
+"Zooplankton species"|"Tintinnopsis parvula"|4809|4562
+"Zooplankton species"|"Tintinnopsis tubulosa"|4810|4562
+"Zooplankton species"|Tortanus|4811|4562
+"Zooplankton species"|Trichocerca|4812|4562
+"Zooplankton species"|"Trichocerca multicrinis"|4813|4562
+"Zooplankton species"|"Trichocerca pusilla"|4814|4562
+"Zooplankton species"|"Trichocerca rousseleti"|4815|4562
+"Zooplankton species"|"Trichocerca similis"|4816|4562
+"Zooplankton species"|Trichotria|4817|4562
+"Zooplankton species"|"Trochophore, unknown"|4818|4562
+"Zooplankton species"|Trochosphaera|4819|4562
+"Zooplankton species"|Tropocyclops|4820|4562
+"Zooplankton species"|Vorticella|4821|4562
+"Zooplankton species"|Wierzejskiella|4822|4562
+"Zooplankton species"|Zooflagella|4823|4562
+"Zooplankton species"|"Daphnia ambigua"|4645|4562
+"Zooplankton species"|"Daphnia dubia"|4646|4562
+"Zooplankton species"|"Daphnia galeata"|4647|4562
+"Zooplankton species"|"Daphnia laevis"|4648|4562
+"Zooplankton species"|"Daphnia longiremis"|4649|4562
+"Zooplankton species"|"Daphnia longispina"|4650|4562
+"Zooplankton species"|"Daphnia parvula"|4651|4562
+"Zooplankton species"|"Daphnia pulex"|4652|4562
+"Zooplankton species"|"Decapoda - zoea"|4653|4562
+"Zooplankton species"|Diaphanosoma|4654|4562
+"Zooplankton species"|"Diaphanosoma brachyurum"|4655|4562
+"Zooplankton species"|"Diaphanosoma leuchtenbergianum"|4656|4562
+"Zooplankton species"|Diaptomus|4657|4562
+"Zooplankton species"|"Diaptomus siciloides"|4658|4562
+"Zooplankton species"|Didinium|4659|4562
+"Zooplankton species"|Difflugia|4660|4562
+"Zooplankton species"|"Difflugia globosa"|4661|4562
+"Zooplankton species"|"Difflugia urecolata"|4662|4562
+"Zooplankton species"|"Diptera - larva"|4663|4562
+"Zooplankton species"|Diurella|4664|4562
+"Zooplankton species"|"Diversity - zooplankton"|4665|4562
+"Zooplankton species"|Echinodermata|4666|4562
+"Zooplankton species"|"Ectocyclops phaleratus"|4667|4562
+"Zooplankton species"|"Eggs, fish"|4668|4562
+"Zooplankton species"|"Eggs, invertebrate"|4669|4562
+"Zooplankton species"|Encentrum|4670|4562
+"Zooplankton species"|Enteroplea|4671|4562
+"Zooplankton species"|Epiphanes|4672|4562
+"Zooplankton species"|Epischura|4673|4562
+"Zooplankton species"|Epistylis|4674|4562
+"Zooplankton species"|Ergasilus|4675|4562
+"Zooplankton species"|Eubranchipus|4676|4562
+"Zooplankton species"|Euchaeta|4677|4562
+"Zooplankton species"|Euchlanis|4678|4562
+"Zooplankton species"|Eucyclops|4679|4562
+"Zooplankton species"|"Eucyclops agilis"|4680|4562
+"Zooplankton species"|Euplotes|4681|4562
+"Zooplankton species"|Eurytemora|4682|4562
+"Zooplankton species"|"Eurytemora affinis"|4683|4562
+"Zooplankton species"|Eutintinnus|4684|4562
+"Zooplankton species"|"Filina brachiata"|4685|4562
+"Zooplankton species"|Filinia|4686|4562
+"Zooplankton species"|"Filinia longiseta"|4687|4562
+"Zooplankton species"|"Filinia opoliensis"|4688|4562
+"Zooplankton species"|"Filinia terminalis"|4689|4562
+"Zooplankton species"|Flavella|4690|4562
+"Zooplankton species"|"Flavella panamensis"|4691|4562
+"Zooplankton species"|"Gastropoda larva"|4692|4562
+"Zooplankton species"|Gastropus|4693|4562
+"Zooplankton species"|"Gastropus hyptopus"|4694|4562
+"Zooplankton species"|Gastrotricha|4695|4562
+"Zooplankton species"|Halicyclops|4696|4562
+"Zooplankton species"|Harpacticoida|4697|4562
+"Zooplankton species"|Harpacticus|4698|4562
+"Zooplankton species"|Hexarthra|4699|4562
+"Zooplankton species"|"Hexarthra mira"|4700|4562
+"Zooplankton species"|Holophrya|4701|4562
+"Zooplankton species"|Horaella|4702|4562
+"Zooplankton species"|Hydracarina|4703|4562
+"Zooplankton species"|Kellicottia|4704|4562
+"Zooplankton species"|"Kellicottia bostoniensis"|4705|4562
+"Zooplankton species"|"Kellicottia longispina"|4706|4562
+"Zooplankton species"|Keratella|4707|4562
+"Zooplankton species"|"Keratella cochlearis"|4708|4562
+"Zooplankton species"|"Keratella cochlearis f. tecta"|4709|4562
+"Zooplankton species"|"Keratella earlinae"|4710|4562
+"Zooplankton species"|"Keratella gracilenta"|4711|4562
+"Zooplankton species"|"Keratella quadrata"|4712|4562
+"Zooplankton species"|"Keratella valga f. tropica"|4713|4562
+"Zooplankton species"|Labidocera|4714|4562
+"Zooplankton species"|Lecane|4715|4562
+"Zooplankton species"|Lepadella|4716|4562
+"Zooplankton species"|Leydigia|4717|4562
+"Zooplankton species"|"Leydigia acanthocercoides"|4718|4562
+"Zooplankton species"|"Leydigia quadrangularis"|4719|4562
+"Zooplankton species"|Limnocalanus|4720|4562
+"Zooplankton species"|Lophocharis|4721|4562
+"Zooplankton species"|"Lucifer faxoni"|4722|4562
+"Zooplankton species"|Macrocyclops|4723|4562
+"Zooplankton species"|Macrosetella|4724|4562
+"Zooplankton species"|Macrothrix|4725|4562
+"Zooplankton species"|Mesocyclops|4726|4562
+"Zooplankton species"|"Mesocyclops edax"|4727|4562
+"Zooplankton species"|Microcyclops|4728|4562
+"Zooplankton species"|"Microcyclops panamensis"|4729|4562
+"Zooplankton species"|Moina|4730|4562
+"Zooplankton species"|"Moina affinis"|4731|4562
+"Zooplankton species"|"Moina micrura"|4732|4562
+"Zooplankton species"|"Mollusca - larva"|4733|4562
+"Zooplankton species"|Monogononta|4734|4562
+"Zooplankton species"|Monommata|4735|4562
+"Zooplankton species"|Monostyla|4736|4562
+"Zooplankton species"|"Monostyla cornuta"|4737|4562
+"Zooplankton species"|Mysidopsis|4738|4562
+"Zooplankton species"|"Mysidopsis almyra"|4739|4562
+"Zooplankton species"|Mytilina|4740|4562
+"Zooplankton species"|"Nauplius, unknown"|4741|4562
+"Zooplankton species"|Nebela|4742|4562
+"Zooplankton species"|Nemata|4743|4562
+"Zooplankton species"|"Nemopsis bachei"|4744|4562
+"Zooplankton species"|Notholca|4745|4562
+"Zooplankton species"|"Notholca acuminata"|4746|4562
+"Zooplankton species"|"Notholca labis"|4747|4562
+"Zooplankton species"|Notommata|4748|4562
+"Zooplankton species"|Oikopleura|4749|4562
+"Zooplankton species"|"Oikopleura dioica"|4750|4562
+"Zooplankton species"|Oithona|4751|4562
+"Zooplankton species"|"Oligochaete - larvae"|4752|4562
+"Zooplankton species"|Oncaea|4753|4562
+"Zooplankton species"|Orthocyclops|4754|4562
+"Zooplankton species"|Ostracoda|4755|4562
+"Zooplankton species"|Paracalanus|4756|4562
+"Zooplankton species"|Paracyclops|4757|4562
+"Zooplankton species"|"Paracyclops fimbriatus"|4758|4562
+"Zooplankton species"|Paramecium|4759|4562
+"Zooplankton species"|Parundella|4760|4562
+"Zooplankton species"|Philodina|4761|4562
+"Zooplankton species"|Platyias|4762|4562
+"Zooplankton species"|"Platyias patulus"|4763|4562
+"Zooplankton species"|"Platyias quadricornis"|4764|4562
+"Zooplankton species"|Ploesoma|4765|4562
+"Zooplankton species"|Podon|4766|4562
+"Zooplankton species"|Polyarthra|4767|4562
+"Zooplankton species"|"Polyarthra major"|4768|4562
+"Zooplankton species"|"Polyarthra remata"|4769|4562
+"Zooplankton species"|"Polyarthra trigla (#/sq ft)"|4770|4562
+"Zooplankton species"|"Polyarthra vulgaris"|4771|4562
+"Zooplankton species"|"Polychaete - larva"|4772|4562
+"Zooplankton species"|Polyphemus|4773|4562
+"Zooplankton species"|"Polyphemus pediculus"|4774|4562
+"Zooplankton species"|Pompholyx|4775|4562
+"Zooplankton species"|"Pompholyx sulcata"|4776|4562
+"Zooplankton species"|Proales|4777|4562
+"Zooplankton species"|Proplectella|4778|4562
+"Zooplankton species"|Protozoa|4779|4562
+"Zooplankton species"|Pseudodiaptomus|4780|4562
+"Zooplankton species"|"Pseudodiaptomus coronatus"|4781|4562
+"Zooplankton species"|Pulvinulina|4782|4562
+"Zooplankton species"|"Rhithropanopeus harrissii"|4783|4562
+"Zooplankton species"|Rhizopoda|4784|4562
+"Zooplankton species"|Rotaria|4785|4562
+"Zooplankton species"|Rotifera|4786|4562
+"Zooplankton species"|Sagitta|4787|4562
+"Zooplankton species"|Saphirella|4788|4562
+"Zooplankton species"|Scaridium|4789|4562
+"Zooplankton species"|Scyphozoa|4790|4562
+"Zooplankton species"|"Senecella calanoides"|4791|4562
+"Zooplankton species"|"Sida crystallina"|4792|4562
+"Zooplankton species"|Simocephalus|4793|4562
+"Zooplankton species"|"Simocephalus exspinosus"|4794|4562
+"Zooplankton species"|Stentor|4795|4562
+"Zooplankton species"|Stomolophus|4796|4562
+"Zooplankton species"|Synchaeta|4797|4562
+"Zooplankton species"|"Synchaeta oblonga"|4798|4562
+"Zooplankton species"|"Synchaeta styla"|4799|4562
+"Zooplankton species"|Acanthocyclops|4563|4562
+"Zooplankton species"|Acanthocystis|4564|4562
+"Zooplankton species"|"Acartia tonsa"|4565|4562
+"Zooplankton species"|Actinopoda|4566|4562
+"Zooplankton species"|Actinosphaerium|4567|4562
+"Zooplankton species"|"Alona guttata"|4568|4562
+"Zooplankton species"|Amoeba|4569|4562
+"Zooplankton species"|Amphipoda|4570|4562
+"Zooplankton species"|Anthomedusae|4571|4562
+"Zooplankton species"|Anuraeopsis|4572|4562
+"Zooplankton species"|Arcella|4573|4562
+"Zooplankton species"|Ascomorpha|4574|4562
+"Zooplankton species"|Ascomorphella|4575|4562
+"Zooplankton species"|Asplanchna|4576|4562
+"Zooplankton species"|"Asplanchna brightwelli"|4577|4562
+"Zooplankton species"|"Asplanchna priodonta"|4578|4562
+"Zooplankton species"|Asplanchnopus|4579|4562
+"Zooplankton species"|Bdelloidea|4580|4562
+"Zooplankton species"|Beroe|4581|4562
+"Zooplankton species"|Bosmina|4582|4562
+"Zooplankton species"|"Bosmina coregoni"|4583|4562
+"Zooplankton species"|"Bosmina longirostris"|4584|4562
+"Zooplankton species"|Brachionus|4585|4562
+"Zooplankton species"|"Brachionus angularis"|4586|4562
+"Zooplankton species"|"Brachionus bidentatus"|4587|4562
+"Zooplankton species"|"Brachionus budapestinensis"|4588|4562
+"Zooplankton species"|"Brachionus calyciflorus"|4589|4562
+"Zooplankton species"|"Brachionus caudatus"|4590|4562
+"Zooplankton species"|"Brachionus furculatus"|4591|4562
+"Zooplankton species"|"Brachionus havanaensis"|4592|4562
+"Zooplankton species"|"Brachionus plicatilis"|4593|4562
+"Zooplankton species"|"Brachionus quadridentata"|4594|4562
+"Zooplankton species"|"Brachionus rubens"|4595|4562
+"Zooplankton species"|"Brachionus urceolaris"|4596|4562
+"Zooplankton species"|"Brachionus variabilis"|4597|4562
+"Zooplankton species"|"Brachionus zahniseri"|4598|4562
+"Zooplankton species"|Branchiura|4599|4562
+"Zooplankton species"|Calanoida|4600|4562
+"Zooplankton species"|Callinectes|4601|4562
+"Zooplankton species"|"Camptocercus rectirostris"|4602|4562
+"Zooplankton species"|Canthocamptus|4603|4562
+"Zooplankton species"|Carchesium|4604|4562
+"Zooplankton species"|Centropages|4605|4562
+"Zooplankton species"|Centropyxis|4606|4562
+"Zooplankton species"|Cephalodella|4607|4562
+"Zooplankton species"|Ceriodaphnia|4608|4562
+"Zooplankton species"|"Ceriodaphnia lacustris"|4609|4562
+"Zooplankton species"|"Ceriodaphnia reticulata"|4610|4562
+"Zooplankton species"|"Ceriodaphnia rigaudi"|4611|4562
+"Zooplankton species"|"Ceriodaphnia rotunda"|4612|4562
+"Zooplankton species"|Chaetognatha|4613|4562
+"Zooplankton species"|Chaoborus|4614|4562
+"Zooplankton species"|Chromogaster|4615|4562
+"Zooplankton species"|Chydorus|4616|4562
+"Zooplankton species"|"Chydorus sphaericus"|4617|4562
+"Zooplankton species"|Ciliata|4618|4562
+"Zooplankton species"|Ciliophora|4619|4562
+"Zooplankton species"|Cirripedia|4620|4562
+"Zooplankton species"|"Cirripedia - cypris"|4621|4562
+"Zooplankton species"|"Cirripedia - nauplius"|4622|4562
+"Zooplankton species"|Cladocera|4623|4562
+"Zooplankton species"|Clytemnestra|4624|4562
+"Zooplankton species"|Coelenterata|4625|4562
+"Zooplankton species"|Collotheca|4626|4562
+"Zooplankton species"|"Collotheca pellagica"|4627|4562
+"Zooplankton species"|Colurella|4628|4562
+"Zooplankton species"|Conchostraca|4629|4562
+"Zooplankton species"|Conochiloides|4630|4562
+"Zooplankton species"|"Conochiloides dossuarias"|4631|4562
+"Zooplankton species"|Conochilus|4632|4562
+"Zooplankton species"|"Conochilus unicornis"|4633|4562
+"Zooplankton species"|Copepoda|4634|4562
+"Zooplankton species"|"Copepoda - nauplius"|4635|4562
+"Zooplankton species"|"Crustacea - larva"|4636|4562
+"Zooplankton species"|Ctenophora|4637|4562
+"Zooplankton species"|Cyclopoida|4638|4562
+"Zooplankton species"|Cyclops|4639|4562
+"Zooplankton species"|"Cyclops bicuspidatus"|4640|4562
+"Zooplankton species"|"Cyclops nearcticus"|4641|4562
+"Zooplankton species"|"Cyclops vernalis"|4642|4562
+"Zooplankton species"|Cypridopsis|4643|4562
+"Zooplankton species"|Daphnia|4644|4562
+"Biological community"|"Dead fish, severity"|4825|4824
+"Biological community"|Benthic|4829|4824
+"Biological community"|"Biomass, periphyton"|4857|4824
+"Biological community"|"Biomass, plankton"|4859|4824
+"Biological community"|"Biomass, seston"|4862|4824
+"Biological community"|Fish|4873|4824
+"Biological community"|Nekton|4890|4824
+"Biological community"|"Biomass, phytoplankton "|4894|4824
+"Biological community"|"Biomass, zooplankton"|4897|4824
+"Biological community"|"Algal growth potential"|4902|4824
+"Biological community"|Respiration|4903|4824
+"Biological community"|Pigment|5039|4824
+"Dead fish, severity"|"Fish standard length"|4826|4825
+"Dead fish, severity"|"Algae, floating mats (severity)"|4827|4825
+Benthic|"Benthic filterers (% of community)"|4830|4829
+Benthic|"Benthic gatherers (% of community)"|4831|4829
+Benthic|"Benthic grazers (% of community)"|4832|4829
+Benthic|"Benthic predators (% of community)"|4833|4829
+Benthic|"Benthic shredders (% of community)"|4834|4829
+Benthic|"Benthos organisms - none present"|4835|4829
+Benthic|"Benthos total abundance number per square meter"|4836|4829
+Benthic|"Number of benthic functional feeding groups"|4837|4829
+Benthic|"Number of diptera taxa"|4838|4829
+Benthic|"Number of ephemeroptera taxa"|4839|4829
+Benthic|"Number of non-insect taxa"|4840|4829
+Benthic|"Number of total of organisms per sq ft"|4841|4829
+Benthic|"Number of total of species in sample"|4842|4829
+Benthic|"Percent dominant (3 taxa)"|4843|4829
+Benthic|"Percent dominant taxon, benthos"|4844|4829
+Benthic|"Percent of individuals as chironomidae"|4845|4829
+Benthic|"Percent of individual as ept"|4846|4829
+Benthic|"Percent of individuals as tolerants, benthos"|4847|4829
+Benthic|"Percent of total number as elmidae"|4848|4829
+Benthic|"Percent of total trichoptera as hydropsychidae"|4849|4829
+Benthic|"Ratio of intolerant to tolerant taxa, benthos"|4850|4829
+Benthic|"Total # of benthic genera in sample"|4851|4829
+Benthic|"Total # of families in benthic sample"|4852|4829
+Benthic|"Total biomass, benthos grams (dry weight)"|4853|4829
+Benthic|"Total number of intolerant taxa, benthos"|4854|4829
+Benthic|"Total taxa richness, benthos"|4855|4829
+Chlorophyll|"Chlorophyll a"|4865|4864
+Chlorophyll|Pheophytin|4866|4864
+Chlorophyll|"Chlorophyll a allomer"|4867|4864
+Chlorophyll|"Chlorophyll (a+b+c)"|4868|4864
+Chlorophyll|"Chlorophyll b"|4869|4864
+Chlorophyll|"Chlorophyll c"|4870|4864
+Chlorophyll|"Chlorophyll c1 + c2"|4871|4864
+Chlorophyll|"Chlorophyll fluoresence"|4872|4864
+Fish|"Fish standard length"|4826|4873
+Fish|"Number of individuals per minute electrofishing"|4874|4873
+Fish|"Number of individuals per seine haul"|4875|4873
+Fish|"Number of species, fish"|4876|4873
+Fish|"Percent of individuals as hybrids"|4877|4873
+Fish|"Percent of individuals as invertivores"|4878|4873
+Fish|"Percent of individuals as omnivores, fish"|4879|4873
+Fish|"Percent of individuals as piscivores, fish"|4880|4873
+Fish|"Percent of individuals as tolerants, fish"|4881|4873
+Fish|"Percent of individuals with disease or anomaly"|4882|4873
+Fish|"Percent tolerant"|4883|4873
+Fish|"Total number of darter species"|4884|4873
+Fish|"Total number of individuals"|4885|4873
+Fish|"Total number of intolerant species, fish"|4886|4873
+Fish|"Total number of native cyprinid species"|4887|4873
+Fish|"Total number of sucker species"|4888|4873
+Fish|"Total number of sunfish species"|4889|4873
+Nekton|"Redundancy - Nekton"|4891|4890
+Nekton|"Total number of benthic invertivore species"|4892|4890
+Nekton|"Total number of benthic species"|4893|4890
+"Biomass, phytoplankton "|"Phytoplankton sampled - no organisms present"|4895|4894
+"Biomass, phytoplankton "|"Phytoplankton, Total "|4896|4894
+"Biomass, zooplankton"|"Larva, Unknown"|4898|4897
+"Biomass, zooplankton"|"Larvae, Fish"|4899|4897
+"Biomass, zooplankton"|"Zooplankton sampled - no organisms present"|4900|4897
+"Biomass, zooplankton"|"Zooplankton - unknown organism"|4901|4897
+"Biomass, zooplankton"|"Zooplankton, Total"|5025|4897
+"Indicator Organisms"|Enterococci|4915|4904
+"Indicator Organisms"|"Escherichia coli"|4916|4904
+"Indicator Organisms"|Giardia|4917|4904
+"Indicator Organisms"|"Helicobacter pylori"|4918|4904
+"Indicator Organisms"|"Heterotrophic bacteria"|4919|4904
+"Indicator Organisms"|"Klebsiella pneumoniae"|4920|4904
+"Indicator Organisms"|Pseudomonas|4921|4904
+"Indicator Organisms"|"Pseudomonas aeruginosa"|4922|4904
+"Indicator Organisms"|Salmonella|4923|4904
+"Indicator Organisms"|"Viruses (enteric)"|4924|4904
+"Indicator Organisms"|"Coliform, fecal"|4905|4904
+"Indicator Organisms"|"Streptococci, fecal"|4906|4904
+"Indicator Organisms"|"Coliform, total"|4907|4904
+"Indicator Organisms"|Actinomycetes|4908|4904
+"Indicator Organisms"|"Bacteria mix, unspecified"|4909|4904
+"Indicator Organisms"|"Bacteria, nitrifiers"|4910|4904
+"Indicator Organisms"|Caliciviruses|4911|4904
+"Indicator Organisms"|"Clostridium perfringens"|4912|4904
+"Indicator Organisms"|Cryptosporidium|4913|4904
+"Indicator Organisms"|"Enterobacter cloacae"|4914|4904
+"Stable Isotopes"|Carbon-13|5002|5001
+"Stable Isotopes"|Deuterium|5003|5001
+"Stable Isotopes"|Lithium-7|5004|5001
+"Stable Isotopes"|Nitrogen-15|5005|5001
+"Stable Isotopes"|Oxygen-18|5006|5001
+"Stable Isotopes"|Sulfur-34|5007|5001
+"Water content, snow"|"Snow water equivalent"|10|5024
+Pigment|Chlorophyll|4864|5039
+Pigment|Non-chlorophyll|5040|5039
+Non-chlorophyll|19-Hexanoyloxyfucoxanthin|5041|5040
+Non-chlorophyll|"9 cis-Neoxanthin"|5042|5040
+Non-chlorophyll|Alloxanthin|5043|5040
+Non-chlorophyll|Canthaxanthin|5044|5040
+Non-chlorophyll|Diadinoxanthin|5045|5040
+Non-chlorophyll|Diatoxanthin|5046|5040
+Non-chlorophyll|Peridinin|5047|5040
+Non-chlorophyll|Zeaxanthin|5048|5040
